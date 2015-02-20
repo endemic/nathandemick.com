@@ -1,0 +1,122 @@
+---
+layout: post
+status: publish
+published: true
+title: Useless!
+author:
+  display_name: Nathan
+  login: admin
+  email: ndemick@gmail.com
+  url: ''
+author_login: admin
+author_email: ndemick@gmail.com
+wordpress_id: 24
+wordpress_url: http://www.bitter-gamer.com/?p=17
+date: '2005-03-23 00:23:54 -0500'
+date_gmt: '2005-03-22 15:23:54 -0500'
+categories:
+- japan
+- random
+tags: []
+comments:
+- id: 32
+  author: 4D4m
+  author_email: djinfx@gmail.com
+  author_url: http://www.unfulfilling.com/infx/
+  date: '2005-03-23 09:58:52 -0500'
+  date_gmt: '2005-03-23 00:58:52 -0500'
+  content: i need to go back to chicago sometime.
+- id: 33
+  author: soulman
+  author_email: butrosblog@digitalpesos.com
+  author_url: http://
+  date: '2005-03-23 11:01:12 -0500'
+  date_gmt: '2005-03-23 02:01:12 -0500'
+  content: |-
+    That's me all right!  Me and my apartment.  My messy, messy apartment.
+    Can I do images here?
+- id: 34
+  author: soulman
+  author_email: butrosblog@digitalpesos.com
+  author_url: http://
+  date: '2005-03-23 11:01:44 -0500'
+  date_gmt: '2005-03-23 02:01:44 -0500'
+  content: |-
+    I guess not.
+    http://radio.shatterbloom.com/images/butros-fast.gif
+- id: 35
+  author: benjamin
+  author_email: benjamin.hamburger@gmail.com
+  author_url: http://
+  date: '2005-03-23 15:19:20 -0500'
+  date_gmt: '2005-03-23 06:19:20 -0500'
+  content: hey, there's nothing wrong with trashy grocery stores that are open late!
+- id: 36
+  author: Nathan
+  author_email: ndemick@bitter-gamer.com
+  author_url: http://www.bitter-gamer.com
+  date: '2005-03-23 22:32:48 -0500'
+  date_gmt: '2005-03-23 13:32:48 -0500'
+  content: |-
+    haha, yeah, that Ozaki place is strangely reminicent of Ghetto Grocery
+
+    I'm sure you'll miss working there
+
+    soulman: I wish you would have gotten the shot of me actually clearing that gap. Heh, oh well, it's a hella cool ani-gif anyway.
+- id: 37
+  author: soulman
+  author_email: butrosblog@digitalpesos.com
+  author_url: http://
+  date: '2005-03-23 23:49:57 -0500'
+  date_gmt: '2005-03-23 14:49:57 -0500'
+  content: |-
+    I would have gotten the shot, if you had ever actually cleared it.  Like Ed did:
+    http://radio.shatterbloom.com/images/ed-fast.gif
+- id: 38
+  author: Nathan
+  author_email: ndemick@bitter-gamer.com
+  author_url: http://www.bitter-gamer.com
+  date: '2005-03-24 01:16:24 -0500'
+  date_gmt: '2005-03-23 16:16:24 -0500'
+  content: I totally cleared it! I did it first, and gave Ed the confidence that such
+    a feat was possible :P
+- id: 39
+  author: hank
+  author_email: hkamorta@yahoo.com
+  author_url: http://
+  date: '2005-03-25 01:47:48 -0500'
+  date_gmt: '2005-03-24 16:47:48 -0500'
+  content: I dunno dude, he made it pretty easily.  You look like you need to eat
+    more Wheaties or somehing.  All these lies about how you "totally cleared it"
+    are only hurting you in the long run.  We know the truth, and if you're not careful
+    we may start calling you Bill, or maybe Casey.
+- id: 40
+  author: 4D4m
+  author_email: djinfx@gmail.com
+  author_url: http://www.unfulfilling.com/infx/
+  date: '2005-03-25 06:44:56 -0500'
+  date_gmt: '2005-03-24 21:44:56 -0500'
+  content: lol
+- id: 41
+  author: 4D4m
+  author_email: djinfx@gmail.com
+  author_url: http://www.unfulfilling.com/infx/
+  date: '2005-03-25 06:45:41 -0500'
+  date_gmt: '2005-03-24 21:45:41 -0500'
+  content: |-
+    http://www.flickr.com/photos/w00kie/sets/180637/
+    i know it's off topic but you all should check it out
+---
+<p>Picture update:</p>
+<p><a href="http://www.bitter-gamer.com/images/more_japan/ozaki.jpg">Ozaki</a>, the supermarket I usually go to. It's kind of a trashy place, but the main benefit is that it stays open past 9PM. Since I usually get off work AFTER 9, going shopping is sometimes problematic.</p>
+<p>Here are some pictures from my trip to Chicago last year. Probably never uploaded them.<br />
+<a href="http://www.bitter-gamer.com/images/chicago/ed_kakish.jpg">Ed and Kakish</a> playing Halo or something.<br />
+<a href="http://www.bitter-gamer.com/images/chicago/soulman.jpg">Soulman</a><br />
+<a href="http://www.bitter-gamer.com/images/chicago/soulman_ed.jpg">Soulman and Ed ridin' the El</a><br />
+<a href="http://www.bitter-gamer.com/images/chicago/ed_strikes_a_pose.jpg">Ed poses on the El platform</a></p>
+<p>The next pictures are from the <a href="http://www.bitter-gamer.com/images/chicago/modern_art.jpg">Millennium Park</a> in Chicago. There were some neet-looking sculptures and whatnot there. The coolest piece was probably <a href="http://www.bitter-gamer.com/images/chicago/the_bean.jpg">The Bean</a>. <a href="http://www.bitter-gamer.com/images/chicago/the_bean2.jpg">Another shot of The Bean</a>. Unfortunately, the park hadn't officially opened yet, so there was still a fence keeping us away from the wonder of The Bean. I love capitalizing The Bean.</p>
+<p>IMPORTANT QUESTION, FEEDBACK NEEDED<br />
+So, I have an idea for a multiplayer PHP game (like I've said many, many times). But, I'm not even going to try programming it unless I can get people to actually try it out. I had hoped for people like Matt and Tyler to maybe try playing it, but there's no way I can compete with World of Warcraft :P</p>
+<p><a href="http://www.bitter-gamer.com/docs/game_design.txt">Rough Idea</a></p>
+<p>If you think you might like to muck around with this program, let me know in the comments; I'll continue working on it if there's enough interest.</p>
+<p>EDIT: I was checking out the traffic info for this page (which I do sometimes, out of a desire for useless knowledge), looking at referrals. Most referrals come from from search engine image searches, but a few are different. So, I found <a href="http://www.nanzan-u.ac.jp/~02fb087/">Rie's Homepage</a>! She links me! Woo! You gots to read the Japanese, though :P</p>

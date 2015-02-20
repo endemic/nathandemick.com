@@ -1,0 +1,26 @@
+---
+layout: post
+status: publish
+published: true
+title: Wiiii!
+author:
+  display_name: Nathan
+  login: admin
+  email: ndemick@gmail.com
+  url: ''
+author_login: admin
+author_email: ndemick@gmail.com
+wordpress_id: 70
+wordpress_url: http://www.bitter-gamer.com/?p=82
+date: '2007-10-31 12:38:39 -0400'
+date_gmt: '2007-10-31 16:38:39 -0400'
+categories:
+- games
+tags: []
+comments: []
+---
+<p>I almost got a Wii a few weeks ago. My desire was rekindled due to Mario Galaxy coming out on the 12th; I figured I'd better get with the program. Plus, unless I get one before Black Friday, there's a zero percent chance I'll get one (as opposed to my already slim chance). A guy in my church used to work for a video game store, and he kept saying that they had Wiis in stock. So, I go to the trouble of looking up the store's location, calling to make sure they have one, then driving all the way out to buy the darn thing. I get there, say I want a Wii, and hang around as the various employees (3! In a definitely fringe-nerdcore store. I mean, they were selling imports and manga. How the owner could pay 'em, I have no idea) go in back and procure the goods. As I wait, I notice that more and more stuff is being brought up to the counter. Finally, as I'm being rung up, the real deal springs to the surface! They only sell Wii bundles! For $350! I guess technically it's a deal for what they were willing to give me... an extra remote, two nunchuks, and two classic controllers. So I would have saved $20. I probably should have just bought it, but I was a little bit bitter that they didn't freaking tell me over the phone that I couldn't buy just the system. I would really also just rather buy the accessories when I need them. Two classic controllers is probably overkill... I like the idea of the Virtual Console, but I also own hard copies of many classic games, which makes me unlikely to shell out more money simply for the convenience of playing on a Wii.</p>
+<p>Anyway, it's going around the 'net today that Amazon is going to be selling some Wiis at 1PM EST. Everybody and their mother knows by now. It's futile to even think I could get one, but I'm staying in the office (as opposed to taking a well-deserved lunch break) to attempt to purchase one of the buggers.</p>
+<p>Want to <a href="http://www.amazon.com/Nintendo-0045496880019-Wii/dp/B0009VXBAQ/ref=pd_ts_c_th_2_i/102-9418600-9370522?pf_rd_m=ATVPDKIKX0DER&pf_rd_s=right-5&pf_rd_r=0FZHKDRGP4VZJMHJ9K12&pf_rd_t=101&pf_rd_p=304529601&pf_rd_i=468642" title="Amazon's Wii page">play along at home</a>?</p>
+<p>If I don't get one today, I might (sadly enough) go back to that store and just bite the bullet. Updates to come.</p>
+<p><strong>UPDATE:</strong> I totally got one. HELLS YES!</p>

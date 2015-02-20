@@ -1,0 +1,33 @@
+---
+layout: post
+status: publish
+published: true
+title: Chat log
+author:
+  display_name: Nathan
+  login: admin
+  email: ndemick@gmail.com
+  url: ''
+author_login: admin
+author_email: ndemick@gmail.com
+wordpress_id: 68
+wordpress_url: http://www.bitter-gamer.com/?p=76
+date: '2007-09-27 14:36:35 -0400'
+date_gmt: '2007-09-27 18:36:35 -0400'
+categories:
+- random
+tags: []
+comments:
+- id: 74
+  author: ad@m
+  author_email: djinfx@gmail.com
+  author_url: http://
+  date: '2007-10-17 01:50:58 -0400'
+  date_gmt: '2007-10-17 05:50:58 -0400'
+  content: |-
+    hahahah
+    I ended up turning it off about 45 min into the movie and sitting in the corner because I was bad.
+---
+<p>2:10:19 PM Glowenfone: ok im going to watch this pile of shit uwe boll movie Alone In The Dark<br />
+2:10:25 PM butr0s: don't do it<br />
+2:10:28 PM butr0s: you're giving him the power</p>

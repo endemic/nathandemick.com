@@ -1,0 +1,22 @@
+---
+layout: post
+status: publish
+published: true
+title: 'Interesting Twitter mashup.  '
+author:
+  display_name: Nathan
+  login: admin
+  email: ndemick@gmail.com
+  url: ''
+author_login: admin
+author_email: ndemick@gmail.com
+wordpress_id: 1169
+wordpress_url: http://nathandemick.com/2008/04/twistori/
+date: '2008-04-29 16:39:58 -0400'
+date_gmt: '2008-04-29 20:39:58 -0400'
+categories:
+- programming
+tags: []
+comments: []
+---
+<p><a href='http://twistori.com/'>Twistori</a></p>

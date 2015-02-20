@@ -1,0 +1,23 @@
+---
+layout: post
+status: publish
+published: true
+title: 16-miler
+author:
+  display_name: Nathan
+  login: admin
+  email: ndemick@gmail.com
+  url: ''
+author_login: admin
+author_email: ndemick@gmail.com
+wordpress_id: 51
+wordpress_url: http://www.bitter-gamer.com/?p=49
+date: '2007-07-23 14:13:40 -0400'
+date_gmt: '2007-07-23 18:13:40 -0400'
+categories:
+- running
+tags: []
+comments: []
+---
+<p><a href='http://www.bitter-gamer.com/wp-content/uploads/2007/07/07-21-07.png' title='Run on 7-23-07'><img src='http://www.bitter-gamer.com/wp-content/uploads/2007/07/07-21-07.png' alt='Run on 7-23-07' /></a></p>
+<p>About 16 miles. Not shabby. The marathon is 3 months away.</p>

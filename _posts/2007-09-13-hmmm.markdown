@@ -1,0 +1,23 @@
+---
+layout: post
+status: publish
+published: true
+title: Gaming related update!
+author:
+  display_name: Nathan
+  login: admin
+  email: ndemick@gmail.com
+  url: ''
+author_login: admin
+author_email: ndemick@gmail.com
+wordpress_id: 63
+wordpress_url: http://www.bitter-gamer.com/?p=70
+date: '2007-09-13 08:16:40 -0400'
+date_gmt: '2007-09-13 12:16:40 -0400'
+categories:
+- games
+tags: []
+comments: []
+---
+<p>I'm not one to get all crazy about rumored crap, but <a href="http://www.destructoid.com/christian-bale-in-the-running-to-play-solid-snake--43871.phtml" title="Christian Bale == Solid Snake?">this would be freakin' sweet</a>.</p>
+<p>Also, writer and all-around badass Shigesato Itoi <a href="http://www.1101.com/iwata/2007-09-12.html" title="Interviews Satoru Iwata">interviews Satoru Iwata</a>.</p>

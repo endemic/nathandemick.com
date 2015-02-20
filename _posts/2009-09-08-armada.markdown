@@ -1,0 +1,28 @@
+---
+layout: post
+status: publish
+published: true
+title: Armada
+author:
+  display_name: Nathan
+  login: admin
+  email: ndemick@gmail.com
+  url: ''
+author_login: admin
+author_email: ndemick@gmail.com
+wordpress_id: 254
+wordpress_url: http://www.bitter-gamer.com/?p=254
+date: '2009-09-08 11:51:04 -0400'
+date_gmt: '2009-09-08 16:51:04 -0400'
+categories:
+- games
+- programming
+tags:
+- indie gaming
+- Flash
+- games
+- kongregate
+comments: []
+---
+<p>So I finally decided to be "done" with this little shooting game I've been working on for a while. It's called "Armada." The goal is to destroy 1,000 enemies. Whenever you kill one, another one jumps on the screen to take its place. However, the more enemies you kill, the faster your ship moves and shoots. Check it out on <a href="http://www.kongregate.com/games/butr0s/armada?referrer=butr0s" title="Kongregate ">Kongregate</a>.</p>
+<p>One thing I've learned about myself during its development is that I can get really bogged down working on more than one thing at a time. My personal programming time is so limited that having two active projects slows things down considerably. Plus, if a project takes too long, I lose motivation pretty quickly. When waking up early in the morning, one has to be excited about what one is doing (an aside: <a href="http://www.wired.com/geekdad/2009/02/10-tricks-to-ge/" title="tips for waking up early on Wired.com">tips for waking up early</a>).</p>

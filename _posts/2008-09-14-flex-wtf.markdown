@@ -1,0 +1,28 @@
+---
+layout: post
+status: publish
+published: true
+title: Flex... WTF?
+author:
+  display_name: Nathan
+  login: admin
+  email: ndemick@gmail.com
+  url: ''
+author_login: admin
+author_email: ndemick@gmail.com
+wordpress_id: 136
+wordpress_url: http://www.bitter-gamer.com/?p=136
+date: '2008-09-14 18:46:55 -0400'
+date_gmt: '2008-09-14 23:46:55 -0400'
+categories:
+- programming
+tags:
+- programming
+- Flash
+- Flex
+comments: []
+---
+<p>Started checking out <a title="Flex 3" href="http://www.adobe.com/products/flex/">Flex</a> today. Been wanting to learn up something new recently, and Flex seems to bridge the gap between web development and a more traditional desktop application. So, what is Flex?</p>
+<p>Flex is "Flash for programmers." Previously, to create a Flash application, one had to utilize the timeline-based, GUI Flash authoring tool published by Adobe. While later versions of Flash allowed some pretty heavy programming through ActionScript, it was tedious and/or annoying to program through what was essentially a visual editor. Also, the program cost $900.</p>
+<p>Flex is free from Adobe; they sell an IDE which supposedly makes things easier... it seems you can do drag 'n drop application layouts with it, reminicent of Visual Basic. Anyway, I digress. A Flex application is made up of MXML (an XML-derivative used for layout) and ActionScript 3 (for logic). A very valid comparison would be to compare Flex to HTML (presentation) and PHP/ASP (logic).</p>
+<p>I <a title="download the Flex 3 SDK" href="http://www.adobe.com/products/flex/flexdownloads/index.html#sdk">downloaded the SDK</a> (read the <a title="Flex 3 SDK release notes" href="http://www.adobe.com/support/documentation/en/flex/3/releasenotes_flex3_sdk.html#installation">release notes</a>... no real "installation" per se, but you have to uninstall/reinstall your Flash player), and ran through the first two parts of <a title="Flex orientation" href="http://learn.adobe.com/wiki/display/Flex/Get+oriented+to+Flex">this orientation</a>. It starts you out with a basic application, then goes into tying Flex into other dynamic web languages such as PHP. Definitely web-centric for right now; I'm interested in looking into more graphical, ActionScript-centric tutorials.</p>

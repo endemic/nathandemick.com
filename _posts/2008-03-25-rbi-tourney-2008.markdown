@@ -1,0 +1,25 @@
+---
+layout: post
+status: publish
+published: true
+title: RBI Tourney 2008!
+author:
+  display_name: Nathan
+  login: admin
+  email: ndemick@gmail.com
+  url: ''
+author_login: admin
+author_email: ndemick@gmail.com
+wordpress_id: 104
+wordpress_url: http://www.bitter-gamer.com/?p=125
+date: '2008-03-25 09:47:45 -0400'
+date_gmt: '2008-03-25 13:47:45 -0400'
+categories:
+- games
+tags:
+- nes
+- soulman
+- sportsu
+comments: []
+---
+<p>Every year, my friend Soulman goes to an RBI Baseball (yes, <em>that</em> RBI Baseball) tournament in Chicago. This year, he made a <a href="http://andy.teamsoell.com/archive/34-daily/44-rbi2008.html" title="video tribute to the festivities">video tribute to the festivities</a>. Watch as history is made by The Snake winning his <b>first ever</b> game. Very amusingly well-done!</p>

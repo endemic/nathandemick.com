@@ -1,0 +1,25 @@
+---
+layout: post
+status: publish
+published: true
+title: Fix iTunes 8
+author:
+  display_name: Nathan
+  login: admin
+  email: ndemick@gmail.com
+  url: ''
+author_login: admin
+author_email: ndemick@gmail.com
+wordpress_id: 1088
+wordpress_url: http://nathandemick.com/2008/09/fix-itunes-8/
+date: '2008-09-10 08:16:53 -0400'
+date_gmt: '2008-09-10 12:16:53 -0400'
+categories:
+- programming
+tags: []
+comments: []
+---
+<p><a href="http://amsoell.tumblr.com/post/49495902/fix-itunes-8">amsoell</a>:</p>
+<blockquote><p>OK, so the Genius update on iTunes 8 is pretty slick.  That will keep me from using Last.fm as much as I have been recently.  But they took out a bunch of preferences that made iTunes, in my opinion, less ugly.  I’m talking about those damn arrows next to every artist, album, and track that takes you to the store, and the useless Genre column.  Here’s the fix — paste these commands into the Terminal:</p>
+<pre><code>defaults write com.apple.iTunes show-genre-when-browsing -bool FALSE<br /><br /></code><code>defaults write com.apple.iTunes show-store-arrow-links -bool FALSE</code></pre>
+</blockquote>

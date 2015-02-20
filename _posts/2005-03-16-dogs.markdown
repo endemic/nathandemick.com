@@ -1,0 +1,24 @@
+---
+layout: post
+status: publish
+published: true
+title: Dogs!
+author:
+  display_name: Nathan
+  login: admin
+  email: ndemick@gmail.com
+  url: ''
+author_login: admin
+author_email: ndemick@gmail.com
+wordpress_id: 16
+wordpress_url: http://www.bitter-gamer.com/?p=9
+date: '2005-03-16 12:04:09 -0500'
+date_gmt: '2005-03-16 03:04:09 -0500'
+categories:
+- japan
+- random
+tags: []
+comments: []
+---
+<p>Usually people in Japan tend to have smaller pets, for obvious reasons. However, last night I saw a large dog tied up in front of a 7-11. It looked pretty cool, so <a href="http://www.bitter-gamer.com/images/more_japan/doggie.jpg">I took a picture</a>. The owner was laughing at the crazy gaijin taking pictures of a dog.</p>
+<p>Tangent: the 7-11 chain of convenience stores exist in Japan, but the store name is written in "Japanized" English: Seben-Ereben. However, I think the name would translate well directly into Japanese: Shichi-Juichi. Of course, the store would lose a bit of the chain image if that happened. Globalization! Yes! Hey! I'm not bitter about it!</p>

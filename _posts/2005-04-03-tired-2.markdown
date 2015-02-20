@@ -1,0 +1,53 @@
+---
+layout: post
+status: publish
+published: true
+title: tired...
+author:
+  display_name: Nathan
+  login: admin
+  email: ndemick@gmail.com
+  url: ''
+author_login: admin
+author_email: ndemick@gmail.com
+wordpress_id: 26
+wordpress_url: http://www.bitter-gamer.com/?p=19
+date: '2005-04-03 00:29:31 -0500'
+date_gmt: '2005-04-02 15:29:31 -0500'
+categories:
+- random
+tags: []
+comments:
+- id: 44
+  author: 4D4m
+  author_email: djinfx@gmail.com
+  author_url: http://www.unfulfilling.com/infx/
+  date: '2005-04-03 03:27:36 -0400'
+  date_gmt: '2005-04-02 17:27:36 -0500'
+  content: |-
+    dude! how much is one of those sega usb controllers?!
+    I WILL PAY YOU CASH MONEY!
+    PLZ PLZPLZ
+- id: 45
+  author: Nathan
+  author_email: ndemick@bitter-gamer.com
+  author_url: http://www.bitter-gamer.com
+  date: '2005-04-03 20:10:26 -0400'
+  date_gmt: '2005-04-03 11:10:26 -0400'
+  content: Haha, it is pretty sweet. There are lots of different colors, but I liked
+    the white design. Try searching on the net, or buy one from <a href="http://www.play-asia.com/paOS-14-71-1i.html"
+    rel="nofollow">Play-Asia.com</a>. They're a bit expensive (I got mine for 2880
+    yen), but cool to play emulators with.
+- id: 46
+  author: 4D4m
+  author_email: djinfx@gmail.com
+  author_url: http://www.unfulfilling.com/infx/
+  date: '2005-04-04 05:48:49 -0400'
+  date_gmt: '2005-04-03 20:48:49 -0400'
+  content: |-
+    god i want one just for mame alone.
+    samurai showdown and company (read: all other neo-geo fighters) would be my beyotches.
+---
+<p>Bleh, I'm dead tired, but I figured an update would be worthwhile. Brendan came on Wednesday, but only after encountering a few problems. Originally, I thought he was going to come on Monday, but that was due to a mix up with the International Date Line. Then Tuesday came and went, and still no Brendan. What happened was this: he had gotten a ticket to Seoul, but was going to get off in Tokyo, where the plane had a layover. However, the airline wouldn't allow him to remove his luggage while stopped in Tokyo, so he ended up going to Seoul and camping out overnight in the airport. Next day (Wednesday) he flew into Japan, and got into Utsunomiya about 7PM.</p>
+<p>My only problem with the situation was the inability of my employer to separate Brendan from me. She would NEVER say his name when talking about him, it was always "Nathan's friend." She blamed me for telling her he was supposed to arrive on Monday, which is what I was told myself. It took a fairly violent exertion of self-control not to go ape on her. Of course he is my friend, however his main purpose in coming is NOT as my friend, but rather as an employee of this worthless school. As such, it's her responsibility to keep in contact with him. Assuming that I will play the role of middleman is just the sort of obstinate and moronic decision I've come to expect from my boss.</p>
+<p>But, enough of that nonsense. Today we went to Tokyo and hung around in Akihabara and Shibuya. Brendan bought a PocketPC (for the excellent <a href="http://www.csulb.edu/~mdouglas/jwpce.htm">JWPce</a> Japanese to English dictionary), and I got a <a href="http://www.rakuten.co.jp/sls/649323/649324/649341/">Sega USB controller</a>. I think on the whole, the day was a success.</p>

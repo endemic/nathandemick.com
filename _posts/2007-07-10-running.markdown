@@ -1,0 +1,23 @@
+---
+layout: post
+status: publish
+published: true
+title: Running!
+author:
+  display_name: Nathan
+  login: admin
+  email: ndemick@gmail.com
+  url: ''
+author_login: admin
+author_email: ndemick@gmail.com
+wordpress_id: 46
+wordpress_url: http://www.bitter-gamer.com/?p=42
+date: '2007-07-10 14:49:05 -0400'
+date_gmt: '2007-07-10 18:49:05 -0400'
+categories:
+- running
+tags: []
+comments: []
+---
+<p><a href='http://www.bitter-gamer.com/?attachment_id=40' rel='attachment wp-att-40' title='07-09-07-1.png'><img src='http://www.bitter-gamer.com/wp-content/uploads/2007/07/07-09-07-1.thumbnail.png' alt='07-09-07-1.png' style='float: left; margin-right: 10px' /></a><a href='http://www.bitter-gamer.com/?attachment_id=41' rel='attachment wp-att-41' title='07-09-07-2.png'><img src='http://www.bitter-gamer.com/wp-content/uploads/2007/07/07-09-07-2.thumbnail.png' alt='07-09-07-2.png' style='float: left; margin-right: 10px' /></a></p>
+<p>I went running twice yesterday... only maybe 14 miles total, but I was <b>done</b> by the end of the second. The first was on my own, the second with my friend Matt. I need to start playing some kind of sport that allows me to demolish people with my running ability.</p>

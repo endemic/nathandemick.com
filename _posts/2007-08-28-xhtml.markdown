@@ -1,0 +1,47 @@
+---
+layout: post
+status: publish
+published: true
+title: XHTML?
+author:
+  display_name: Nathan
+  login: admin
+  email: ndemick@gmail.com
+  url: ''
+author_login: admin
+author_email: ndemick@gmail.com
+wordpress_id: 59
+wordpress_url: http://www.bitter-gamer.com/?p=64
+date: '2007-08-28 22:53:41 -0400'
+date_gmt: '2007-08-29 02:53:41 -0400'
+categories:
+- web development
+tags: []
+comments: []
+---
+<p>Recently I built some pages for a client, and one of the client contacts came back wanting to use validated XHTML. The guy in question was all, "It looks weird in IE!"</p>
+<p>I cursed under my breath, and then looked at the pages he sent back to me. All he had done was add an XHTML doctype to each page. Running them through a validator produced millions of errors. That's when I decided to read a bit on what XHTML actually does.</p>
+<p><b>Benefits of XHTML</b></p>
+<ol>
+<li>Stricter syntax rules - always have well-formed documents</li>
+</ol>
+<p></p>
+<p><b>Detriments of XHTML</b></p>
+<ol>
+<li>Stricter syntax rules - more difficult to update</li>
+<li>Needs to be served with proper MIME type; not "text/html"
+<ol>
+<li>View <a href="http://www.hixie.ch/advocacy/xhtml" title="http://www.hixie.ch/advocacy/xhtml">http://www.hixie.ch/advocacy/xhtml</a> regarding serving XHTML as "text/html"</li>
+</ol>
+</li>
+<li>Not supported by IE
+<ol>
+<li>XML declaration causes "quirks" mode when document is served as "text/html"</li>
+<li>IE doesn't handle MIME type "application/xhtml+xml"</li>
+<li>"Unless the document is recognised as XHTML, you cannot use any of the features XHTML offers over HTML."</li>
+</ol>
+</li>
+</ol>
+<p></p>
+<p>Sadly, after reading about all this stuff, I realized that I had been making some unwitting mistakes in my HTML for quite a while now, such as inserting a space and slash at the end of single tags (i.e. &lt;br /&gt; instead of &lt;br&gt;). Plus, I haven't been validating my code... mostly just due to laziness on my part. </p>
+<p>Anyway, the long and short of the story is that I learned a lot about doctype declarations, and that XHTML is mostly hype, in terms of accessibility and features. Using the HTML 4.01 Strict doctype will probably ensure that your document will be accessible in its' original presentation for years to come (if you even care that long).</p>

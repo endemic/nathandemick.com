@@ -1,0 +1,72 @@
+---
+layout: post
+status: publish
+published: true
+title: HHGTTG
+author:
+  display_name: Nathan
+  login: admin
+  email: ndemick@gmail.com
+  url: ''
+author_login: admin
+author_email: ndemick@gmail.com
+wordpress_id: 40
+wordpress_url: http://www.bitter-gamer.com/?p=33
+date: '2005-05-10 01:06:18 -0400'
+date_gmt: '2005-05-09 16:06:18 -0400'
+categories:
+- random
+tags: []
+comments:
+- id: 66
+  author: benjamin
+  author_email: benjamin.hamburger@gmail.com
+  author_url: http://
+  date: '2005-05-11 00:34:28 -0400'
+  date_gmt: '2005-05-10 15:34:28 -0400'
+  content: |-
+    well, i came away with a bit of a different perspective, and i think i know why.  Adams was involved with the screenplay until 2001, obviously, it has had a lot of revision since then i'm sure.  however, even he had no interest in making the movie follow the book or radioshow.  heck even the book didnt follow the radio show.  i suppose that if you were expecting the movie to follow the book it would seem bad.  yeah, the plot isn't real strong, but as i just reread the original book, i can safely say that the story feels more developed in the movie than it does in the book :)  that's just something you have to accept about adams.
+
+    on a couple of specific points--i agree with you on the vacuousness of the love story.  the ground was set for it in the book, of course, but never central as it was in the movie.  that is your concession to those who had not read the book.
+
+    i dont know what it would be like to see the movie without reading the books because i hardly remember a time having not read the books.  i did, however, enjoy a number of somewhat random references which only ridiculous geeks would get.  did you notice the vaguely mongolian features of the construction foreman trying to get Arthur out of the way of the bulldozer at the beginning?
+
+    i also thought that the zaphod's head incident was kinda lame--but then i thought how they did the head altogether was kinda lame--which brings me back to your old comment about the difficulty of doing zaphod visually correct.  i guess i dont really have any better ideas than what they did.
+
+    i disagree about zooey deschanel (trillian)  not only does she have ridiculously large eyes, (and thereby being pretty attractive) i thought she did ok.  i think the major problem was the change in her role for the arthur-trillian romance thing.  overall, i have to say that i had a pretty good time--think about all the things the movie did right, i'd say.
+- id: 67
+  author: Nathan
+  author_email: ndemick@bitter-gamer.com
+  author_url: http://www.bitter-gamer.com
+  date: '2005-05-11 00:43:30 -0400'
+  date_gmt: '2005-05-10 15:43:30 -0400'
+  content: |-
+    I dunno, at first I really liked Zaphod; he was really over the top. I can accept the crazy second head-in-neck thing. But then there were those worthless scenes with John Malkovitch, and Zaphod was a drag after that, no longer funny at all.
+
+    I agree, the actress who played Trillian was pretty cute in glasses, but the way she delivered her lines just got on my nerves: almost monotone.
+
+    Haha, I also agree about the plot in the book. Even after reading all the books at least two times each, I still don't have a grasp of the story as a whole. I was listening to the radio show a few weeks ago, and if you don't pay attention ALL the time, you get totally lost.
+- id: 68
+  author: ad@m
+  author_email: djinfx@gmail.com
+  author_url: http://www.unfulfilling.com/infx/
+  date: '2005-05-13 05:06:00 -0400'
+  date_gmt: '2005-05-12 20:06:00 -0400'
+  content: |-
+    i saw HHGTTG last weekend and i'd have to say i wasn't really pleased with it as well.
+    for starters, the arthur/trillian love fest was a bit annoying. as pointed out by ben it was kind of there in the books but nothing really ever came of it.
+    zooey deschanel isn't really the best actress and i will agree that her lines just came across as "bleh blah blahbity blah blah" but i could easily over look that seeing as she makes my pants tight.
+    The P.O.V. gun plot made my head hurt. Zaphod could have easily had two heads NEXT TO EACH OTHER instead of that stupid head-in-the-neck crap they pulled off. Sam Rockwell did a good job being Zaphod. Sam Rockwell is pretty good at acting in general.
+    This is all becoming rather random now. Uh let's see... what else.
+    I was glad the whale part was in the movie.
+
+    ok well i've lost my train of thought as i am having four conversations while writing this. i give the movie an over all rating of "ennnnh yeah..."
+
+    if you havent seen sin city i would recommend downloading that next.
+---
+<p>I saw the Hitchhiker's Guide to the Galaxy movie tonight, and illegally as well, I might add. Yes, I desecrated the memory of Douglas Adams by pirating the posthumous movie edition of the somewhat-beloved first part of the (five part) trilogy. In reality, I'm glad I didn't pay to watch it. If I hadn't read the books and listened to the radio show, I would have had no idea what was going on, and why anything was anything in that disjointed movie. I feel sorry for those people going in who hadn't experienced Hitchhiker's Guide in another media format; I would imagine that nothing in the movie made sense to them.</p>
+<p>I must give at least some credit: the flick starts strong, staying at least somewhat close to the radio program/book, with Arthur's home and the earth getting demolished, Arthur and Ford's subsequent mishaps on the Vogon ship, and their rescue by the Heart of Gold. Here is the first real introduction to the Zaphod Beeblebrox character, who is played really quite well (for the first half of the movie, anyway). Unfortunately, Trillian also makes her appearance, which marks a continuous dragging point: the actress is really, REALLY bad.</p>
+<p>From there the movie is locked in a downwards spiral: entirely new scenes are added, which go absolutely nowhere. About half an hour is devoted to Zaphod losing his second head (which somehow makes him remedial). Trillian gets captured by Vogons only to be saved again in a pointless fashion. Zaphod has to get some kind of "point of view" gun from the computer Deep Thought, which also has absolutely no bearing on the rest of the movie. Did I mention that the movie was locked in a downward spiral? It gets worse.</p>
+<p>In addition to all the pointless additions (which don't even have the merit of being funny), the LURVE between Arthur and Trillian is made a central plot point throughout the movie. It just seems impossible for people to create a movie with no horribly written love-interest subplot. I really don't know how much of the script was written by Douglas Adams, but if it was his decision to include that tripe, I'm not sure I have the cognative capacity to understand his rationale.</p>
+<p>The movie ends in a totally pointless matter. No major plot points are resolved; in fact, there is no plot. The only resolution is that Arthur and Trillian are now in love and happy. I know that Douglas Adams couldn't write a cohesive story very well, but this movie takes it one step lower. I read Douglas Adams for the humourous writing style; take that away, and you don't have much left.</p>
+<p>When the movie ended, I felt pretty bad. It was bright and flashy with interesting special effects, but there was no substance. One good point was a well-played Marvin, voiced by Alan Rickman. Other than that, however, the movie was mostly a disappointment. Let the viewer beware.</p>

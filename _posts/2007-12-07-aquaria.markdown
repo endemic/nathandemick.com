@@ -1,0 +1,23 @@
+---
+layout: post
+status: publish
+published: true
+title: Aquaria gets released today
+author:
+  display_name: Nathan
+  login: admin
+  email: ndemick@gmail.com
+  url: ''
+author_login: admin
+author_email: ndemick@gmail.com
+wordpress_id: 81
+wordpress_url: http://www.bitter-gamer.com/2007/12/07/aquaria/
+date: '2007-12-07 16:25:00 -0500'
+date_gmt: '2007-12-07 20:25:00 -0500'
+categories:
+- games
+tags: []
+comments: []
+---
+<p>So, <a href="http://bit-blot.com/aquaria" title="Bit Blot">Bit Blot's game, Aquaria</a>, is going to be released today. I think I'm going to buy it. If I get a chance to play this weekend, I'll write up impressions. I'm a bit torn, because on the one hand, I like pure mouse control (Aquaria uses the mouse and/or keyboard). However, recently I've been loving me some USB gamepad action, which allows me to hook my laptop up to my housemate's 46" widescreen TV and play games on it. Cave Story at 46 inches! It's pretty great. Anyway, we'll see how Aquaria works. Check out the <a href="http://bit-blot.com" title="Bit Blot">Bit Blot website</a> for gameplay videos, et. al.</p>
+<p><strong>EDIT:</strong> Their site went down, as I kinda expected. I got the demo on Sunday; it's pretty good. I'm trying to decide what I think about the more exploration-based design, but I need to play more to do that...</p>

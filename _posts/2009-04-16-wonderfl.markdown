@@ -1,0 +1,28 @@
+---
+layout: post
+status: publish
+published: true
+title: wonderfl
+author:
+  display_name: Nathan
+  login: admin
+  email: ndemick@gmail.com
+  url: ''
+author_login: admin
+author_email: ndemick@gmail.com
+wordpress_id: 249
+wordpress_url: http://www.bitter-gamer.com/?p=249
+date: '2009-04-16 13:28:57 -0400'
+date_gmt: '2009-04-16 18:28:57 -0400'
+categories:
+- japan
+- programming
+tags:
+- japan
+- programming
+- Flash
+- actionscript
+- social networking
+comments: []
+---
+<p>This isn't exactly news, but I <a href="http://wonderfl.kayac.com/user/butr0s" title="created an account">created an account</a> on the Japanese social network/code sharing site <a href="http://wonderfl.kayac.com/" title="Wonderfl">Wonderfl</a>. It's kind of cool... you can use the site to automatically compile Actionscript 3 code, then save it for other people to check out. If you see some code you like, or that sparks a new idea, you can "fork" it &mdash; copy it and save your own version. I was kind of surprised... I added two small demos on Monday, and by Wednesday some other users had already modified my demos. There's a lot of random crap, but you can also learn some cool techniques by browsing through the user-submitted code. If you have any interest in Actionscript, you should check it out.</p>

@@ -1,0 +1,45 @@
+---
+layout: post
+status: publish
+published: true
+title: Portal
+author:
+  display_name: Nathan
+  login: admin
+  email: ndemick@gmail.com
+  url: ''
+author_login: admin
+author_email: ndemick@gmail.com
+wordpress_id: 69
+wordpress_url: http://www.bitter-gamer.com/?p=78
+date: '2007-10-08 17:07:03 -0400'
+date_gmt: '2007-10-08 21:07:03 -0400'
+categories:
+- games
+tags: []
+comments:
+- id: 75
+  author: andy
+  author_email: andy@teamsoell.com
+  author_url: http://andy.teamsoell.com
+  date: '2007-10-08 19:03:06 -0400'
+  date_gmt: '2007-10-08 23:03:06 -0400'
+  content: |-
+    Ha!  "If at first you don't succeed, you fail."
+
+    Brilliant.
+- id: 76
+  author: ad@m
+  author_email: djinfx@gmail.com
+  author_url: http://www.unfulfilling.com/infx/
+  date: '2007-10-17 01:48:32 -0400'
+  date_gmt: '2007-10-17 05:48:32 -0400'
+  content: |-
+    Dear God, Portal is fun.
+    Way fun.
+    I've haven't really had much of a chance to play it... TF2 has too strong a pull on my soul.
+    I think I'm at 16 out of 19 trials.
+    Either way... Nate, you should buy a 360.
+---
+<p>How cool does this look? I may be buying a PC game for the first time since the Warcraft III expansion...</p>
+<p><object width="425" height="350"><param name="movie" value="http://www.youtube.com/v/Wb7aDZeO_MQ"></param><param name="wmode" value="transparent"></param><embed src="http://www.youtube.com/v/Wb7aDZeO_MQ" type="application/x-shockwave-flash" wmode="transparent" width="425" height="350"></embed></object></p>

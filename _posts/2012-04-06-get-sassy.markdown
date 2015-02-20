@@ -1,0 +1,40 @@
+---
+layout: post
+status: publish
+published: true
+title: Get Sassy!
+author:
+  display_name: Nathan
+  login: admin
+  email: ndemick@gmail.com
+  url: ''
+author_login: admin
+author_email: ndemick@gmail.com
+wordpress_id: 1541
+wordpress_url: http://nathandemick.com/?p=1541
+date: '2012-04-06 14:58:51 -0400'
+date_gmt: '2012-04-06 19:58:51 -0400'
+categories:
+- web development
+tags:
+- css
+- sass
+- scss
+- werk
+- productivity
+comments:
+- id: 338
+  author: 'Preview: Shikaku Madness | Ganbaru Games'
+  author_email: ''
+  author_url: http://ganbarugames.com/2012/04/preview-shikaku-madness/
+  date: '2012-04-06 16:17:29 -0400'
+  date_gmt: '2012-04-06 21:17:29 -0400'
+  content: '[...] been a day of breaking blog silence! Part two of the Unity tutorial
+    probably isn&#8217;t coming any time soon, in part due to the fact [...]'
+---
+<p>Wow, has it really been five months since I last posted here? Somehow, it's not hard for me to believe. I'm breaking the blog silence proseletize the newest tech frippery I've become enamored with: <a href="http://sass-lang.com/">Sass</a>. </p>
+<p>Sass is compiled CSS. It fits in with the current (kind of stupid, in my opinion) trend of taking a language or syntax that doesn't need compilation, then adding a compilation step in order to get some syntactic sugar. <a href="http://coffeescript.org/">Coffeescript</a> is another example. Sass is a Ruby program that will sit in your CSS directory, scan your .scss or .sass files, then spit out .css results. With these sorts of things, you have to decide if learning new syntax will save you time later on. </p>
+<p>I'm doing some CSS work for the first time in about a year, so figured I'd give Sass a shot, because I'm bored out of my mind, and need to do something to keep myself entertained. After working with it for about an hour, I was pretty much converted.</p>
+<p>The main benefits I see to Sass are the nested syntax, mixins, and variables. With it, you can write CSS in a "nested" fashion, similar to how your HTML document is arranged. It makes it much easier to scan a block of Sass to see what style corresponds to what HTML element. An additional benefit is that copy/pasting large blocks of CSS is now possible, without having to remove or change the top level selectors for a rule. I've been able to create whole new page layouts extremely quickly using this technique. </p>
+<p>Mixins and variables are just extra bonuses. Instead of having to write a bunch of vendor prefixes for box shadows or gradients, I can create a <code>box-shadow</code> mixin that can then be included in every rule that requires that style. Variables are great, too: you can just define a <code>$text-color</code> variable, then refer to it easily later without having to memorize an arcane hex value.</p>
+<p>If you work in web development, I'd recommend giving Sass a try. Check out this <a href="http://37signals.com/svn/posts/3003-css-taking-control-of-the-cascade">article at 37signals.com</a> for more info, then read the <a href="http://sass-lang.com/tutorial.html">Sass tutorial</a>. Next stop: productivity!</p>

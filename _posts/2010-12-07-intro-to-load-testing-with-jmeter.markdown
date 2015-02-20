@@ -1,0 +1,51 @@
+---
+layout: post
+status: publish
+published: true
+title: Intro to load testing with JMeter
+author:
+  display_name: Nathan
+  login: admin
+  email: ndemick@gmail.com
+  url: ''
+author_login: admin
+author_email: ndemick@gmail.com
+wordpress_id: 357
+wordpress_url: http://nathandemick.com/?p=357
+date: '2010-12-07 08:00:59 -0500'
+date_gmt: '2010-12-07 13:00:59 -0500'
+categories:
+- web development
+tags:
+- web development
+- apache
+- java
+- jmeter
+- nerd
+comments:
+- id: 182
+  author: andy
+  author_email: andy@teamsoell.com
+  author_url: http://andy.teamsoell.com
+  date: '2010-12-09 17:03:54 -0500'
+  date_gmt: '2010-12-09 22:03:54 -0500'
+  content: This is great. I've never had the need to do load testing up to this point,
+    but I'm sure this guide will come in really handy sooner or later.
+- id: 185
+  author: Intro to Load Testing with JMeter (part deux!) &laquo; nathandemick.com
+  author_email: ''
+  author_url: http://nathandemick.com/2010/12/intro-to-load-testing-with-jmeter-part-deux/
+  date: '2010-12-17 08:12:35 -0500'
+  date_gmt: '2010-12-17 13:12:35 -0500'
+  content: '[...] you&#8217;ve been following along, you&#8217;ll know that JMeter
+    is most commonly used to do automated testing; you can create a [...]'
+---
+<p>Recently for a project at work, I was tasked with doing research into load testing software. Now, there are tons of options for load testing; in my search I found some nice-looking hosted solutions, such as <a href="http://www.browsermob.com">browsermob.com</a>. But of course, if you can get away with doing something for free, that's usually the option that makes the most business sense (that is, if the time you invest in learning the free tool is less than the money you would save by using the easier solution). The free solution in this case is <a href="http://jakarta.apache.org/jmeter/" title="JMeter">JMeter</a>, a Java-based program maintained by the <a href="http://www.apache.org" title="Apache Foundation">Apache Foundation</a>. Since I gained a basic understanding of the software through my recent research, I thought I'd share a bit here on how to create a basic load testing script. JMeter has many more options that what I'll detail here, but hopefully this tutorial will at least get you over the initial learning curve.</p>
+<p>Obviously, first of all you should <a href="http://jakarta.apache.org/site/downloads/downloads_jmeter.cgi">download JMeter</a>. Unzip the downloaded package, and place the whole folder structure somewhere easy to remember. If you want, you can set the /bin directory on your path so you can start the program from the command line. I just double-click the ApacheJMeter.jar package to start the program. </p>
+<p>After JMeter starts up, you'll be faced with a totally blank slate. What we want to do is create a group of users, and have each of those users perform a certain sequence of actions (such as access a URL, post a form, or whatever). There are two ways to do this with JMeter: enter the sequence by hand, or configure a proxy server to intercept your browser requests and save them as an action sequence. If the list of actions you want to perform is complex, it might be a good idea to set up a proxy. I'll show you how to manually set up your test; running the proxy server will be reserved for a future post.</p>
+<p>First, let's rename the test plan to be something more descriptive. Click on the "Test Plan" text in the project sidebar, and rename it to something descriptive, such as "My Jawesome Test Plan."<a href="http://nathandemick.com/2010/12/intro-to-load-testing-with-jmeter/jmeter-thread-group/" rel="attachment wp-att-368"><img src="http://nathandemick.com/wp-content/uploads/2010/12/jmeter-thread-group-150x99.png" alt="" title="jmeter-thread-group" width="150" height="99" class="alignright size-thumbnail wp-image-368" /></a> Now, the first step in creating your test scenario is to make a group of users. Right click on your test plan, then select Add > Threads (Users) > Thread Group. "Thread Group" is kind of a confusing term, so you can rename the group to "Users" if you want. When you click on your user group in the sidebar, you'll see there are various options you can change about it, the most significant being the number of users, how fast they start performing their tasks, and whether they repeat their tasks. Change the number of users to 10, and the ramp-up period to 10 as well. That means that it'll take 10 seconds for all the users to be activated. Since there are 10 total users, that means that one will start up each second. Change the loop count to 2, so that each user runs through their tasks twice.</p>
+<p>Next, we'll add some configuration options to the test, so that you don't have to enter certain info each time you want to add an action for the user group to perform (such as the base site URL). Right-click your user group and select Add > Config Element > HTTP Cache Manager. This simulates a browser cache for each of your users, so if they download a static resource on the first test run, they'll have a cached version for the second, making the test more realistic. Select the user group again, right-click, and choose Add > Config Element > HTTP Request Defaults.<a href="http://nathandemick.com/2010/12/intro-to-load-testing-with-jmeter/jmeter-http-request-defaults/" rel="attachment wp-att-364"><img src="http://nathandemick.com/wp-content/uploads/2010/12/jmeter-http-request-defaults-150x99.png" alt="" title="jmeter-http-request-defaults" width="150" height="99" class="alignleft size-thumbnail wp-image-364" /></a> You can put in any default options you want here, such as the site name, port number, and path. So for example, if you were testing your site foo.com, you could put in "http://foo.com" as the server name. Then all subsequent requests from your users would use that information. If a user requested plain ol' "bar.html," the defaults would be prepended to that request, resulting in a request to "foo.com/bar.html." When creating a test by hand, the Request Defaults configuration becomes very useful. For our example, let's query the JMeter site, so in the HTTP Request Defaults options, enter "http://jakarta.apache.org" as the server name.</p>
+<p><a href="http://nathandemick.com/2010/12/intro-to-load-testing-with-jmeter/jmeter-http-request/" rel="attachment wp-att-365"><img src="http://nathandemick.com/wp-content/uploads/2010/12/jmeter-http-request-150x99.png" alt="" title="jmeter-http-request" width="150" height="99" class="alignright size-thumbnail wp-image-365" /></a>OK, we've got the test users all set up. Next, let's have them try to make some requests. Right click on your user group in the sidebar, and select Add > Sampler > HTTP Request. This represents a request for a single page or resource on your site. Let's have it request the JMeter homepage. If you remember, we already set up the default site URL and path, so the only option we have to change for the sampler is the path value, which we'll set to "/jmeter/index.html" (for the homepage). Also, change the name of the HTTP Request to "JMeter Homepage" so that it's easier to see what it's requesting. </p>
+<p>At this point, you've got enough set up to actually run the test and see real results, but let's go ahead and add another HTTP Request to the test. Right-click your user group, add another HTTP Request, and set the path to "/jmeter/usermanual/index.html." Rename this request to "JMeter User Manual." Now the test is completely set up, but there's no way to view the test results yet. To remedy this, we'll add two "listeners," which track results and display them in a human-readable way. Right-click your user group, and select Add > Listener > Graph Results. Also Add > Listener > Summary Report. These are two simple listeners that show your results in a graph and text-based summary.</p>
+<p><a href="http://nathandemick.com/2010/12/intro-to-load-testing-with-jmeter/jmeter-uniform-random-timer/" rel="attachment wp-att-369"><img src="http://nathandemick.com/wp-content/uploads/2010/12/jmeter-uniform-random-timer-150x99.png" alt="" title="jmeter-uniform-random-timer" width="150" height="99" class="alignleft size-thumbnail wp-image-369" /></a>Now, go ahead and run the test by choosing Run > Start (or Command-R). Wait for a bit for the test to finish, then click on your results listeners. You should see the (hopefully successful) results of your test. Now for some embellishments. In a more realistic scenario, users would load a page, read it for a few seconds, then click a link to go to a different page. In the test script right now, your users make requests as fast as they can. To insert a random delay between requests, right click each HTTP Request in the sidebar, and choose Add > Timer > Uniform Random Timer. This timer allows you to set a base constant delay (such as 2 seconds), and then add another random delay on top of that. I like to have a 2 second constant delay and a 3 second random delay, so go ahead and edit both timers to have values of 3000 (random) and 2000 (constant).<a href="http://nathandemick.com/2010/12/intro-to-load-testing-with-jmeter/jmeter-response-assertion/" rel="attachment wp-att-366"><img src="http://nathandemick.com/wp-content/uploads/2010/12/jmeter-response-assertion-150x99.png" alt="" title="jmeter-response-assertion" width="150" height="99" class="alignright size-thumbnail wp-image-366" /></a> Also, ideally we want to make sure that the results of each request were successful. There are a number of ways to do this in JMeter, but the simplest is to make an assertion that each request returned a HTTP status code of 200. Right-click each of the HTTP Requests and choose Add > Assertions > Response Assertion. Modify each assertion to check the Response Headers, choose "Equals" for the Pattern Matching Rules, and add "200" as a Pattern to Test. The Response Assertion is very powerful... you can modify it to check for patterns in the HTML of the requested page, etc., but this basic assertion is enough for our needs right now.</p>
+<p>And that's it! You now have a fully functional basic test plan. You can run it and see a cool graph of response times as well as get the summary report for the whole test. Hopefully that will get you started with the wonderful world of load testing.</p>

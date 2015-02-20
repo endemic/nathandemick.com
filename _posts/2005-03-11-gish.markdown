@@ -1,0 +1,51 @@
+---
+layout: post
+status: publish
+published: true
+title: Gish
+author:
+  display_name: Nathan
+  login: admin
+  email: ndemick@gmail.com
+  url: ''
+author_login: admin
+author_email: ndemick@gmail.com
+wordpress_id: 14
+wordpress_url: http://www.bitter-gamer.com/?p=6
+date: '2005-03-11 11:09:59 -0500'
+date_gmt: '2005-03-11 02:09:59 -0500'
+categories:
+- games
+tags: []
+comments:
+- id: 20
+  author: ad@m
+  author_email: djinfx@gmail.com
+  author_url: http://www.unfulfilling.com/infx/
+  date: '2005-03-11 11:35:21 -0500'
+  date_gmt: '2005-03-11 02:35:21 -0500'
+  content: |-
+    Butr0s: I posted a review of Gish
+    glowenfone: cool
+    glowenfone: i like that game
+    Butr0s: yeah I should probably buy the full version
+    glowenfone: but i apparently suck at puzzle games like that now
+    glowenfone: i could always try and find a torrent :X
+    Butr0s: you can steal from large corporations
+    glowenfone: but not from indie gamers
+    Butr0s: but if you steal from 2 guys, you're going to hell
+    Butr0s: HELL
+    Butr0s: YES
+- id: 21
+  author: Tyler
+  author_email: tylerbren@gmail.com
+  author_url: http://
+  date: '2005-03-12 07:57:47 -0500'
+  date_gmt: '2005-03-11 22:57:47 -0500'
+  content: i require moderation~
+---
+<p>Finally after getting an internet connection, I was able to download a demo of that indie game, <a href="http://www.chroniclogic.com/gish.htm">Gish</a>. Figured I'd post a bit o' my reactions here.</p>
+<p>Our story so far: Gish and his lady friend Brea are out walking around one day, when all of a sudden a mysterious hand reaches out of the sewers and grabs the girl. Gish must (of course) rescue the girlfriend while trying not to die. The problem? Gish is a ball of tar. Actually, the real problem is trying to explain how a sentient ball of tar managed to get a girlfriend, but I guess that's beyond the scope of this game.</p>
+<p>Being tarrish and ball-shaped, Gish moves a bit more sluggishly than most video game heros. With no legs, momentum plays a big factor in play control. Navigating his two-dimensional world sometimes takes a bit of patience. To help you along, Gish has four different abilities: Sticky, Slick, Heavy, and Expand. Sticky does like it says, allowing Gish to roll up walls and along ceilings. Slick lets him slide through narrow spaces, while Heavy increases Gish's weight in order to crush walls and baddies. Expand will propel Gish a short distance into the air; get the timing right and you can bounce him like a rubber ball.</p>
+<p>Some of Chronic Logic's earlier projects are intensely physics-based, and this shows when playing Gish. In fact, many other reviews I've read wax on and on about the physics of the game. Indeed, Gish is very realistic (perhaps too realistic) dealing with interaction in the game world. Tilting bridges and rope platforms move exactly how you might expect. Put too much weight on a rope and it will snap, possibly plunging Gish into lava or making it difficult to proceed in the level. When first playing the game, control is a bit frustrating, but as the game progresses, the entire system feels quite intuitive.</p>
+<p>Besides the standard levels, Gish also includes other gameplay modes, such as Collection (wherein you collect coins...uhh I mean pieces of amber) and Versus (wherein you push another Gish-like creature off a ledge). The basic premise of the game is interesting enough, and these added modes are like icing on the cake. For only $20, it's hard to go wrong.</p>

@@ -1,0 +1,24 @@
+---
+layout: post
+status: publish
+published: true
+author:
+  display_name: Nathan
+  login: admin
+  email: ndemick@gmail.com
+  url: ''
+author_login: admin
+author_email: ndemick@gmail.com
+wordpress_id: 39
+wordpress_url: http://www.bitter-gamer.com/?p=32
+date: '2005-05-09 01:43:12 -0400'
+date_gmt: '2005-05-08 16:43:12 -0400'
+categories:
+- japan
+tags: []
+comments: []
+---
+<p>Haven't updated in a while, which was the fault of lots of traveling combined with losing my free net connect. Yeah, losing the net wasn't cool. Last Friday it just cut out, and for all I know, hasn't come back up again. I finally gave my neighbor the WiFi router I bought, and he hooked it up, so I'm leeching off him now. I actually offered to pay, but he wouldn't have any of it. So, I guess I still have a free net connection, just from a different source.</p>
+<p>For those in the know, my cousin Doug recently visited me here in the good ol' Japan. We hit Tokyo, Nikko, and Kyoto, all in the span of four days. I got a few good pictures, and possibly I can get a few more from Doug. Mebbe I'll upload a few in the near future.</p>
+<p>Crazy fact: I've gone to nightclubs in Tokyo for the past two weeks, and I invariably end up talking/dancing with cute girls who can speak English. I don't know how this happens, but it does. I need to live in Tokyo.</p>
+<p>Hey, a thought just came to me! Writing crap for a blog is just kinda stupid. I'm not feeling real motivated to write in this one, just FYI. So, if long periods of inactivity go by, be not afraid. It's just me being apathetic again.</p>

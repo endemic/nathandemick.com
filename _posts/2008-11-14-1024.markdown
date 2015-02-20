@@ -1,0 +1,21 @@
+---
+layout: post
+status: publish
+published: true
+author:
+  display_name: Nathan
+  login: admin
+  email: ndemick@gmail.com
+  url: ''
+author_login: admin
+author_email: ndemick@gmail.com
+wordpress_id: 1024
+wordpress_url: http://nathandemick.com/2008/11/1024/
+date: '2008-11-14 12:18:07 -0500'
+date_gmt: '2008-11-14 17:18:07 -0500'
+categories:
+- programming
+tags: []
+comments: []
+---
+<p><img src="http://nathandemick.com/wp-content/uploads/2011/12/GozJ8yit3gan1nxjh0aGaXWio1_1280.jpg" alt="" width="540" height="540" class="alignnone size-large wp-image-1023" /></p>

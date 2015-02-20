@@ -1,0 +1,23 @@
+---
+layout: post
+status: publish
+published: true
+title: stupid
+author:
+  display_name: Nathan
+  login: admin
+  email: ndemick@gmail.com
+  url: ''
+author_login: admin
+author_email: ndemick@gmail.com
+wordpress_id: 29
+wordpress_url: http://www.bitter-gamer.com/?p=22
+date: '2005-04-13 10:28:36 -0400'
+date_gmt: '2005-04-13 01:28:36 -0400'
+categories:
+- japan
+tags: []
+comments: []
+---
+<p>My apartment was besieged by Japanese Mormons today; these two old ladies who about crapped their pants when I answered the door. In spite of that, they still valiently tried their best, but most Japanese people don't realize that they should <i>speak slowly</i> to people who obviously aren't good at the language (i.e. all foreigners, at least in the Japanese mind). I eventually butchered my way out of the situation.</p>
+<p>Yeah, it'll be good to get back to the States. I've come to the conclusion that everything I like about Japan can be enjoyed just as much in America, if not more so.</p>

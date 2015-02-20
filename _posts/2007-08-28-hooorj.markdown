@@ -1,0 +1,38 @@
+---
+layout: post
+status: publish
+published: true
+title: Hooorj!
+author:
+  display_name: Nathan
+  login: admin
+  email: ndemick@gmail.com
+  url: ''
+author_login: admin
+author_email: ndemick@gmail.com
+wordpress_id: 60
+wordpress_url: http://www.bitter-gamer.com/?p=65
+date: '2007-08-28 23:26:55 -0400'
+date_gmt: '2007-08-29 03:26:55 -0400'
+categories:
+- random
+- running
+tags: []
+comments:
+- id: 72
+  author: andy
+  author_email: andy@teamsoell.com
+  author_url: http://andy.teamsoell.com
+  date: '2007-08-28 23:49:40 -0400'
+  date_gmt: '2007-08-29 03:49:40 -0400'
+  content: |-
+    I wish I could have saved you the money you spent on that Murikami book.  Either by telling you it was crap (first of his books I couldn't get through 10% of) or by giving you my copy.
+
+    Let me know what you think of it, though
+---
+<p>Lot of stuff happening. I ran twice yesterday.</p>
+<p><a href="http://www.gmap-pedometer.com/?r=1268128" title="Run #1">Run #1</a><br />
+<a href="http://www.gmap-pedometer.com/?r=1267991" title="Run #2">Run #2</a></p>
+<p>Of course, I was locked out of my house when I got back from the second. Jerks. I was getting so dehydrated and hungry, all I could think about was what I was going to eat when I got back. I ended up buying a box of Golden Grahams, and destroying half of it. I fell asleep in my clothes, woke up at 4:00AM, ate another bowl, and went back to sleep. </p>
+<p>I finally got my new bicycle, too. The frame is a 56 cm <a href="http://www.surlybikes.com/steamroller_comp.html" title="Surly Steamroller">Surly Steamroller</a>, which I am really liking so far. I didn't ride it to work today due to overexertion yesterday, but it handles nice. It has a front brake this time...</p>
+<p>My roommates and I are getting possession of our new house on Friday, but I'm not sure how much stuff I'll be able to move due to the annual Xenos College Ministry Holden Beach Trip Extravaganza. No one else in my homechurch is going, 'cos, like, they're too old, or something. Actually, that's not quite true... the only "real" (i.e. non-married) girl in my group is going, too. I bought two books that I'm saving for next week: Spook Country by William Gibson, and After Dark by Haruki Murakami. Awesome! I think I'm going to bring my Game Boy and get some oldschool handheld action in as well.</p>

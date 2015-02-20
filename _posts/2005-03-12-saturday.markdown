@@ -1,0 +1,38 @@
+---
+layout: post
+status: publish
+published: true
+title: Saturday
+author:
+  display_name: Nathan
+  login: admin
+  email: ndemick@gmail.com
+  url: ''
+author_login: admin
+author_email: ndemick@gmail.com
+wordpress_id: 15
+wordpress_url: http://www.bitter-gamer.com/?p=8
+date: '2005-03-12 14:58:23 -0500'
+date_gmt: '2005-03-12 05:58:23 -0500'
+categories:
+- japan
+tags: []
+comments:
+- id: 22
+  author: ad@m
+  author_email: djinfx@gmail.com
+  author_url: http://www.unfulfilling.com/infx/
+  date: '2005-03-13 10:59:14 -0500'
+  date_gmt: '2005-03-13 01:59:14 -0500'
+  content: |-
+    man i need me some ridiculous amounts of money.
+    boy howdy.
+---
+<p>Usually once a month I make a sojourn down to one of Utsunomiya's hospitals to "teach" a doctor there. Basically we blab for a while, then he reads me a newspaper article or composition he wrote. I then help him correct his paper or understand some difficult bits of the article. In return, I get paid a ridiculous amount of money.</p>
+<p>So, I'm off to spend some of that money on videogames.</p>
+<p><a href="http://www.bitter-gamer.com/images/more_japan/river.jpg">The river I ride along to get to the hospital</a><br />
+<a href="http://www.bitter-gamer.com/images/more_japan/river_sign.jpg">A sign along the river</a> (I'm sure you can guess the meaning without reading the Japanese)<br />
+<a href="http://www.bitter-gamer.com/images/more_japan/dilapadated_house.jpg">A house I passed on the way</a><br />
+<a href="http://www.bitter-gamer.com/images/more_japan/ces.jpg">A view of Chambers' English School</a></p>
+<p>(Quick note: Sorry, these images are still pretty large. The photo program I use [iPhoto] doesn't compress images very well. Even at 500x375, they are still over 100k in size. I need to get a better program.)</p>
+<p>EDIT: I grabbed Metal Gear Solid 3 and Final Fantasy X International. MGS3 will be my test. If I can enjoy the game even though it's entirely in Japanese, then I'll buy the Japanese version of Final Fantasy 12. Right now I'm translating bits of the manual; learning lots of interesting words, but it gets kinda tedious after a while. FFX International is just one of those games it's cool to have. Same old story, but lots of added junk, plus the dialogue is all in English. It even warns you of that fact on the back of the box.</p>

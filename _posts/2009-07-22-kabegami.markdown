@@ -1,0 +1,22 @@
+---
+layout: post
+status: publish
+published: true
+title: kabegami
+author:
+  display_name: Nathan
+  login: admin
+  email: ndemick@gmail.com
+  url: ''
+author_login: admin
+author_email: ndemick@gmail.com
+wordpress_id: 772
+wordpress_url: http://nathandemick.com/2009/07/kabegami/
+date: '2009-07-22 10:12:55 -0400'
+date_gmt: '2009-07-22 14:12:55 -0400'
+categories:
+- programming
+tags: []
+comments: []
+---
+<p>壁紙 【かべがみ】 (n) (1) wallpaper; (2) (comp) wallpaper; background image; desktop image; (P); EP</p>

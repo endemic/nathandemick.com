@@ -1,0 +1,39 @@
+---
+layout: post
+status: publish
+published: true
+title: $@!#&#038; eBay!
+author:
+  display_name: Nathan
+  login: admin
+  email: ndemick@gmail.com
+  url: ''
+author_login: admin
+author_email: ndemick@gmail.com
+wordpress_id: 50
+wordpress_url: http://www.bitter-gamer.com/?p=47
+date: '2007-07-19 16:51:46 -0400'
+date_gmt: '2007-07-19 20:51:46 -0400'
+categories:
+- random
+tags: []
+comments:
+- id: 71
+  author: andy
+  author_email: andy@teamsoell.com
+  author_url: http://andy.teamsoell.com
+  date: '2007-07-19 18:41:20 -0400'
+  date_gmt: '2007-07-19 22:41:20 -0400'
+  content: |-
+    Craigslist it.  That's the only way to go if you're selling a bit item online these days.
+    You've gotta watch out against scams there, too.  Here's the email I received from a "buyer" on Craigslist looking to buy my Mac Mini:
+
+    "Thanks alot for the email. I'm highly intrested in your item but i won't be able to come take a look at it as i'm the busy type but believe it's exactly what you stated in the Ad.   Mind you, i will be paying you with a cashiers check and my shipping agency will be coming for the pick up of the item from your location as soon as you confirm to me that you receive the check and it clears your bank.
+
+    "If this arrangement is okay by you, Pls. provide your full name, contact address and a valid cell # so i can forward it to my financier to mail the payment to you as soon as possible.
+
+    "I hope to read from you soonest."
+
+    He hopes to read from me soonest, Nathan.
+---
+<p>Well, I had my first and last experience trying to sell a high-ticket item on eBay... it's absolutely unusable. I tried to sell my laptop. In the first auction, I put in a "buy it now" price, which was immediately sniped by a bot. Great. My listing fees are refunded, and I list the laptop <em>again</em>, without the "buy it now." Five days later, after enduring about a million spam "questions" from Chinese companies, the auction is ended by a fraudulent account. Man, eBay is just not worth it these days. Perhaps low valued items are still OK... I sold a DS game with no problems, and buy games pretty regularly... but the laptop is gonna have to get offed some other way. G'uh!</p>

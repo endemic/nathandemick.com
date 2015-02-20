@@ -1,0 +1,36 @@
+---
+layout: post
+status: publish
+published: true
+title: Salty!
+author:
+  display_name: Nathan
+  login: admin
+  email: ndemick@gmail.com
+  url: ''
+author_login: admin
+author_email: ndemick@gmail.com
+wordpress_id: 67
+wordpress_url: http://www.bitter-gamer.com/?p=75
+date: '2007-09-27 10:09:53 -0400'
+date_gmt: '2007-09-27 14:09:53 -0400'
+categories:
+- web development
+tags: []
+comments: []
+---
+<p>So, I am in no way a cryptographer... I read Neal Stephenson's <em>The Cryptonomicon</em>, but that's about it. Plus, I don't really have to do much with password security in web apps... usually  securing a directory with .htaccess is as much as I have to do. Sometimes I need to write my own session-based password system, due to some hosts not running Apache. Anyway, for these simple systems, the password is usually stored in plaintext... the system is in place really only to deter, not to prevent attacks. I may change my mind on this if I get screwed by it in the future, but for the present, it's good enough. However, when creating a system that allows users to make their own accounts, more care needs to be taken. Since people often use the same password in many different areas, obtaining a password in one place can lead to identity theft. So I whipped up this cute little salt generator. Remember, if you are using a salt, you should probably store it so you can validate passwords later. There may be better encryption methods in PHP, but I'm really just scratching the surface right now.</p>
+<pre>
+// Encrypt the password with Blowfish and a salt - 16 chars starting with $2$
+$salt='$2$';
+$salt_length=16;
+
+// Chars to choose from to generate the salt
+$chars="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*";
+
+//Generate the salt string
+while(strlen($salt)< $salt_length)
+	$salt.=$chars{mt_rand(0,strlen($chars)-1)};
+
+$hashed_password=crypt($password, $salt);
+</pre>
