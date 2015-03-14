@@ -1,0 +1,66 @@
+---
+status: publish
+published: true
+title: 16-miler
+author:
+  display_name: Nathan
+  email: ndemick@gmail.com
+author_login: admin
+author_email: ndemick@gmail.com
+wordpress_id: 51
+wordpress_url: http://www.bitter-gamer.com/?p=49
+date: '2007-07-23 14:13:40 -0400'
+date_gmt: '2007-07-23 18:13:40 -0400'
+categories:
+- running
+tags: []
+comments: []
+---
+{% include header.html %}
+
+<div id="posts">
+
+  <!-- This loops through the paginated posts -->
+  {% for post in paginator.posts %}
+  <div class="post">
+    <div class="post-date">
+      {{ post.date }}
+      <p>{{ post.month }}<strong>{{ post.day }}</strong>{{ post.year }}</p>
+    </div>
+    
+    <h2>
+      <a href="{{ post.url }}" rel="bookmark">
+        {{ post.title }}
+      </a>
+    </h2>
+
+    {{ post.content }}
+  
+    <p class="meta">
+      <img src="{{ site.url }}/assets/images/comments.png" alt=""> <?php comments_popup_link(__('No comments'), __('1 comment'), __('% comments')); ?> &middot;
+      <img src="{{ site.url }}/assets/images/written.png" alt=""> Written by <?php the_author() ?> at <?php the_time() ?> &middot;
+      <img src="{{ site.url }}/assets/images/tags.png" alt="Tags"> <?php the_tags('', ', '); ?>
+    </p>
+  </div>  <!-- /post -->
+
+  <hr>
+
+  {% endfor %}
+  <!-- Pagination links -->
+    <div class="pagination">
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+      {% else %}
+        <span class="previous">Previous</span>
+      {% endif %}
+      <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+      {% else %}
+        <span class="next ">Next</span>
+      {% endif %}
+    </div>
+
+</div>  <!-- /posts -->
+
+{% include footer.html %}

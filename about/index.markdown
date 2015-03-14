@@ -26,4 +26,7 @@ comments:
   date_gmt: '2008-08-28 19:43:53 -0400'
   content: So far, so good!
 ---
-<p>My name is Nathan Demick. Traditionally, this blog has been used to host my video game reviews (at bitter-gamer.com). However, these days I've been spending more time doing game development than game playing. So, in that light, I'll basically post whatever I want here, with no logic behind it.</p>
+My name is Nathan Demick. Traditionally, this blog has been used to host my 
+video game reviews (at bitter-gamer.com). However, these days I've been spending 
+more time doing game development than game playing. So, in that light, I'll 
+basically post whatever I want here, with no logic behind it.

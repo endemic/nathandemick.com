@@ -1,0 +1,91 @@
+/*
+Theme Name: Nathan's Theme
+Theme URI: http://www.nathandemick.com/
+Description: Combo theme for nathandemick.com and bitter-gamer.com
+Version: 1.0
+Author: Nathan Demick
+Tags: fixed width, two columns, widgets
+
+Dark blue: #121621
+Lighter blue: #3C496E
+Red: #960F21
+*/
+
+html, body, div, h1, h2, h3, h4, h5, h6, ul, ol, li, p, pre, form, fieldset, table, th, td, blockquote { margin: 0px; padding: 0px; }
+body { font: 12px/16px Helvetica, Arial, sans-serif; text-align: center; background: #121621; color: #222; }
+a { color: #3c496e; }
+a img { border: 0px; }
+ul { list-style-type: circle; }
+
+#container { width: 980px; padding: 10px; background: #fff; margin: 10px auto; text-align: left; }
+
+#header { background: url('/assets/images/header.png'); width: 980px; height: 100px; margin-bottom: 10px; }
+#header h1 { position: absolute; left: -9999px; }
+#header form label { position: absolute; left: -9999px; }
+#header form input { border: none; border-color: transparent; outline: none; background: url('/assets/images/search-input-background.png'); padding: 0px 0px 0px 20px; width: 134px; height: 22px; float: left; position: relative; left: 495px; top: 70px; color: #666; }
+
+/* For posts */
+#posts { width: 740px; float: left; }
+#posts hr { border: 0px; border-top: 1px dashed #ccc; margin: 10px 10px 10px auto; }
+
+#posts .post { padding: 0px 10px 0px 0px; }
+#posts .post .post-date { width: 50px; height: 50px; color: #fff; background: #960F21; float: left; text-align: center; margin-right: 10px; }
+#posts .post .post-date p { margin: 0px; }
+#posts .post .post-date strong { display: block; font-size: 22px; margin: -10px 0 -12px 0; }
+#posts .post h2 { font-size: 30px; display: block; margin-left: 10px; }
+#posts .post h2 a { color: #222; text-decoration: none; display: block; height: 32px; padding: 18px 0px 0px 0px; }
+#posts .post h2.long { font-size: 24px; line-height: 24px; }
+#posts .post h2.long a { height: 50px; padding: 0px; }
+#posts .post h2 a:hover { color: #fff; background: #960f21; }
+#posts .post h3 { margin: 10px 0px; font-size: 20px; }
+#posts .post p { margin: 10px 0px; font-size: 14px; line-height: 1.5; }
+#posts .post blockquote { border-left: 5px solid #960f21; padding-left: 5px; margin: 10px 0px; font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif; }
+#posts .post .meta img { vertical-align: middle; }
+#posts .post img.alignleft { float: left; margin-right: 10px; border: 3px solid #ccc; }
+#posts .post img.alignright { float: right; margin-left: 10px; border: 3px solid #ccc; }
+#posts .post img.aligncenter { margin: 10px; border: 3px solid #ccc; }
+
+/* For pages */
+#posts .page { padding: 0px 10px 0px 0px; }
+#posts .page .post-date { width: 50px; height: 50px; color: #fff; background: #960F21; float: left; text-align: center; margin-right: 10px; }
+#posts .page .post-date p { margin: 0px; }
+#posts .page .post-date strong { display: block; font-size: 34px; }
+#posts .page h2 { font-size: 30px; display: block; margin-left: 10px; }
+#posts .page h2 a { color: #222; text-decoration: none; display: block; height: 30px; padding: 20px 0px 0px 0px; }
+#posts .page h2 a:hover { color: #fff; background: #960f21; }
+
+/* Comments */
+h2#comments { margin: 10px auto; }
+ol#commentlist { list-style-type: none; margin-bottom: 10px; }
+ol#commentlist li { overflow: auto; width: 720px; padding: 5px; margin-top: 5px; }
+ol#commentlist li.even { background: #eee; }
+ol#commentlist li img { float: left; margin: 0px 5px 0px 0px; border: 3px solid #ccc; }
+
+h2#postcomment { margin: 10px auto; }
+
+/* Sidebar */
+#sidebar { width: 240px; float: right; overflow: visible; }
+#sidebar .widget h3 { background: url('/assets/images/sidebar-headline-background.png') top right; color: #fff; width: 255px; height: 40px; padding: 10px 0px 0px 10px; margin: 0px 0px -10px 0px; }
+#sidebar .widget h3 a { color: #fff; }
+#sidebar .widget h3 a:hover { text-decoration: none; }
+#sidebar .widget ul { padding: 0px 0px 5px 20px; }
+#sidebar .widget p { padding: 0px 5px 5px 5px; }
+
+/* Tumblr widget */
+#sidebar .Tumblr ul { padding: 0px; list-style-type: none; }
+#sidebar .Tumblr ul li { text-align: center; background: #eee; overflow: auto; margin: 5px 0px; padding: 5px; }
+#sidebar .Tumblr ul li p { text-align: left; padding: 0px; }
+#sidebar .Tumblr ul li img { border: 3px solid #ccc; float: right; margin: 0px 0px 0px 5px; }
+
+/* Twitter widget */
+#sidebar .widget_twitter ul { padding: 0px; list-style-type: none; }
+#sidebar .widget_twitter ul li { background: #eee; overflow: auto; margin: 5px 0px; padding: 5px; }
+#sidebar .widget_twitter .entry-meta { font-size: 10px; display: block; }
+#sidebar .widget_twitter ul li p { text-align: left; padding: 0px; margin: 0px; }
+
+/* Footer */
+#footer { clear: both; overflow: auto; color: #333; }
+#footer .widget { width: 300px; min-height: 125px; padding: 10px; float: left; margin-left: 10px; background: #dedede; }
+#footer .widget:first-child { margin-left: 0px; }
+#footer .widget ul { padding: 5px 0px 0px 20px; }
+#footer .widget p { margin: 5px 0px; }

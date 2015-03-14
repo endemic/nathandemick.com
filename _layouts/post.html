@@ -1,0 +1,22 @@
+{% include header.html %}
+<div class="post">
+	<div class="post-date">
+		<p>{{ month }}<strong>{{ day }}</strong>{{ year }}</p>
+	</div>
+	
+	<h2>
+		<a href="<?php the_permalink() ?>" rel="bookmark">
+			<?php echo $post_title ?>
+		</a>
+	</h2>
+
+	{{ content }}
+
+	<p class="meta">
+		<img src="{{ site.url }}/assets/images/comments.png" alt=""> <?php comments_popup_link(__('No comments'), __('1 comment'), __('% comments')); ?> &middot;
+		<img src="{{ site.url }}/assets/images/written.png" alt=""> Written by <?php the_author() ?> at <?php the_time() ?> &middot;
+		<img src="{{ site.url }}/assets/images/tags.png" alt="Tags"> <?php the_tags('', ', '); ?>
+	</p>
+</div>	<!-- /post -->
+
+{% include footer.html %}
