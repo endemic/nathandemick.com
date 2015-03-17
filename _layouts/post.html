@@ -9,17 +9,36 @@
 		    {{ page.date | date: '%Y' }}
 		  </p>
 		</div>
-		
+
 		{{ page | custom_header }}
 
 		{{ content }}
 
 		<p class="meta">
-		  <img src="{{ site.url }}/assets/images/comments.png" alt="Comments"> {{ page.comments.size }} &middot;
+      <img src="{{ site.url }}/assets/images/comments.png" alt="Comments"> <a href="{{ page.url }}#disqus_thread"></a> &middot;
 		  <img src="{{ site.url }}/assets/images/written.png" alt="Posted by"> Posted by {{ page.author.display_name }} at {{ page.date | date: '%H:%m' }} &middot;
 		  <img src="{{ site.url }}/assets/images/tags.png" alt="Tags"> {% for tag in page.tags %} {{ tag }} {% endfor %}
 		</p>
 	</div>	<!-- /post -->
+
+  <hr>
+
+  <div id="comments">
+    <h3>Comments</h3>
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES * * */
+        var disqus_shortname = 'nathandemick';
+        
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+  </div>
 </div>
 
 {% include footer.html %}

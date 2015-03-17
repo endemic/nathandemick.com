@@ -4,7 +4,6 @@ Theme URI: http://www.nathandemick.com/
 Description: Combo theme for nathandemick.com and bitter-gamer.com
 Version: 1.0
 Author: Nathan Demick
-Tags: fixed width, two columns, widgets
 
 Dark blue: #121621
 Lighter blue: #3C496E
@@ -55,13 +54,8 @@ ul { list-style-type: circle; }
 #posts .page h2 a:hover { color: #fff; background: #960f21; }
 
 /* Comments */
-h2#comments { margin: 10px auto; }
-ol#commentlist { list-style-type: none; margin-bottom: 10px; }
-ol#commentlist li { overflow: auto; width: 720px; padding: 5px; margin-top: 5px; }
-ol#commentlist li.even { background: #eee; }
-ol#commentlist li img { float: left; margin: 0px 5px 0px 0px; border: 3px solid #ccc; }
-
-h2#postcomment { margin: 10px auto; }
+#comments { width: 98%; }
+#comments h3 { background: #960F21; color: #fff; padding: 10px 15px; }
 
 /* Sidebar */
 #sidebar { width: 240px; float: right; overflow: visible; }
@@ -70,18 +64,6 @@ h2#postcomment { margin: 10px auto; }
 #sidebar .widget h3 a:hover { text-decoration: none; }
 #sidebar .widget ul { padding: 0px 0px 5px 20px; }
 #sidebar .widget p { padding: 0px 5px 5px 5px; }
-
-/* Tumblr widget */
-#sidebar .Tumblr ul { padding: 0px; list-style-type: none; }
-#sidebar .Tumblr ul li { text-align: center; background: #eee; overflow: auto; margin: 5px 0px; padding: 5px; }
-#sidebar .Tumblr ul li p { text-align: left; padding: 0px; }
-#sidebar .Tumblr ul li img { border: 3px solid #ccc; float: right; margin: 0px 0px 0px 5px; }
-
-/* Twitter widget */
-#sidebar .widget_twitter ul { padding: 0px; list-style-type: none; }
-#sidebar .widget_twitter ul li { background: #eee; overflow: auto; margin: 5px 0px; padding: 5px; }
-#sidebar .widget_twitter .entry-meta { font-size: 10px; display: block; }
-#sidebar .widget_twitter ul li p { text-align: left; padding: 0px; margin: 0px; }
 
 /* Footer */
 #footer { clear: both; overflow: auto; color: #333; }
