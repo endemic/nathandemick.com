@@ -43,8 +43,18 @@ comments:
     or movie and film.  both are refering to a "cow" but are two different terms for
     the same thing.
 ---
-<p>I'm sure you're all familiar with the traditional Japanese pastime of offing yourself. The history of suicide in Japan is long and glorious, but before these new-fangled trains to throw yourself in front of came along, people used to cut their guts out with knives. Pleasant, I'm sure. In any case, I knew of two words for this procedure: hara-kiri and seppuku. Why two different words? Which one is correct? MY BRAIN IS GOING TO EXPLODE!</p>
-<p>After some cursory research (read: none), I discovered this tidbit.</p>
-<p>åˆ‡è…¹ => seppuku<br />
-è…¹åˆ‡ã‚Š => hara-kiri</p>
-<p>The kanji are the exact same, but the order/pronunciation is different. Both literally mean "cutting your stomach." That doesn't help me figure out which is more correct, but it's a pretty morbid way to start your day.</p>
+I'm sure you're all familiar with the traditional Japanese pastime of offing 
+yourself. The history of suicide in Japan is long and glorious, but before these 
+new-fangled trains to throw yourself in front of came along, people used to cut 
+their guts out with knives. Pleasant, I'm sure. In any case, I knew of two words 
+for this procedure: harakiri and seppuku. Why two different words? Which one is 
+correct? MY BRAIN IS GOING TO EXPLODE!
+
+After some cursory research (read: none), I discovered this tidbit.
+
+* 切腹 => seppuku
+* 腹切 => harakiri
+
+The kanji are the exact same, but the order/pronunciation is different. 
+Both literally mean "cutting your stomach." That doesn't help me figure out 
+which is more correct, but it's a pretty morbid way to start your day.

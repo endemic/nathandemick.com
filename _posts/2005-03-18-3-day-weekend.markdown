@@ -40,5 +40,18 @@ comments:
   date_gmt: '2005-03-19 15:45:28 -0500'
   content: ':D'
 ---
-<p>I managed to suffer through my classes today, and my reward is an extra day off. The current plan is to play a ridiculous amount of FFX and Metal Gear 3. Perhaps I'll throw in some manga reading as well. I probably told you guys about <a href="http://en.wikipedia.org/wiki/One_piece">One Piece</a>, and how brilliant it is. The chapter I just finished reading was way cool. However, I'm only on the 5th book right now, and I think there are like 36 currently published. I gotta kick it into gear if I want to finish before I leave Japan.</p>
-<p>I made a resolution today, after I was accosted by some people who wanted me to get a massage or something. Normally, I just ignore people who are advertising seemingly shady things or handing out pamphlets. However, I realized that I'm missing a good chance to really annoy people with my poor Japanese. In the future, if any Japanese person feels bold enough to address me in hopes of getting me to spend money somewhere, I'll make them wish they were never born. Or at least make them wish they never tried talking to me.</p>
+I managed to suffer through my classes today, and my reward is an extra day off. 
+The current plan is to play a ridiculous amount of FFX and Metal Gear 3. Perhaps 
+I'll throw in some manga reading as well. I probably told you guys about 
+[One Piece](http://en.wikipedia.org/wiki/One_piece), and how brilliant 
+it is. The chapter I just finished reading was way cool. However, I'm only on 
+the 5th book right now, and I think there are like 36 currently published. 
+I gotta kick it into gear if I want to finish before I leave Japan.
+
+I made a resolution today, after I was accosted by some people who wanted me to 
+get a massage or something. Normally, I just ignore people who are advertising 
+seemingly shady things or handing out pamphlets. However, I realized that I'm 
+missing a good chance to really annoy people with my poor Japanese. In the 
+future, if any Japanese person feels bold enough to address me in hopes of 
+getting me to spend money somewhere, I'll make them wish they were never born. 
+Or at least make them wish they never tried talking to me.

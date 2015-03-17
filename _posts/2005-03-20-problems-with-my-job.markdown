@@ -19,10 +19,10 @@ categories:
 tags: []
 comments: []
 ---
-<p>1. No quality control<br />
-2. No positive feedback<br />
-3. Long working hours<br />
-4. Inability to effectively study Japanese<br />
-5. Mostly apathetic students<br />
-6. Useless bastards who come to Japan<br />
-7. Ineffective teaching methods</p>
+1. No quality control
+2. No positive feedback
+3. Long working hours
+4. Inability to effectively study Japanese
+5. Mostly apathetic students
+6. Useless bastards who come to Japan
+7. Ineffective teaching methods
