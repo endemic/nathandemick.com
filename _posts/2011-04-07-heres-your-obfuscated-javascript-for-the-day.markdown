@@ -19,7 +19,6 @@ categories:
 tags: []
 comments: []
 ---
-<p>function startsWithVowel(word)<br />
-{<br />
-    return [&#8216;a&#8217;, &#8216;e&#8217;, &#8216;i&#8217;, &#8216;o&#8217;, &#8216;u&#8217;].indexOf(word[0])&#160;!= -1;<br />
-}</p>
+	function startsWithVowel(word) {
+      return ['a', 'e', 'i', 'o', 'u'].indexOf(word[0]) != -1;
+	}

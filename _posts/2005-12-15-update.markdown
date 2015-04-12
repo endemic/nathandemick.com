@@ -1,0 +1,23 @@
+---
+layout: post
+status: publish
+published: true
+title: Update
+author:
+  display_name: Nathan
+  email: ndemick@gmail.com
+date: 2005-12-15 11:24:21.000000000 -05:00
+comments:
+- author: adam
+  content: that picture scares the crap out of me
+- author: chalupa
+  content: that looks like some of the mcdonalds art from <i>Super Size Me</i>
+- author: Brendan
+  content: Shibuya at midnight has darker portents than man was ever meant to gaze
+    upon.  Fear the future, my friends!
+---
+I bought a Nintendo DS last night; the new red one bundled with Mario Kart DS. In the limited time I've played it, I think I've already become addicted. The last game I really wanted to play this badly was, I think, the Warcraft III beta. I'll write some stuff about it later, and to tide you over, I give you my current work background: <a href="/images/random/ronald.jpg">ronald.jpg</a>. This was given me by <a href="http://www.nativespeakerguy.com">Brendan</a>; apparently he took a  photo of this crazy display at a Japanese McDonalds.
+<p>EDIT (chat log):<br>
+<font color="red">edba11:</font> I got icq messages from another crazy russian bitch<br>
+<font color="blue">butr0s:</font> haha<br>
+<font color="red">edba11:</font> I must be in the crazy russian bitch icq directory 

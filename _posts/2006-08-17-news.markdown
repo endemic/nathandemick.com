@@ -1,0 +1,61 @@
+---
+layout: post
+status: publish
+published: true
+title: News
+author:
+  display_name: Nathan
+  email: ndemick@gmail.com
+date: 2006-08-17 00:00:00.000000000 -04:00
+comments:
+- author: Nathan
+  content: I'll pretty this up eventually; the captcha seems to be working.
+- author: Nathan
+  content: HOOORJ, gotta re-write the comments code to foil spambots!
+---
+Ho ho ho, I finally update. This is for the people who, 
+for some strange reason, still come to this page, in hopes of finding 
+something new to read. Here's the deal: I quit/was fired from my job, 
+about 2.5 weeks prior to when I had planned to leave, so I have a 
+<b>lot</b> of free time on my hands. This time will be spent:
+<ul style="list-style: hiragana">
+<li>Making this site work again, and writing about some freakin' 
+GAMES!</li>
+<li>Designing/developing <a 
+href="http://www.nathandemick.com">nathandemick.com</a>. I figure that the 
+blog should go there, since it's more a personal thingsol.</li>
+<li>Redesigning <a 
+href="http://www.hartfloors.com">hartfloors.com</a></li>
+<li>Buying a new computer. I think I'll start with a <a 
+href="http://www.shuttle.com">Shuttle XPC</a>. I can't justify the 
+expense of a Macintosh right now.</li>
+<li>Working on various other things, such as a project for my friend Phil, 
+a <a href="http://en.wikipedia.org/wiki/Captcha">captcha</a> generator, 
+and a financing program for my house.</li>
+</ul>
+
+Man, it feels good to be done with that job. The thing is, a job should 
+have at least one of these four things:
+<ol>
+<li>Satisfaction from the work (i.e. the work is fun or challenging)</li>
+<li>Satisfaction from co-workers (i.e. the people you work with are 
+cool)</li>
+<li>Satisfaction from monetary compensation (i.e. you get PAID)</li>
+<li>Enables a particular lifestyle (i.e. flexible hours, lets you do 
+something a normal job wouldn't allow)</li>
+</ol>
+
+Now, my job at Grip had none of these things, which means that there was 
+no point to me being there. I put in my notice last Friday after waiting 
+about a month; today my former employer sensed that I was not motivated at 
+all to finish the utter crap that he'd saddled me with, and told me to go 
+home. Let's be honest, I could have asked to finish out the next two 
+weeks, but I just didn't care enough.
+<br /><br />
+So, what next? Well, I'm not unemployed right now, I'm "freelancing." I 
+also have an interview at OSU next week, which I'm going to just for the 
+heck of it... I'm not sure if I want another office job at the moment.
+<br /><br />
+Anyway, check back daily... there'll be tons of new web content from yours 
+truly. I'm actually pretty excited; this could have been the kick in the 
+pants that I needed.  

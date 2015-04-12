@@ -1,0 +1,37 @@
+---
+layout: post
+status: publish
+published: true
+title: 'Review: Metal Gear Solid 3: Snake Eater (part 1 of 2)'
+author:
+  display_name: Nathan
+  email: ndemick@gmail.com
+date: 2005-09-02 13:22:12.000000000 -04:00
+comments:
+- author: adam
+  content: "If you haven't done it yet, equip the box and call Sigint.<br>\r\nYou
+    should get a funny little conversation."
+- author: adam
+  content: Also call Sigint when you're wearing the "naked" cammo.
+- author: adam
+  content: "wait, you don't have the game anymore.<br>\r\nyou lose."
+---
+When Metal Gear Solid 2 was released, my excitement was palpable. I went to Electronics Boutique and bought the game, along with a memory card. Then I retreated to my basement room, set up my stereo and TV, dimmed the lights, and went on a magical voyage with Solid Snake. Get your mind out of the gutter, you filthy pervert. Did I mention that I didn't even have my own Playstation 2 at the time? By the way, I didn't even have my own Playstation 2 at the time. A friend left his over at my house, and then, like an annoying person, said he wanted it back right when I started playing the game. Of course, I killed him, and there was no more argument about the subject. 
+<p>
+Metal Gear Solid 3 was more of a careless purchase. The game was released in November of 2004, which was an unfortunate time due to the fact that I was living in Japan, and didn't have a Japanese PS2. I eventually got one of the slim-design PS2s, and when I had a few thousand yen to blow on video games one month, I bought MGS3. I thought that I might have had a chance to understand a bit of the dialogue, or at least stumble through the game. Wrong on both counts. I learned a few, shall we say, "infiltration-related" words, but aside from that all of the dialogue was in incomprehensible Moon Language (or Japanese, if you will). As I quickly realized, about 60% of the game (a purely speculative number) is dialogue and cut-scenes, which made my Japanese copy of the game almost totally worthless.
+<p>
+Fast forward about six months. After returning from Japan, one of the things I knew I wanted to do was to play Metal Gear Solid 3, so after returning from a family trip, I rented a copy from the local video store. Frustratingly enough, I didn't have time to finish the game before I left on yet another trip, but I think I played it enough to get a decent impression. 
+<p>
+The time is 1963. A Russian weapons scientist named Solokov, who is working on a top secret project, wants to defect, and a man code-named Snake is sent in to extract him. As Snake and Solokov are about to escape, they are waylaid by Snake's old mentor, The Boss, who beats Snake to a pulp, knocks him off a bridge, and re-apprehends the scientist. It turns out that The Boss has defected to the U.S.S.R. herself, and has become allies with an evil Russian general who wants to seize power from Nikita Khrushchev. Snake is suspected of having a hand in all this, so in order to clear his name, he must go after Solokov (who, of course, was working on a tank with nuclear missile-launching capabilities), and take down The Boss. 
+<p>
+Veterans of the Metal Gear series will have no trouble picking up the gameplay mechanics of MGS3. However, there are a few differences. In a throwback to the original Metal Gear, many of the levels are in an organic jungle environment, as opposed to the harsh, angular interiors of MGS and MGS2. Basically, this means that Snake can no longer hide around corners, and must sometimes sneak around in full view of enemy soldiers. To help the player with this aspect of the game, a new camouflage system has been introduced. Throughout the game, Snake will collect different suits of camo, which will help him blend in with his surroundings. Depending on his position and camouflage, Snake can be almost completely invisible. For example, at one point in the game I was in an area with basically no cover, sniping at enemy soldiers. Although they knew they were being sniped at, they ran around aimlessly, because Snake was hidden so well due to camouflage.
+<p>
+Another new feature of the game is something called CQC, or Close Quarters Combat. Using certain weapons (or while unarmed), Snake can grab an enemy and perform a variety of combat techniques. With CQC, Snake can instantly KO an enemy, kill him outright, use him as a human shield while shooting other soldiers, or threaten him for information. CQC actually makes hand-to-hand combat a viable option for neutralizing multiple enemies, as well. In previous games, the player had to knock down an enemy, wait for him to get up, then knock him down again to KO him. While this was going on, Snake would be getting punched full of holes by the soldier's comrades. In MGS3, Snake can grab one guy, throw him to the ground, and then move on to the next threat.
+<p>
+The third new element in MGS3 is stamina-based health, along with a new injury system. Below his life bar, Snake has a stamina meter. Stamina-draining activities (such as running and swimming) will lower this meter, which is replenished by eating food. Food, in this case, is anything Snake can lay his hands on, including various wild animals encountered in the jungle. When the stamina bar is full, Snake's health will quickly recover. However, when it is low, Snake recovers more slowly, and will eventually lose consciousness if the bar is emptied. Therefore, eating regularly is a critical part of the game. In addition to this, many times in the course of the game Snake will be injured beyond the scope of the simple "life bar." In these cases, the player must access a special 'Cure' sub-screen, which allows for various wounds to be treated. Of course, the most common types of wounds are cuts and bullet injuries, but others (such as leeches sucking your stamina away, or broken bones) are also encountered. If these wounds aren't treated, Snake will constantly lose stamina, or else will be unable to fully regain his health. 
+<p>
+The real question, of course, is, "Do these enhancements add to the quality of the proven Metal Gear Solid gameplay?" The answer is, as lame as it may be, yes and no. Changing camouflage, eating, and healing Snake all require pausing the game, and accessing sub-menus, which is both time consuming and also breaks up gameplay. Many times during intense boss fights, the player must pause and cure Snake of some annoying injury; failure to do so results in a fairly hefty penalty. Also, since the terrain changes many times during the course of the game, get used to constantly changing Snake's camouflage. On the plus side, CQC is a great addition, and makes the gameplay a bit more interesting when fighting enemies in enclosed areas. One other thing I liked about MGS3 is the fact that it's completely possible to kill all the guards in one area, which was impossible in MGS2, if I recall. Instead of infinite backup units pouring in, the enemy commander will say something to the effect of, "Sorry, no backup for you!" while Snake offs the existing baddies one by one.
+<p>
+My overall impression of MGS3 was a positive one. It's not perfect; however, the plot is engaging, the voice acting is decent, and the gameplay is much the same (with a few tweaks and gimmicks). As far as sequels go, MGS3 is probably par for the course: not mind-bogglingly good, but decent enough to play through and expound the Metal Gear universe. 
+<p>
+Status: Unfinished, due to the game bein' a durn rental

@@ -1,0 +1,16 @@
+---
+layout: post
+status: publish
+published: true
+title: Pum'kins
+author:
+  display_name: Nathan
+  email: ndemick@gmail.com
+date: 2005-10-25 18:24:09.000000000 -04:00
+comments:
+- author: soulman
+  content: "Man, we're amateurs compared to her:\r\n<br><br>\r\n<a href=\"http://www.flickr.com/photos/lyndas_pics/\">lyndas_pics</a>"
+---
+<a href="http://www.flickr.com/photos/andrewmsoell/sets/1203928/">http://www.flickr.com/photos/andrewmsoell/sets/1203928/</a>
+<p>
+Blah, it's sure hard to work up the effort to code HTML when you do it all day at work.

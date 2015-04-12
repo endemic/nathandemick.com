@@ -1,0 +1,32 @@
+---
+layout: post
+status: publish
+published: true
+title: For why?
+author:
+  display_name: username
+  email: ndemick@gmail.com
+date: 2005-06-29 15:07:44.000000000 -04:00
+comments:
+- author: Nate
+  content: "Yeah, I saw that nonsense, but it wasn't interesting enough to click the
+    links :(\r\n<p>\r\nI guess I don't care enough about cosplay, even if I do like
+    the game. Speaking of which, the sequel comes out in like a week. Totally gonna
+    buy it!"
+- author: adam
+  content: a week everywhere? or just in japan?
+- author: Nate
+  content: 'Well, in Japan for sure, cos I got this cool flyer that sez the date.
+    Dunno about you chumps. Ironic that I use the word "chumps" to describe a state
+    of living which I currently envy. '
+- author: adam
+  content: haHA SUCKA
+- author: adam
+  content: "I checked with the dudes at Gamers and they said that Katamari Damacy
+    2 or whatever is going to come out \"sometime in 2005\" in the states.<br>\r\ndammit.
+    why can't games just all come out at the same frickin' time."
+---
+<center><img src="http://www.usagichan2.com/archive/edit-Katamari-008.JPG" border="1"><br>
+<a href="http://www.livejournal.com/users/lionboogy/219774.html" target="new">Private Photoshoot of Liddo and Sarah's Katamari Fantasy Night</a></center><p>
+I know I probably should have posted this in the linker but...<br>
+it's just too strange.

@@ -1,0 +1,13 @@
+---
+layout: post
+status: publish
+published: true
+title: zomg
+author:
+  display_name: Nathan
+  email: ndemick@gmail.com
+date: 2007-01-03 06:26:06.000000000 -05:00
+comments: []
+---
+<a href="http://www.1up.com/do/newsStory?cId=3156140">Tim and Chris Stamper leave Rare.</a><br /><br />
+Martin Hollis (one of the main guys behind GoldenEye 007) also left a while ago. Nuthin' but bad news, eh?

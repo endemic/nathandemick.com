@@ -1,0 +1,19 @@
+---
+layout: post
+status: publish
+published: true
+title: Chat Log (10/20/05)
+author:
+  display_name: Nathan
+  email: ndemick@gmail.com
+date: 2005-10-20 09:28:56.000000000 -04:00
+comments: []
+---
+<font color=red>evilknish</font>: Yesterday.....<br>
+<font color=red>evilknish</font>: Trent's girlfriend....<br>
+<font color=red>evilknish</font>: Was asking about my job<br>
+<font color=red>evilknish</font>: And she was like....<br>
+<font color=red>evilknish</font>: 'do you get a lot of action?'<br>
+<font color=red>evilknish</font>: And i was like...<br>
+<font color=red>evilknish</font>: "not as much as i'd like"<br>
+<font color=red>evilknish</font>: The end

@@ -1,0 +1,29 @@
+---
+layout: post
+status: publish
+published: true
+title: Chat Log (9/21/05)
+author:
+  display_name: Nathan
+  email: ndemick@gmail.com
+date: 2005-09-21 10:01:06.000000000 -04:00
+comments: []
+---
+<font color=blue>Brendan</font>: Yo!<br>
+<font color=red>Me</font>: was today exciting?<br>
+<font color=red>Me</font>: haha<br>
+<font color=red>Me</font>: what an dumb question<br>
+<font color=red>Me</font>: asinine, in fact<br>
+<font color=blue>Brendan</font>: Oh, you bet!<br>
+<font color=blue>Brendan</font>: Humped the dog for 12 hours and went home and ate rice.<br>
+<font color=red>Me</font>: haha<br>
+<font color=red>Me</font>: 'humped the dog'<br>
+<font color=red>Me</font>: that's a new one for me<br>
+<font color=blue>Brendan</font>: Yeah, I made it up.<br>
+<font color=blue>Brendan</font>: It means 'to work'.<br>
+<font color=red>Me</font>: I like it<br>
+<font color=blue>Brendan</font>: Spread it around the internet.<br>
+<font color=red>Me</font>: perhaps (and I'm not just saying this) I'll use it in the future<br>
+<font color=blue>Brendan</font>: Yeah! It just kind of came out. Kind of inspired, I thought.<br>
+<font color=blue>Brendan</font>: It works in many situations.<br>
+<font color=blue>Brendan</font>: "Gotta go hump the dog...bye." "How long did you hump the dog?" "Humped the dog, going for beer."

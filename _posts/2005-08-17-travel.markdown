@@ -1,0 +1,12 @@
+---
+layout: post
+status: publish
+published: true
+title: travel!
+author:
+  display_name: Nathan
+  email: ndemick@gmail.com
+date: 2005-08-17 19:39:24.000000000 -04:00
+comments: []
+---
+I'm taking away the giant crab to announce that I'm set for cross-country travel in the next few weeks. Tomorrow I'm heading with my dad to the Grand Canyon, where we will meet up with other extended family members and hike around for a while. After I get back from that, I'm heading up to Funlumbus, Ohio, to (ostensibly) look for gainful employment as well as housing. Maybe I'll post pictures.

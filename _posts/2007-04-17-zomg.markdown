@@ -1,0 +1,12 @@
+---
+layout: post
+status: publish
+published: true
+title: zomg
+author:
+  display_name: Nathan
+  email: ndemick@gmail.com
+date: 2007-04-17 08:33:23.000000000 -04:00
+comments: []
+---
+<img src="img/trip.png" />

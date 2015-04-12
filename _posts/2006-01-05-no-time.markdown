@@ -1,0 +1,25 @@
+---
+layout: post
+status: publish
+published: true
+title: No time
+author:
+  display_name: Nathan
+  email: ndemick@gmail.com
+date: 2006-01-05 21:27:33.000000000 -05:00
+comments:
+- author: adam
+  content: dude what did you think of that sufjan stevens album?
+- author: Nate
+  content: It wasn't too bad. I only listened to it once, and I was working at the
+    same time, so I don't remember much. However, it didn't seem dischordant, which
+    says a lot nowadays. Like those 'Clap Your Hands Say Yeah' people... that guy's
+    voice is the equivalent of fingernails on a blackboard.
+- author: adam
+  content: "fingernails on a blackboard?\r\n<br>\r\nare you serious? i think he has
+    a nice voice.\r\n<br>\r\ni finally got to listen to the whole thing when i drove
+    back to hastings and i think the album is beautiful."
+- author: Nate
+  content: "...\r\n<br><br>\r\nDon't make me come over there"
+---
+To do anything. ANYTHING. I don't even use my laptop anymore. I'd thought about redesigning the webpage, but that's like the biggest joke ever. Write about Mario Kart? No way. I'm moving on Saturday, I think. <p>Ughh, tired, and need sleep. I've been like half-sick for the past week, and it seems to be getting worse. Life=grand!

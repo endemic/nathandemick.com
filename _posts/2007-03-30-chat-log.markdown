@@ -1,0 +1,23 @@
+---
+layout: post
+status: publish
+published: true
+title: Chat log
+author:
+  display_name: Nathan
+  email: ndemick@gmail.com
+date: 2007-03-30 09:15:57.000000000 -04:00
+comments: []
+---
+<font color="#cc0000"><font size="2">(11:53:10 AM) </font><b><font size="3">s0u1man:</font></b></font><font size="3"></font>
+<font size="3"> why are there no good, free web log analyzers?</font><br><font size="2"><font color="#204a87">(11:53:17 AM) </font>
+</font><font color="#204a87"><b><font size="3">butr0s:</font></b></font><font size="3"></font><font size="3"> hmm</font>
+<br><font size="2"><font color="#204a87">(11:53:19 AM) </font></font><font color="#204a87"><b><font size="3">butr0s:</font></b>
+</font><font size="3"></font><font size="3"> haha</font><br><font size="2"><font color="#204a87">(11:53:22 AM) </font></font>
+<font color="#204a87"><b><font size="3">butr0s:</font></b></font><font size="3"></font><font size="3"> AWstats!</font><br>
+<font size="2"><font color="#204a87">(11:53:24 AM) </font></font><font color="#204a87"><b><font size="3">butr0s:</font></b>
+</font><font size="3"></font><font size="3"> c'mon!</font><br><font size="2"><font color="#204a87">(11:53:27 AM) </font></font>
+<font color="#204a87"><b><font size="3">butr0s:</font></b></font><font size="3"></font><font size="3"> eh?</font><br>
+<font color="#cc0000"><font size="2">(11:53:30 AM) </font><b><font size="3">s0u1man:</font></b></font><font size="3">
+</font><font size="3"> bitch, please</font><br><font size="2"><font color="#204a87">(11:53:31 AM) </font></font>
+<font color="#204a87"><b><font size="3">butr0s:</font></b></font><font size="3"></font><font size="3"> ehhhh?</font>

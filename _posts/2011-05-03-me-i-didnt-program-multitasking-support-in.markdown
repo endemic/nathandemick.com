@@ -2,8 +2,7 @@
 layout: post
 status: publish
 published: true
-title: 'Me: I didn''t program multitasking support in revolve ball Me: cos I''m lazy
-  Ed: you didnt ''ganbaru'' M'
+title: Not living up to the name
 author:
   display_name: Nathan
   login: admin
@@ -20,7 +19,7 @@ categories:
 tags: []
 comments: []
 ---
-<p>Me: I didn't program multitasking support in revolve ball<br />
-Me: cos I'm lazy<br />
-Ed: you didnt 'ganbaru'<br />
-Me: oh shit! you're right</p>
+> _Me:_ I didn't program multitasking support in revolve ball  
+> _Me:_ cos I'm lazy  
+> _Ed:_ you didnt 'ganbaru'  
+> _Me:_ oh shit! you're right

@@ -1,0 +1,12 @@
+---
+layout: post
+status: publish
+published: true
+title: Annoying!
+author:
+  display_name: Nathan
+  email: ndemick@gmail.com
+date: 2005-05-22 22:41:19.000000000 -04:00
+comments: []
+---
+My telnet sessions time out after about one minute of inactivity. I'm not sure if this is because of my worthless port-blocking router or not. I tried the UPnP (or whatever it's called) option which is supposed to automatically forward ports, but it doesn't work. I tried giving myself a static IP and manually forwarding ports, but that didn't work either. In any case, nothing is more annoying than hitting a programming problem, finding the answer, then returning to the terminal, only to discover that it's not responding. Lame!
