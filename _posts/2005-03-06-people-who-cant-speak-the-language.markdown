@@ -67,7 +67,23 @@ comments:
 
     LOLZ
 ---
-<p>I've slowly been getting over my annoyance at being a foreigner; mind you, it's still there, but perhaps diminishing over time. Possibly part of this is the fact that my Japanese has gotten a bit better. I now know what the traffic lights say, and can understand a few of the routine phrases store clerks spout at me.</p>
-<p>One thing that's been bugging me recently, however, is people who don't know Japanese, and make absolutely no effort to learn. Obviously, you can get by without knowing the language; some things might be a bit difficult, but you can brazen it out. In fact, knowing a bit of the language is more work: you have to really struggle to communicate, whereas if you know nothing, you can simply ignore everyone around you.</p>
-<p>Wow, it's actually really difficult for me to put my feelings for this topic into words. In any case, I can easily sympathize with immigrants to the States: it's ridiculous hard to learn a new language, especially when you don't have a teacher, and ESPECIALLY when you have to work full time. It hasn't really stopped me from trying, but then again I have kinda stopped progressing recently.</p>
-<p>å…¨éƒ¨äº‹ã¯ç©ºã—ã„ã€‚æ—¥æœ¬èªžã§æ›¸ã‘ã‚Œã°ãã®äººé”ã¯ã“ã‚Œã‚’èª­ã‚ãªã„ã‘ã©ä»–ã®å‹é”ã‚‚èª­ã‚ãªã„ã€‚ä½•ã‚‚ã—ã‚‰ã‚Œãªã„ã‚ˆã€‚</p>
+I've slowly been getting over my annoyance at being a foreigner; mind you, it's 
+still there, but perhaps diminishing over time. Possibly part of this is the 
+fact that my Japanese has gotten a bit better. I now know what the traffic 
+lights say, and can understand a few of the routine phrases store clerks 
+spout at me.
+
+One thing that's been bugging me recently, however, is people who don't know 
+Japanese, and make absolutely no effort to learn. Obviously, you can get by 
+without knowing the language; some things might be a bit difficult, but you can 
+brazen it out. In fact, knowing a bit of the language is more work: you have to 
+really struggle to communicate, whereas if you know nothing, you can simply 
+ignore everyone around you.
+
+Wow, it's actually really difficult for me to put my feelings for this topic 
+into words. In any case, I can easily sympathize with immigrants to the States: 
+it's ridiculous hard to learn a new language, especially when you don't have a 
+teacher, and ESPECIALLY when you have to work full time. It hasn't really 
+stopped me from trying, but then again I have kinda stopped progressing recently.
+
+å…¨éƒ¨äº‹ã¯ç©ºã—ã„ã€‚æ—¥æœ¬èªžã§æ›¸ã‘ã‚Œã°ãã®äººé”ã¯ã“ã‚Œã‚’èª­ã‚ãªã„ã‘ã©ä»–ã®å‹é”ã‚‚èª­ã‚ãªã„ã€‚ä½•ã‚‚ã—ã‚‰ã‚Œãªã„ã‚ˆã€‚

@@ -16,7 +16,6 @@ date: '2005-03-08 22:02:39 -0500'
 date_gmt: '2005-03-08 13:02:39 -0500'
 categories:
 - japan
-- random
 tags: []
 comments:
 - id: 13
@@ -28,7 +27,22 @@ comments:
   content: <a href="http://www.fur-shop.com/hakusei/tanuki.jpg" rel="nofollow">GO
     GO TANUKI VACATION MODE! OK!</a>
 ---
-<p>Today I had my first Jieitai (Japanese Self-Defense Force) class. Basically babbled on and did self-introduction stuff for about 2 hours. Hooah! In any case, I was out of the house for the usual 12 hours. Whine whine.</p>
-<p><a href="http://www.bitter-gamer.com/images/more_japan/tochigi_eki.jpg">Tochigi Station</a>. I use this station way too much. They just recently finished repairing the entire front entrance, so it looks pretty nice now. I'm also rather bitter about my camera's inability to take photographs without strong lighting (i.e. the flash).</p>
-<p>So here was my snack last night: <a href="http://www.bitter-gamer.com/images/more_japan/tanuki_soba.jpg">Green Tanuki Soba</a>. You remember the "Tanooki Suit" in SMB3? Well, the tanuki is like a mythical racoon-dog creature that can change shape, although I don't really know that much more. Check out <a href="http://everything2.com/?node=tanuki">Everything2's tanuki node</a>.</p>
-<p>Noodles in styrofoam bowls are the ultimate in laziness. Boil the water, then throw away the bowl when you're done. Not exactly environmentally friendly, but then again we do live in an advanced capitalist culture. Gotta do your part to make the world's economy turn.</p>
+Today I had my first Jieitai (Japanese Self-Defense Force) class. Basically 
+babbled on and did self-introduction stuff for about 2 hours. Hooah! In any 
+case, I was out of the house for the usual 12 hours. Whine whine.
+
+[Tochigi Station](/images/more_japan/tochigi_eki.jpg). I use this station way 
+too much. They just recently finished repairing the entire front entrance, so it 
+looks pretty nice now. I'm also rather bitter about my camera's inability to 
+take photographs without strong lighting (i.e. the flash).
+
+So here was my snack last night: 
+[Green Tanuki Soba](/images/more_japan/tanuki_soba.jpg). You remember the 
+"Tanooki Suit" in SMB3? Well, the tanuki is like a mythical racoon-dog creature 
+that can change shape, although I don't really know that much more. Check out 
+[Everything2's tanuki node](http://everything2.com/?node=tanuki).
+
+Noodles in styrofoam bowls are the ultimate in laziness. Boil the water, then 
+throw away the bowl when you're done. Not exactly environmentally friendly, but 
+then again we do live in an advanced capitalist culture. Gotta do your part to 
+make the world's economy turn.

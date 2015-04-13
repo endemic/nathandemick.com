@@ -26,4 +26,6 @@ comments:
   date_gmt: '2005-03-06 06:30:08 -0500'
   content: <b>templatey!</b>
 ---
-<p>ok, so I just installed this content management system called wordpress, and so far it seems interesting enough. uhh obviously the design for this hunk must be redone, as it looks far too professional and templatey.</p>
+ok, so I just installed this content management system called wordpress, and so 
+far it seems interesting enough. uhh obviously the design for this hunk must be 
+redone, as it looks far too professional and templatey.

@@ -2,7 +2,7 @@
 layout: post
 status: publish
 published: true
-title: Problems with my job
+title: Problems with teaching ESL
 author:
   display_name: Nathan
   login: admin

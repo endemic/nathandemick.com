@@ -19,6 +19,17 @@ categories:
 tags: []
 comments: []
 ---
-<p>In a random stint of surfing the web, I happend to run across a site called <a href="http://www.fragdolls.com/">FragDolls</a>. After a hearty laugh, I attempted to discover the exact purpose for such a site. Notice, if you will, the coy illustrations throughout the site, coupled alongside copious pictures of the girls themselves. The entire page seems like a giant advertisement... but for what?</p>
-<p>I then noticed that the group is sponsored by UbiSoft, a software publishing company. Coincidentally, many of these girls like to play games published by UbiSoft! I never would have guessed.</p>
-<p>Really, this topic in and of itself doesn't make for a very interesting entry. I'm just rather bitter about the entire presentation of that site, so I figured I'd rag on it a bit.</p>
+In a random stint of surfing the web, I happend to run across a site called 
+[FragDolls](http://www.fragdolls.com/). After a hearty laugh, I attempted to 
+discover the exact purpose for such a site. Notice, if you will, the coy 
+illustrations throughout the site, coupled alongside copious pictures of the 
+girls themselves. The entire page seems like a giant advertisement... but for 
+what?
+
+I then noticed that the group is sponsored by UbiSoft, a software publishing 
+company. Coincidentally, many of these girls like to play games published by 
+UbiSoft! I never would have guessed.
+
+Really, this topic in and of itself doesn't make for a very interesting entry. 
+I'm just rather bitter about the entire presentation of that site, so I figured 
+I'd rag on it a bit.

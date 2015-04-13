@@ -66,6 +66,19 @@ comments:
   date_gmt: '2005-03-13 01:58:08 -0500'
   content: no... never.
 ---
-<p>No pictures today, but I thought I'd regale you all with (what I consider) kind of a humorous story.</p>
-<p>When I first got to Japan, I started teaching the next day. Of course, I'm a bit nervous, but trying to act cool about it. When I go into the office, I get introduced as the new teacher, of course. In Japanese, "kore wa atarashi sensei desu." Then the (all female) staff members start saying "kawaisou desune?" I recognize "kawaii," which means "cute," and am thinking I've already made a bit hit in the ol' office. Now, here comes the grammar: usually the "~sou desu" ending means "looks like/seems like~" (e.g. "muzukashisou" is "seems difficult," "oishisou" is "looks delicious"). Bearing this in mind, you would THINK "kawaisou" means "cute looking," and if you thought that, you would be wrong. It actually means "pitiful" or "pathetic."</p>
-<p>In reality, everyone was trying to sympathize with the fact that I had to teach with no training. Ha ha ha, I felt pretty dumb.</p>
+No pictures today, but I thought I'd regale you all with (what I consider) kind 
+of a humorous story.
+
+When I first got to Japan, I started teaching the next day. Of course, I'm a bit 
+nervous, but trying to act cool about it. When I go into the office, I get 
+introduced as the new teacher, of course. In Japanese, "kore wa atarashi sensei 
+desu." Then the (all female) staff members start saying "kawaisou desune?" I 
+recognize "kawaii," which means "cute," and am thinking I've already made a big 
+hit in the ol' office. Now, here comes the grammar: usually the "~sou desu" 
+ending means "looks like/seems like~" (e.g. "muzukashisou" is "seems difficult," 
+"oishisou" is "looks delicious"). Bearing this in mind, you would THINK 
+"kawaisou" means "cute looking," and if you thought that, you would be wrong. 
+It actually means "pitiful" or "pathetic."
+
+In reality, everyone was trying to sympathize with the fact that I had to teach 
+with no training. Ha ha ha, I felt pretty dumb.

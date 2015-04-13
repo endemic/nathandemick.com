@@ -16,7 +16,6 @@ date: '2005-03-20 20:01:04 -0500'
 date_gmt: '2005-03-20 11:01:04 -0500'
 categories:
 - japan
-- random
 tags: []
 comments:
 - id: 31
@@ -28,8 +27,19 @@ comments:
   content: i love your pictures butros.  dave looks like a cool guy.  i'd be proud
     to eat ramen at the same table with him
 ---
-<p>So, here's the picture update this weekend.</p>
-<p><a href="http://www.bitter-gamer.com/images/more_japan/dave.jpg">My friend Dave eating ramen</a>. Yes, that's black pepper in his bowl. No, he's not stoned, it's just a bad picture. Maybe I'll get away with posting this 'cos I don't think he reads this page. Probably if he knew he'd beat the snot outta me.<br />
-<a href="http://www.bitter-gamer.com/images/more_japan/jogging_river.jpg">Yet another blurry night shot of the river I go jogging along</a>.<br />
-<a href="http://www.bitter-gamer.com/images/more_japan/apt.jpg">Another picture of my apartment</a>, because that's where I've been most of this weekend. Mmm... videogames. My clothes are all hung up because dryers don't exist in Japan. If you walk by an apartment building on a nice day, you can see that everyone and their mother has clothes, futons, etc. out drying in the sun. Yes, that is a copy of Jackie Chan's autobiography on the floor.<br />
-<a href="http://www.bitter-gamer.com/images/more_japan/me.jpg">A picture of me</a>, because, let's face it, that's the real reason you visit this page. NOW BUY ME STUFF FROM MY AMAZON.COM WISHLIST, YOU TOOLS!</p>
+So, here's the picture update this weekend.
+
+* [My friend Dave eating ramen](/images/more_japan/dave.jpg). Yes, that's black 
+  pepper in his bowl. No, he's not stoned, it's just a bad picture. Maybe I'll 
+  get away with posting this 'cos I don't think he reads this page. Probably if 
+  he knew he'd beat the snot outta me.
+* [Yet another blurry night shot of the river I go jogging along](/images/more_japan/jogging_river.jpg).
+* [Another picture of my apartment](/images/more_japan/apt.jpg), because that's 
+  where I've been most of this weekend. Mmm... videogames. My clothes are all 
+  hung up because dryers don't exist in Japan. If you walk by an apartment 
+  building on a nice day, you can see that everyone and their mother has 
+  clothes, futons, etc. out drying in the sun. Yes, that is a copy of Jackie 
+  Chan's autobiography on the floor.
+* [A picture of me](/images/more_japan/me.jpg), because, let's face it, that's 
+  the real reason you visit this page. NOW BUY ME STUFF FROM MY AMAZON.COM 
+  WISHLIST, YOU TOOLS!
