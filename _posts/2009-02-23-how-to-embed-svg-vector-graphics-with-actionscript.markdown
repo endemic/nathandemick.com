@@ -11,7 +11,7 @@ author:
 author_login: admin
 author_email: ndemick@gmail.com
 wordpress_id: 207
-wordpress_url: http://www.bitter-gamer.com/?p=207
+wordpress_url: /?p=207
 date: '2009-02-23 13:39:49 -0500'
 date_gmt: '2009-02-23 18:39:49 -0500'
 categories:
@@ -46,10 +46,36 @@ comments:
     post is some years.old but you never know, someone hopefully will notice.\r\n\r\nThanks
     in advance for your time,\r\n\r\nReaperOscuro"
 ---
-<p>One of the big downsides about not using the Flash IDE for development is that it's much more of a hassle to bring graphics into your program. The IDE has a built in vector illustration program, which allows the user to create graphical objects (or import them from Illustrator) and link them right up to a corresponding Actionscript object. If you're making programs with the Flex SDK, however, getting graphics is a bit more of a chore. Fortunately, it's not nearly as difficult as programming graphics via Actionscript. </p>
-<p><a href="/wp-content/uploads/2009/02/inkscape-1.png"><img src="http://www.bitter-gamer.com/wp-content/uploads/2009/02/inkscape-1-123x150.png" alt="Inkscape &#39;New&#39; File Menu" width="123" height="150" class="alignleft size-thumbnail wp-image-211" /></a>First, you'll want to get a vector illustration program. Adobe makes Illustrator, which might be your first thought, but we're trying to do things on the cheap here, otherwise we'd just get the Flash IDE. <a href="http://www.inkscape.org/download/?lang=en" title="Inkscape">Inkscape</a> is a free program which can save files in the <a href="http://en.wikipedia.org/wiki/Scalable_Vector_Graphics" title="SVG (scalable vector graphics)">SVG (scalable vector graphics)</a> format. Grab a copy of Inkscape, and fire it up (OS X users prior to 10.5 will need to <a href="http://www.apple.com/downloads/macosx/apple/macosx_updates/x11formacosx.html" title="install X11">install X11</a>). </p>
-<p><a href="/wp-content/uploads/2009/02/inkscape-2.png"><img src="http://www.bitter-gamer.com/wp-content/uploads/2009/02/inkscape-2-132x150.png" alt="Create a circle in Inkscape" width="132" height="150" class="alignright size-thumbnail wp-image-212" /></a></p>
-<p>Inkscape starts up by creating a default document, which is much larger than anything we would normally use. From the 'File' menu, navigate to the 'New 32x32 Icon' option. Now, in the smaller image, use the 'Circle' tool to create a circle. Take some time here to play around with Inkscape: experiment with changing the color of the circle, give it a border, do whatever you like. When you're satisfied with what you have, click 'Save' and save the image as a 'Plain SVG.' Now, create a new Actionscript file in the same directory as the graphic file called 'SVGExample.as', and enter the following code:</p>
+One of the big downsides about not using the Flash IDE for development is that
+it's much more of a hassle to bring graphics into your program. The IDE has a
+built in vector illustration program, which allows the user to create graphical
+objects (or import them from Illustrator) and link them right up to a
+corresponding Actionscript object. If you're making programs with the Flex SDK,
+however, getting graphics is a bit more of a chore. Fortunately, it's not nearly
+as difficult as programming graphics via Actionscript.
+
+<a href="/uploads/2009/02/inkscape-1.png">
+  <img src="/uploads/2009/02/inkscape-1-123x150.png" alt="Inkscape &#39;New&#39; File Menu" width="123" height="150" class="alignleft size-thumbnail wp-image-211" /></a>
+
+First, you'll want to get a vector illustration program. Adobe makes
+Illustrator, which might be your first thought, but we're trying to do things
+on the cheap here, otherwise we'd just get the Flash IDE.
+[Inkscape](http://www.inkscape.org/download/?lang=en) is a free program which
+can save files in the [SVG (scalable vector graphics)](http://en.wikipedia.org/wiki/Scalable_Vector_Graphics)
+format. Grab a copy of Inkscape, and fire it up (OS X users prior to 10.5 will
+need to [install X11](http://www.apple.com/downloads/macosx/apple/macosx_updates/x11formacosx.html)).
+
+<a href="/uploads/2009/02/inkscape-2.png"><img src="/uploads/2009/02/inkscape-2-132x150.png" alt="Create a circle in Inkscape" width="132" height="150" class="alignright size-thumbnail wp-image-212" /></a>
+
+Inkscape starts up by creating a default document, which is much larger than
+anything we would normally use. From the 'File' menu, navigate to the 'New 32x32
+Icon' option. Now, in the smaller image, use the 'Circle' tool to create a
+circle. Take some time here to play around with Inkscape: experiment with
+changing the color of the circle, give it a border, do whatever you like. When
+you're satisfied with what you have, click 'Save' and save the image as a 'Plain
+SVG.' Now, create a new Actionscript file in the same directory as the graphic
+file called 'SVGExample.as', and enter the following code:
+
 <pre class="brush:js">
 package {
   import flash.display.Sprite;
@@ -69,4 +95,12 @@ package {
   }
 }
 </pre>
-<p>The way that graphics are embedded is as follows: first, you use the 'Embed' syntax to specify where the image is, and then you link that embedded asset to a unique class name. Here, I call it "BallGraphic," but you can use anything that makes sense to you. Creating an instance of that class (when I call <code>new BallGraphic()</code>) loads the graphic, and it can then be added to a display object container and shown on the screen. When you compile this code and run the SWF, you should see your graphic on the stage. You can now easily import SVG graphics (or even other image types, such as .gif/.jpg) via Actionscript.</p>
+
+The way that graphics are embedded is as follows: first, you use the 'Embed'
+syntax to specify where the image is, and then you link that embedded asset to a
+unique class name. Here, I call it "BallGraphic," but you can use anything that
+makes sense to you. Creating an instance of that class (when I call <code>new
+BallGraphic()</code>) loads the graphic, and it can then be added to a display
+object container and shown on the screen. When you compile this code and run the
+SWF, you should see your graphic on the stage. You can now easily import SVG
+graphics (or even other image types, such as .gif/.jpg) via Actionscript.

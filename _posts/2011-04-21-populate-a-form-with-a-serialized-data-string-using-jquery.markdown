@@ -29,12 +29,17 @@ comments:
     {\r\n...\r\n}\r\n\r\nReplace references to formId with $(this) and then just call
     the method on a form object with:\r\n\r\n$('#myForm').loadSerializedData($myDataString);"
 ---
-<p>OK, so you know about the great jQuery utility method <code>serialize()</code>, which, when applied to a jQuery object that represents a form, will turn all the form data into a key/value serialized string. Randomly, I was asked if it was possible to do the reverse. jQuery doesn't have a method like that baked in, so here's my implementation.</p>
+OK, so you know about the great jQuery utility method <code>serialize()</code>,
+which, when applied to a jQuery object that represents a form, will turn all the
+form data into a key/value serialized string. Randomly, I was asked if it was
+possible to do the reverse. jQuery doesn't have a method like that baked in, so
+here's my implementation.
+
 <pre class="brush:js">
 function loadSerializedData(formId, data)
 {
 	var tmp = data.split('&amp;'), dataObj = {};
-	
+
 	// Bust apart the serialized data string into an obj
 	for (var i = 0; i &lt; tmp.length; i++)
 	{
@@ -49,4 +54,5 @@ function loadSerializedData(formId, data)
 	});
 }
 </pre>
-<p>Is there a better way to do this? Let me know in the comments.</p>
+
+Is there a better way to do this? Let me know in the comments.
