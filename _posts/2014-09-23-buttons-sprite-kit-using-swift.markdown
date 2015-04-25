@@ -81,8 +81,17 @@ comments:
   content: When i create a function in the class as TPot suggested, i cannot pass
     this through as a parameter
 ---
-<p>For all the helpful things that Apple added to Sprite Kit, one of the most glaring omissions is that most basic of user interface elements, the button. Not really sure why that is, but fortunately it's pretty easy to create something that "just works." The gist of the solution is to create a subclass of the <code>SKNode</code> class. Since each node in Sprite Kit can contain any number of other nodes, we just have to create a button container which holds two sprites: one for the default button state and one for the "active" button state.</p>
-<pre class="brush:js">
+
+For all the helpful things that Apple added to Sprite Kit, one of the most 
+glaring omissions is that most basic of user interface elements, the button. Not
+really sure why that is, but fortunately it's pretty easy to create something 
+that "just works." The gist of the solution is to create a subclass of the 
+<code>SKNode</code> class. Since each node in Sprite Kit can contain any number 
+of other nodes, we just have to create a button container which holds two 
+sprites: one for the default button state and one for the "active" button 
+state.
+
+<pre><code class="language-swift">
 import SpriteKit
 
 class GGButton: SKNode {
@@ -110,18 +119,39 @@ class GGButton: SKNode {
         fatalError("init(coder:) has not been implemented")
     }
 }
+  </code>
 </pre>
-<p>Here we create that subclass of <code>SKNode</code> and give it three properties: the default button image, the active button image, and the action that the button should take if pressed. Passing in two strings to the constructor handles initializing the button images, and we also store a reference to the button action function. Note of course that we hide the "active" button by default, waiting for user interaction to reveal it.</p>
-<p>After the call to <code>super.init()</code>, the button container has access to methods inherited from <code>SKNode</code>. We then set the <code>userInteractionEnabled</code> property to true, which lets this node respond to input, and also add both buttons as children so they'll be drawn to the screen.</p>
-<p>Now let's deal with user input. We want to handle three cases: user touches the button, user moves their finger around, user lifts their finger off the button. Fortunately the user interaction methods provided by <code>SKNode</code> give us exactly that, if you add the following three methods to the button class definition.</p>
-<pre class="brush:js">
+
+Here we create that subclass of <code>SKNode</code> and give it three 
+properties: the default button image, the active button image, and the action 
+that the button should take if pressed. Passing in two strings to the 
+constructor handles initializing the button images, and we also store a 
+reference to the button action function. Note of course that we hide the 
+"active" button by default, waiting for user interaction to reveal it.
+
+After the call to <code>super.init()</code>, the button container has access to 
+methods inherited from <code>SKNode</code>. We then set the 
+<code>userInteractionEnabled</code> property to true, which lets this node 
+respond to input, and also add both buttons as children so they'll be drawn to 
+the screen.
+
+Now let's deal with user input. We want to handle three cases: user touches the 
+button, user moves their finger around, user lifts their finger off the button. 
+Fortunately the user interaction methods provided by <code>SKNode</code> give us 
+exactly that, if you add the following three methods to the button class 
+definition.
+
+<pre>
+  <code class="language-swift">
 override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
     activeButton.hidden = false
     defaultButton.hidden = true
 }
+  </code>
 </pre>
-<p>This first method is pretty obvious: if a user starts touching the button, show the "active" state.</p>
-<pre class="brush:js">
+
+This first method is pretty obvious: if a user starts touching the button, show the "active" state.
+<pre><code class="language-swift">
 override func touchesMoved(touches: NSSet, withEvent event: UIEvent) {
     var touch: UITouch = touches.allObjects[0] as UITouch
     var location: CGPoint = touch.locationInNode(self)
@@ -134,9 +164,10 @@ override func touchesMoved(touches: NSSet, withEvent event: UIEvent) {
         defaultButton.hidden = false
     }
 }
-</pre>
-<p>This next method is a bit more complex. We have to determine if a user moved their finger on or off the button, so as to show the appropriate highlight state. Fortunately, <code>SKNode</code>-derived objects have a method <code>containsPoint()</code>, which lets us do some easy collision detection.</p>
-<pre class="brush:js">
+</code></pre>
+
+This next method is a bit more complex. We have to determine if a user moved their finger on or off the button, so as to show the appropriate highlight state. Fortunately, <code>SKNode</code>-derived objects have a method <code>containsPoint()</code>, which lets us do some easy collision detection.
+<pre><code class="language-swift">
 override func touchesEnded(touches: NSSet, withEvent event: UIEvent) {
     var touch: UITouch = touches.allObjects[0] as UITouch
     var location: CGPoint = touch.locationInNode(self)
@@ -148,11 +179,13 @@ override func touchesEnded(touches: NSSet, withEvent event: UIEvent) {
     activeButton.hidden = true
     defaultButton.hidden = false
 }
-</pre>
-<p>Finally, we re-use the <code>containsPoint()</code> method described earlier in order to determine if the button was actually tapped. If it was, we call the "action" function that was provided to the constructor. Then we set the highlighted button state back to hidden, ready to be shown again on the next tap. Put it all together, and here's how you'd use the button in a game:</p>
-<pre class="brush:js">
+</code></pre>
+
+Finally, we re-use the <code>containsPoint()</code> method described earlier in order to determine if the button was actually tapped. If it was, we call the "action" function that was provided to the constructor. Then we set the highlighted button state back to hidden, ready to be shown again on the next tap. Put it all together, and here's how you'd use the button in a game:
+<pre><code class="language-swift">
 var button: GGButton = GGButton(defaultButtonImage: "button", activeButtonImage: "button_active", buttonAction: goToGameScene)
 button.position = CGPointMake(self.frame.width / 2, self.frame.height / 2)
 addChild(button)
-</pre>
-<p>I hope this was helpful. Feel free to ask questions in the comments section, and I'll do my best to answer.</p>
+</code></pre>
+
+I hope this was helpful. Feel free to ask questions in the comments section, and I'll do my best to answer.
