@@ -1,0 +1,60 @@
+---
+layout: post
+status: publish
+published: true
+title: iPhone 4 GET!
+author:
+  display_name: nathan
+  login: nathan
+  email: ndemick@gmail.com
+  url: ''
+author_login: nathan
+author_email: ndemick@gmail.com
+wordpress_id: 330
+wordpress_url: http://ganbarugames.com/?p=330
+date: '2011-05-06 09:39:40 -0400'
+date_gmt: '2011-05-06 13:39:40 -0400'
+categories:
+- Meta
+tags:
+- iphone
+- real life
+comments:
+- id: 31
+  author: Fakhir
+  author_email: fakhir.shaheen@gmail.com
+  author_url: http://www.byterender.blogspot.com/
+  date: '2011-05-15 18:40:00 -0400'
+  date_gmt: '2011-05-15 18:40:00 -0400'
+  content: |-
+     Hi,
+
+    Sorry for posting an unrelated question over here but I couldn't find contact page. My question:
+
+
+
+
+
+
+
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+
+
+
+    I am looking forward to buy iOS developer account. But I am stuck between individual and company. The question I want to ask is:
+
+    Is there any difference in app sales if I register as an individual versus if I register as company? (or any other hidden complication that may potentially arise in the future)Regards,-Fakhir
+- id: 32
+  author: Nathan
+  author_email: ndemick@gmail.com
+  author_url: http://ganbarugames.com
+  date: '2011-05-16 13:30:00 -0400'
+  date_gmt: '2011-05-16 13:30:00 -0400'
+  content: |-
+    Hey Fakhir,
+
+    I don't think there is any difference in potential sales volume. There are apps in the top 100 published by both individuals and companies. The main things you have to think about are taxes and liability. If you're just going to publish some hobby apps, then individual registration is fine. But if you're going to try to eventually build a business, or are planning on publishing more than just one or two apps, it's probably smart to register an LLC. It would probably be good to consult with an accountant for more info.
+---
+<p><a href="http://ganbarugames.com/wp-content/uploads/2011/05/iphone4.jpg"><img src="http://ganbarugames.com/wp-content/uploads/2011/05/iphone4-300x300.jpg" alt="iPhone 4" title="iPhone 4" width="300" height="300" class="alignright size-medium wp-image-331" /></a> Sorry for the recent blog silence... things have been pretty busy as of late, and of course the first thing to get cut is the blog. Don't worry, I've still been game makin'. <a href="/revolve-ball" title="Revolve Ball">Revolve Ball</a> just got updated with Game Center leaderboards and a few other tweaks, and I've started work on a new game. It's not an original concept, but presents some interesting programming problems that I've been working through in the past week. Hopefully I'll be able to show some progress in the coming weeks. </p>
+<p>In other news, my crap Samsung Alias 2's A/C adapter died and I decided to finally get another iPhone instead of pony up $30 to keep using a phone I totally hated. My original plan was to wait until iPhone 5, but my resolve was weakened after learning that it wouldn't be released in June. So I nabbed a white Verizon iPhone 4. C'mon, I had to get the white! It's like the Loch Ness Monster or something... a mythical, unseen legend. I'm very pleased with it so far (of course).</p>

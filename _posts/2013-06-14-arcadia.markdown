@@ -1,0 +1,60 @@
+---
+layout: post
+status: publish
+published: true
+title: Arcadia + Game Center for Cordova
+author:
+  display_name: nathan
+  login: nathan
+  email: ndemick@gmail.com
+  url: ''
+author_login: nathan
+author_email: ndemick@gmail.com
+wordpress_id: 584
+wordpress_url: http://ganbarugames.com/?p=584
+date: '2013-06-14 07:41:30 -0400'
+date_gmt: '2013-06-14 11:41:30 -0400'
+categories:
+- Programming
+- Games
+tags:
+- javascript
+- cordova
+- vectr
+comments: []
+---
+It's been a slow couple of months. A bit of "real life" upheaval (in the form of 
+having to find a new job) has prevented blog updates. I haven't been completely 
+idle during this time, though, and have been working on a few small projects, 
+two of which I'll detail here.
+
+The first is a [Game Center plugin for Apache Cordova](https://github.com/endemic/cordova-gamecenter-plugin).
+I wanted to learn how to write a Cordova plugin, and as far as I know, no one 
+else has written a plugin for Game Center. I'm probably the only person who is 
+stupid enough to write such a thing. It's not a 100% complete implementation, 
+but has support for leaderboards, achievements, and turn-based multiplayer 
+games. To test the plugin out, I wrote a 
+[simple _reversi_ game](https://github.com/endemic/2p-reversi), which will allow 
+users to play via asynchronous multiplayer. The game itself isn't quite done (I 
+hit a roadblock in that I only had one iOS device to test on), but I'm hoping to 
+get back in and finish it soon.
+
+The other project is a 
+[minimalistic &lt;canvas>-based game framework](https://github.com/endemic/arcadia). 
+What started as some experimentation with the canvas tag turned into something 
+more like a full-fledged game framework. I use the term "full-fledged" pretty 
+loosely, of course. It has support for game scenes, shape-based sprites, and 
+particle emitters, and handles keyboard/mouse/touch input. My big source of 
+inspiration was the [Flash-based games](http://wonderfl.net/user/aba) of 
+developer [Kenta Cho](http://www.asahi-net.or.jp/~cs8k-cyu/). While it's 
+relatively easy to create a simple 2D game in Flash, a lot of the boilerplate 
+code you might want is missing from JavaScript. This framework might help you 
+out in creating prototypes that can be easily embedded into your website for 
+quick feedback. If you end up wanting to publish the game (on mobile, for 
+example), you can set an option when instantiating the game container that 
+causes the canvas to scale to fit the size of the window, which means you could 
+publish across multiple screen sizes pretty easily. I'm currently experimenting 
+with making a simple [dual-stick shooter](https://github.com/endemic/yajirushi) 
+using the framework.
+
+As always, comments and suggestions are welcome. Keep programming!
