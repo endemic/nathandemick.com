@@ -1,0 +1,15 @@
+#!/usr/bin/perl
+########################################################################### 
+##########################################################################
+if (!ARGV) {	
+@ARGV=<STDIN>;	
+chop(@ARGV);	
+}
+
+for (@ARGV) {
+$was=$_;
+$was=~ s/html/shtml/;                  #converts the file to lowercase
+if ($was ne $_) {		
+print "The old name was $_ ";	
+print " *** The new name is $was \n";	
+rename ($_,$was) unless $was eq $_; }}

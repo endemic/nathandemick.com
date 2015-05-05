@@ -1,0 +1,62 @@
+<Html>
+
+<body bgcolor="#000000" text="#eeeeee" link="#00ff00"
+vlink="#007700">
+
+<center><font color=00cc66 face="brush738 bt" size=+3>Story Votes</font></center><P>
+
+<title>Story Votes</title>
+
+<table width=100% border=0 cellpadding=0 cellspacing=0>
+<tr>
+
+	<!-- ABSOLUTE BLANK CELL -->
+<td width=60><img src="../../WAR2/PICS/LOGO/dot_clear.gif" align=top border=0 hspace=30></td>
+	<!-- BEGIN TEXT CELL -->
+	<td width=80%>
+
+<img hspace=8 src="../PICS/LOGO/dot_clear.gif">
+<font color="00cc66"><b>This is the Last Story Vote</b></font><P>
+
+<img hspace=8 src="../PICS/LOGO/dot_clear.gif">
+I have made the program so it only accepts one vote per section of ISP.
+I did this because if I didn't, there would always be some jerk who
+would keep voting over and over again. There are all kinds of other better
+ways to solve this problem such as using cookies and all that jazz but this is my favorite way. This means you should try your best to be the first one
+on your ISP to sign up. Now I'm not saying one person PER isp because
+some of the bigger ISPs have larger number of people, but this program takes
+that into account.<P> 
+
+<img hspace=8 src="../PICS/LOGO/dot_clear.gif">
+In your voting, vote how you feel, don't vote based on how everyone
+else picked. Let's not make a follow the leader in this voting process.<P>
+
+<table width=100% border=0 cellpadding=0 cellspacing=0>
+<tr>
+
+<td align=center valign=center>
+<!--#exec cgi="../../bin/STORY/q1r.cgi" -->
+<a href="http://www.prism.gatech.edu/~gt3242a/mazewar.html"><b>Story 1</b></a>
+<form method="post" action="../../bin/STORY/q1.cgi">
+<input type=radio name=ques value="yes">Keep it!<br>
+<input type=radio name=ques value="no">Ditch it!<P>
+<input type="submit" value="Vote"><P></form>
+</td>
+
+<td align=center valign=center>
+<!--#exec cgi="../../bin/STORY/q2r.cgi" -->
+<a href="../../bin/STORY/s2.html"><b>Story 2</b></a>
+<form method="post" action="../../bin/STORY/q2.cgi">
+<input type=radio name=ques value="yes">Keep it!<br>
+<input type=radio name=ques value="no">Ditch it!<P>
+<input type="submit" value="Vote"><P></form>
+</td>
+</tr></table><P><P>
+
+<P>
+<center>
+<a href="story.shtml"><B>Back to Story page</b></a></center>
+	<td width=10%>
+</tr></table>
+
+</html>

@@ -1,0 +1,6 @@
+#!/usr/bin/perl 
+$num=01;
+while (<>) {
+print "story$num.html: ",$_ if /Last/;
+++$num if /Last/;
+}

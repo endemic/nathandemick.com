@@ -1,0 +1,27 @@
+#!/local/bin/perl
+#########################################################################
+#
+# This program will convert my files from uppercase to lowercase.
+# I named this file rename. And I call it with rename (whatever files i
+# want to convert). When I upload files from my computer to my account
+# It converts all of them to uppercase. I use this program by typing
+# rename * and it converts all the files in my directory to lower case.
+#
+#########################################################################
+
+if (!ARGV) {
+	@ARGV=<STDIN>;
+	chop(@ARGV);
+	}
+for (@ARGV) {
+
+$was=$_;
+
+$was=~ tr/A-Z/a-z/;                  #converts the file to lowercase
+
+if ($was ne $_){
+	
+	print "The old name was $_ ";
+	print " *** The new name is $was \n";
+	rename ($_,$was) unless $was eq $_; }
+}
