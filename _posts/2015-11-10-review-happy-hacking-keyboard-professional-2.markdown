@@ -2,7 +2,7 @@
 layout: post
 status: publish
 published: true
-title: Review: Happy Hacking Keyboard Professional 2
+title: Review&#58; Happy Hacking Keyboard Professional 2
 author:
   display_name: Nathan
   email: ndemick@gmail.com

@@ -31,7 +31,7 @@ email addresses.
 
 Here was the original code:
 
-```
+<pre><code class="language-javascript">
 var to = "";
 for(var i=0; i<emails.length; i++) {
     var email = emails[i];
@@ -41,7 +41,7 @@ for(var i=0; i<emails.length; i++) {
     }
 }
 to = to.slice(0, -1);
-```
+</code></pre>
 
 Straightforward enough, right? Create an empty string, and concatenate the
 appropriate email addresses (include a separating comma), then remove the final
@@ -57,8 +57,8 @@ them. What do you know? `join` is an Array method as well!
 
 The whole thing boils down to one (long) line (pardon the ES6 syntax):
 
-```
-var to = emails.filter(email => { return email.indexOf('coordinator-') === -1; }).join(',');
-```
+<pre><code class="language-javascript">
+let recipients = emails.filter(email => { return email.indexOf('coordinator-') === -1; }).join(',');
+</code></pre>
 
 Which do you prefer?
