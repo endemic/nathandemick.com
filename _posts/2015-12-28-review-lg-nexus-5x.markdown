@@ -90,3 +90,23 @@ Nexus, but as of right now I'm thinking I'll stick with it. It does enough of
 the things I care about well enough for me to be satisfied. At least until I
 see the next iPhone revision.
 
+### Update
+
+I ended up returning the phone. What an anti-climax, eh? I really liked the hardware,
+and to be honest I kinda like Android's UI more than iOS. It really came down
+to two things: slow interface, and bad camera. I kept on experiencing random
+delays when trying to launch apps, or otherwise interact with the phone. Not terrible,
+but enough to be on par with my 3 year old iPhone 5. What's the point of buying a
+new phone if it performs the same as the old one? The camera was also a disappointment.
+It took decent shots, but I had two separate instances where I pulled the phone
+out to take a picture, and couldn't. The first time, it gave me an error message
+like "Camera is disconnected." Um, _what_? I had to reboot. Second time, the camera app just never
+started. I had done the ol' "double-tap power button to wake camera" trick, and
+it just sat there with a black screen. Both times I missed the shot I wanted; even a slow camera
+is better than none at all.
+
+I read the other day that Google is publishing an update which supposedly fixes
+some of the sluggish performance of the 5X. It is tempting, but I'm not sure
+I want to pay to be a beta tester. Maybe I'll take the leap again if I can
+independently verify the fix is, in fact, a fix.
+
