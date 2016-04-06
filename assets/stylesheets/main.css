@@ -59,12 +59,16 @@ ol { margin: 0 0 0 5%; font-size: 1rem; line-height: 1.5rem; }
 #comments h3 { background: #960F21; color: #fff; padding: 10px 15px; }
 
 /* Sidebar */
-#sidebar { width: 240px; float: right; overflow: visible; }
+#sidebar { width: 240px; float: right; overflow: visible; padding: 1px auto; }
 #sidebar .widget h3 { background: url('/assets/images/sidebar-headline-background.png') top right; color: #fff; width: 255px; height: 40px; padding: 10px 0px 0px 10px; margin: 0px 0px -10px 0px; }
 #sidebar .widget h3 a { color: #fff; }
 #sidebar .widget h3 a:hover { text-decoration: none; }
 #sidebar .widget ul { padding: 0px 0px 5px 20px; }
 #sidebar .widget p { padding: 0px 5px 5px 5px; }
+#sidebar .widget .mobile { width: 220px; margin: auto auto 10px auto; padding: 25px 0 3px 0; background: #333; border-radius: 15px; text-align: center; }
+#sidebar .widget .mobile img { width: 200px; margin: auto; border-radius: 4px; }
+#sidebar .widget .mobile .home-button { display: inline-block; width: 20px; height: 20px; background: #444; border: 1px solid #555; border-radius: 10px; cursor: pointer; }
+#sidebar .widget .app-store { margin: auto auto 10px 50px; }
 
 /* Footer */
 #footer { clear: both; overflow: auto; color: #333; }
