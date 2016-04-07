@@ -32,9 +32,9 @@ to do on restricted server were HTTPS access (port 443) and SFTP access (port
 
 ### HTTPS
 
-```
-ssh -L 3000:<inaccessible_server>:443 <your_username>@<accessible_server> -N
-```
+<pre><code class="language-javascript">
+ssh -L 3000:&lt;inaccessible_server>:443 &lt;your_username>@&lt;accessible_server> -N
+</code></pre>
 
 The `-L` option means we want to do local port forwarding, and `-N` specifies
 that no command should be executed on the remote server. You could also add
@@ -44,9 +44,9 @@ see a "certificate mismatch" error message, because the SSL certificate doesn't
 match the URL. A hacky way to fix this is to modify your `/etc/hosts` file, and
 add an alias (on a new line):
 
-```
-127.0.0.1 <inaccessible_server_url>
-```
+<pre><code class="language-javascript">
+127.0.0.1 &lt;inaccessible_server_url>
+</code></pre>
 
 Then you can hit `<inaccessible_server_url>` as (almost) normal, the only difference
 being that you have to specify port 3000 instead of the normal HTTPS port 443.
@@ -56,9 +56,9 @@ being that you have to specify port 3000 instead of the normal HTTPS port 443.
 Basically do the same thing as with the HTTPS setup, except change the remote
 port to be 22:
 
-```
-ssh -L 3000:<inaccessible_server>:22 <your_username>@<accessible_server> -N
-```
+<pre><code class="language-javascript">
+ssh -L 3000:&lt;inaccessible_server>:22 &lt;your_username>@&lt;accessible_server> -N
+</code></pre>
 
 Add your hosts alias, then modify your SFTP connection to hit port 3000, and
 connect as normal.
