@@ -33,9 +33,12 @@ comments:
     see, and like I said, this project looks too intimidating for me to even start
     picking it apart.
 ---
-While this isn't much of an article I felt that it needed front page attention.<p>
-Some crazy <strike>Japanese</strike> <b>CHINESE</b> computer science student has made a pc port of Lumines.<p>
-<a href="http://acm.tongji.edu.cn/people/kaikai/lumines.php" target="new">link to homepage</a><br>
-<a href="http://acm.tongji.edu.cn/people/kaikai/down/lumines.rar">win32 version of the game</a><br>
-<a href="http://acm.tongji.edu.cn/people/kaikai/down/ogl2dlib-2005-5-28-lumines-single.rar">game source code</a><p>
+While this isn't much of an article I felt that it needed front page attention.
+
+Some crazy <strike>Japanese</strike> <b>CHINESE</b> computer science student has made a pc port of Lumines.
+
+<a href="http://acm.tongji.edu.cn/people/kaikai/lumines.php" target="new">link to homepage</a>
+<a href="http://acm.tongji.edu.cn/people/kaikai/down/lumines.rar">win32 version of the game</a>
+<a href="http://acm.tongji.edu.cn/people/kaikai/down/ogl2dlib-2005-5-28-lumines-single.rar">game source code</a>
+
 I'm currently playing it and I don't foresee myself stopping until I have to go to work.
