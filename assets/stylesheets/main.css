@@ -58,6 +58,17 @@ ol, ul { margin: 0 0 0 5%; font-size: 1rem; line-height: 1.5rem; }
 /* Comments */
 #comments { width: 98%; }
 #comments h3 { background: #960F21; color: #fff; padding: 10px 15px; }
+#comments .comment { border: 0; border-bottom: 1px dashed #ccc; margin: 10px 10px 10px auto; padding-bottom: 10px; }
+#comments .comment .name, #comments .comment .timestamp { font-weight: bold; }
+#comments .comment .body { font-size: 13px; margin-top: 5px; }
+
+#comment_form p { margin: 3px auto; }
+#comment_form label { text-align: right; width: 60px; padding: 5px 5px 0 0; font-weight: bold; display: inline-block; vertical-align: top; }
+#comment_form .g-recaptcha { margin-left: 65px; }
+#comment_form button { margin: 10px 0 0 65px; border: 2px solid black; padding: 5px 10px; font-size: 16px; cursor: pointer; }
+#comment_form input,
+#comment_form textarea { width: 625px; border: 1px solid #ccc; padding: 4px; }
+#comment_form #comment_error { border: 2px solid crimson; background: lightpink; font-weight: bold; padding: 5px 10px; margin: 10px 10px 10px auto; }
 
 /* Sidebar */
 #sidebar { width: 240px; float: right; overflow: visible; padding: 1px auto; }

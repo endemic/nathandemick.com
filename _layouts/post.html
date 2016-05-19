@@ -15,7 +15,7 @@
 		{{ content }}
 
 		<p class="meta">
-      <img src="{{ site.url }}/assets/images/comments.png" alt="Comments"> <a href="{{ page.url }}#disqus_thread"></a> &middot;
+      <img src="{{ site.url }}/assets/images/comments.png" alt="Comments"> <a href="{{ page.url }}#comments">Comments</a> &middot;
 		  <img src="{{ site.url }}/assets/images/written.png" alt="Posted by"> Posted by {{ page.author.display_name }} at {{ page.date | date: '%H:%m' }} &middot;
 		  <img src="{{ site.url }}/assets/images/tags.png" alt="Tags"> {% for tag in page.tags %} {{ tag }} {% endfor %}
 		</p>
@@ -23,17 +23,19 @@
 
   <hr>
 
+  <a name="comments"></a>
   <div id="comments">
     <h3>Comments</h3>
     {% if page.comments.size > 0 %}
       {% for comment in page.comments %}
-      <div class="comment">
-        <p>{{ comment | comment_author }} wrote on {{ comment.date | date: '%B %d, %Y' }}:</p>
-        <p>{{ comment.content }}</p>
-      </div>
+      <section class="comment">
+        <p><span class="name">{{ comment | comment_author }}</span> wrote on <span class="timestamp">{{ comment.date | date: '%B %d, %Y' }}</span>:</p>
+        <p class="body">{{ comment.content }}</p>
+      </section>
       {% endfor %}
     {% else %}
-      {% include disqus.html %}
+      <script src="{{ site.url }}/assets/javascript/comments.js"></script>
+      <noscript>Please enable JavaScript to view comments.</noscript>
     {% endif %}
   </div>
 </div>

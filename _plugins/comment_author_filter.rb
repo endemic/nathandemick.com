@@ -1,12 +1,11 @@
 module Jekyll
   module CommentAuthorFilter
     def comment_author(comment)
-      author = comment['author']
-      author_email = comment['author_email']
-      author_url = comment['author_url']
-
-      author = "<a href=\"mailto: #{author_email}\">#{author}</a>" if author_email
-      author << " (<a href=\"#{author_url}\">#{author_url}</a>)" if author_url
+      if comment['author_url'] && !comment['author_url'].empty?
+        author = "<a href=\"#{comment['author_url']}\" rel=\"nofollow\">#{author}</a>"
+      else
+        author = comment['author']
+      end
 
       return author
     end
