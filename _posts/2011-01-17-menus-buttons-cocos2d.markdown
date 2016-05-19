@@ -107,7 +107,7 @@ CCMenuItemFont *buttonOne = [CCMenuItemFont itemFromString:@"Tap Here!" target:s
 {
 	// Get a reference to the button that was tapped
 	CCMenuItemFont *button = (CCMenuItemFont *)sender;
-	
+
 	// Have the button spin around!
 	[button runAction:[CCRotateBy actionWithDuration:1 angle:360]];
 }
@@ -129,7 +129,7 @@ CCMenuItemImage *buttonTwo = [CCMenuItemImage itemFromNormalImage:@"button-norma
 {
 	// Get a reference to the button that was tapped
 	CCMenuItemImage *button = (CCMenuItemImage *)sender;
-	
+
 	// Move the button around
 	CCJumpBy *action = [CCJumpBy actionWithDuration:1 position:ccp(windowSize.width / 3, windowSize.height / 3) height:25 jumps:2];
 	[button runAction:[CCSequence actions:action, [action reverse], nil]];
@@ -143,8 +143,8 @@ CCMenuItemFont *buttonFour = [CCMenuItemFont itemFromString:@"OFF"];
 
 // Create toggle group that logs the active button - the group is then added to a menu same as any other menu item
 CCMenuItemToggle *toggleGroup = [CCMenuItemToggle itemWithBlock:^(id sender)
-{ 
-	NSLog(@"Selected button: %i", [(CCMenuItemToggle *)sender selectedIndex]); 
+{
+	NSLog(@"Selected button: %i", [(CCMenuItemToggle *)sender selectedIndex]);
 } items:buttonThree, buttonFour, nil];
 </pre>
-<p><a href="http://ganbarugames.com/wp-content/uploads/2011/01/menu-button-tutorial-screenshot.png"><img src="http://ganbarugames.com/wp-content/uploads/2011/01/menu-button-tutorial-screenshot-150x79.png" alt="Screenshot of the tutorial Xcode project" title="Screenshot of the tutorial Xcode project" width="150" height="79" class="alignleft size-thumbnail wp-image-216" /></a>With that, you should have a good grasp of menus and buttons in cocos2d. Feel free to download an <a href='http://ganbarugames.com/wp-content/uploads/2011/01/ButtonExample.zip'>Xcode project with some of the sample code used in this tutorial</a>, and ask any questions you might have in the comments. Thanks for reading!</p>
+<p><a href="/assets/uploads/2011/01/menu-button-tutorial-screenshot.png"><img src="/assets/uploads/2011/01/menu-button-tutorial-screenshot-150x79.png" alt="Screenshot of the tutorial Xcode project" title="Screenshot of the tutorial Xcode project" width="150" height="79" class="alignleft size-thumbnail wp-image-216" /></a>With that, you should have a good grasp of menus and buttons in cocos2d. Feel free to download an <a href='/assets/uploads/2011/01/ButtonExample.zip'>Xcode project with some of the sample code used in this tutorial</a>, and ask any questions you might have in the comments. Thanks for reading!</p>

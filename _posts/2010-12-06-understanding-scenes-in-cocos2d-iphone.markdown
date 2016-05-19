@@ -82,8 +82,8 @@ comments:
 @interface MyAwesomeScene : CCScene {}
 @end
 
-// Extending CCColorLayer so that we can specify a 
-// default background color other than black 
+// Extending CCColorLayer so that we can specify a
+// default background color other than black
 @interface MyAwesomeLayer : CCColorLayer {}
 @end
 </pre>
@@ -102,7 +102,7 @@ comments:
 		MyAwesomeLayer *layer = [MyAwesomeLayer node];
 		[self addChild:layer];
 	}
-	
+
 	return self;
 }
 
@@ -121,31 +121,31 @@ comments:
 - (id)init
 {
 	// Since we extended CCColorLayer instead of regular ol' CCLayer,
-	// we'll init the object with initWithColor. ccc4 takes rgba arguments - in 
+	// we'll init the object with initWithColor. ccc4 takes rgba arguments - in
 	// this case it's a bright green background
 	if ((self = [super initWithColor:ccc4(0, 255, 0, 255)]))
 	{
 		// Get window size
 		CGSize size = [[CCDirector sharedDirector] winSize];
-		
+
 		// Add a button which takes us back to HelloWorldScene
-		
+
 		// Create a label with the text we want on the button
 		CCLabelTTF *label = [CCLabelTTF labelWithString:@"Tap Here" fontName:@"Helvetica" fontSize:32.0];
-		
+
 		// Create a button out of the label, and tell it to run the "switchScene" method
 		CCMenuItem *button = [CCMenuItemLabel itemWithLabel:label target:self selector:@selector(switchScene)];
-		
+
 		// Add the button to a menu - "nil" terminates the list of items to add
 		CCMenu *menu = [CCMenu menuWithItems:button, nil];
-		
+
 		// Place the menu in center of screen
 		[menu setPosition:ccp(size.width / 2, size.height / 2)];
-		
+
 		// Finally add the menu to the layer
 		[self addChild:menu];
 	}
-	
+
 	return self;
 }
 
@@ -153,7 +153,7 @@ comments:
 {
 	// Create a scene transition that uses the "RotoZoom" effect
 	CCTransitionRotoZoom *transition = [CCTransitionRotoZoom transitionWithDuration:1.0 scene:[HelloWorld scene]];
-	
+
 	// Tell the director to run the transition
 	[[CCDirector sharedDirector] replaceScene:transition];
 }
@@ -175,27 +175,27 @@ comments:
 	// always call "super" init
 	// Apple recommends to re-assign "self" with the "super" return value
 	if( (self=[super init] )) {
-		
+
 		// create and initialize a Label
 		CCLabelTTF *label = [CCLabelTTF labelWithString:@"Hello World" fontName:@"Marker Felt" fontSize:64];
 
 		// ask director the the window size
 		CGSize size = [[CCDirector sharedDirector] winSize];
-	
+
 		// position the label on the center of the screen
 		//label.position =  ccp( size.width /2 , size.height/2 );
-		
+
 		// add the label as a child to this Layer
 		//[self addChild: label];
-		
+
 		CCMenuItemLabel *button = [CCMenuItemLabel itemWithLabel:label target:self selector:@selector(switchScene)];
-		
+
 		CCMenu *menu = [CCMenu menuWithItems:button, nil];
-		
+
 		[menu setPosition:ccp(size.width / 2, size.height / 2)];
-		
+
 		[self addChild:menu];
-	}	
+	}
 	return self;
 }
 
@@ -203,10 +203,10 @@ comments:
 {
 	// Set up a "FlipY" transition that moves to MyAwesomeScene
 	CCTransitionFlipY *transition = [CCTransitionFlipY transitionWithDuration:1.0 scene:[MyAwesomeScene node]];
-	
+
 	// Tell the director to replace the currently running scene
 	[[CCDirector sharedDirector] replaceScene:transition];
 }
 </pre>
 <p>What we're doing here is slightly modifying the existing code. Instead of adding the label directly to the layer, we're shoving the label inside a button, shoving the button inside a menu, then adding the menu to the layer. The button is set up to call the switchScene method, which transitions to the new scene we created.</p>
-<p>And with that, we're done! Build and run the project, then click on the "Hello World" text that pops up. You'll see a transition to the new scene. Click the "Tap Here" text to go back to the original scene. It's a basic example, but you can see how the code here could be expanded in a larger project. Download a <a href='http://ganbarugames.com/wp-content/uploads/2010/11/SceneExample.zip'>.zip with the project files</a>, iff'n you'd like. If there are any points that are unclear, don't hesitate to let me know in the comments.</p>
+<p>And with that, we're done! Build and run the project, then click on the "Hello World" text that pops up. You'll see a transition to the new scene. Click the "Tap Here" text to go back to the original scene. It's a basic example, but you can see how the code here could be expanded in a larger project. Download a <a href='/assets/uploads/2010/11/SceneExample.zip'>.zip with the project files</a>, iff'n you'd like. If there are any points that are unclear, don't hesitate to let me know in the comments.</p>

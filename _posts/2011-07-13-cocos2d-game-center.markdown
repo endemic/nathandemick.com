@@ -299,10 +299,10 @@ comments:
 {
 	// Boolean that is set to true if device supports Game Center and a player has logged in
 	BOOL hasGameCenter;
-	
+
 	// An array that holds scores that couldn't be sent to Game Center (network timeout, etc.)
 	NSMutableArray *unsentScores;
-	
+
 	// The view that shows the default Game Center leaderboards
 	UIViewController *myViewController;
 }
@@ -340,7 +340,7 @@ SYNTHESIZE_SINGLETON_FOR_CLASS_HEADER(GameCenterManager);
 // Time-saving singleton generator - see http://cocoawithlove.com/2008/11/singletons-appdelegates-and-top-level.html
 SYNTHESIZE_SINGLETON_FOR_CLASS(GameCenterManager);
 
-- (id)init 
+- (id)init
 {
 	if ((self = [super init]))
 	{
@@ -348,7 +348,7 @@ SYNTHESIZE_SINGLETON_FOR_CLASS(GameCenterManager);
 		if ([self isGameCenterAPIAvailable])
 			hasGameCenter = YES;
 		else
-			hasGameCenter = NO;		
+			hasGameCenter = NO;
 	}
 	return self;
 }
@@ -360,12 +360,12 @@ SYNTHESIZE_SINGLETON_FOR_CLASS(GameCenterManager);
 {
 	// Check for presence of GKLocalPlayer class
 	BOOL localPlayerClassAvailable = (NSClassFromString(@"GKLocalPlayer")) != nil;
-	
+
 	// Device must be running 4.1 or later
 	NSString *reqSysVer = @"4.1";
 	NSString *currSysVer = [[UIDevice currentDevice] systemVersion];
 	BOOL osVersionSupported = ([currSysVer compare:reqSysVer options:NSNumericSearch] != NSOrderedAscending);
-	
+
 	return (localPlayerClassAvailable && osVersionSupported);
 }
 </pre>
@@ -383,13 +383,13 @@ SYNTHESIZE_SINGLETON_FOR_CLASS(GameCenterManager);
 			if (localPlayer.isAuthenticated)
 			{
 				/* Perform additional tasks for the authenticated player here */
-				
+
 				// If unsent scores array has length > 0, try to send saved scores
 				if ([unsentScores count] > 0)
 				{
 					// Create new array to help remove successfully sent scores
 					NSMutableArray *removedScores = [NSMutableArray array];
-					
+
 					for (GKScore *score in unsentScores)
 					{
 						[score reportScoreWithCompletionHandler:^(NSError *error) {
@@ -404,7 +404,7 @@ SYNTHESIZE_SINGLETON_FOR_CLASS(GameCenterManager);
 							}
 						}];
 					}
-					
+
 					// Remove successfully sent scores from stored array
 					[unsentScores removeObjectsInArray:removedScores];
 				}
@@ -430,10 +430,10 @@ SYNTHESIZE_SINGLETON_FOR_CLASS(GameCenterManager);
 	{
 		// Create score object
 		GKScore *scoreReporter = [[[GKScore alloc] initWithCategory:category] autorelease];
-		
+
 		// Set the score value
 		scoreReporter.value = score;
-		
+
 		// Try to send
 		[scoreReporter reportScoreWithCompletionHandler:^(NSError *error) {
 			if (error != nil)
@@ -461,7 +461,7 @@ SYNTHESIZE_SINGLETON_FOR_CLASS(GameCenterManager);
 	{
 		// Create leaderboard view w/ default Game Center style
 		GKLeaderboardViewController *leaderboardController = [[GKLeaderboardViewController alloc] init];
-		
+
 		// If view controller was successfully created...
 		if (leaderboardController != nil)
 		{
@@ -469,13 +469,13 @@ SYNTHESIZE_SINGLETON_FOR_CLASS(GameCenterManager);
 			leaderboardController.leaderboardDelegate = self;	// The leaderboard view controller will send messages to this object
 			leaderboardController.category = category;	// Set category here
 			leaderboardController.timeScope = GKLeaderboardTimeScopeAllTime;	// GKLeaderboardTimeScopeToday, GKLeaderboardTimeScopeWeek, GKLeaderboardTimeScopeAllTime
-			
+
 			// Create an additional UIViewController to attach the GKLeaderboardViewController to
 			myViewController = [[UIViewController alloc] init];
-			
+
 			// Add the temporary UIViewController to the main OpenGL view
 			[[[CCDirector sharedDirector] openGLView] addSubview:myViewController.view];
-			
+
 			// Tell UIViewController to present the leaderboard
 			[myViewController presentModalViewController:leaderboardController animated:YES];
 		}
@@ -491,7 +491,7 @@ SYNTHESIZE_SINGLETON_FOR_CLASS(GameCenterManager);
 	[myViewController release];
 }
 </pre>
-<p>I'm leaving out the overview for the <code>loadState</code> and <code>saveState</code> methods; an <a href="http://developer.apple.com/library/mac/#documentation/Cocoa/Reference/Foundation/Protocols/NSCoding_Protocol/Reference/Reference.html">NSCoding</a> <a href="http://www.raywenderlich.com/1914/how-to-save-your-app-data-with-nscoding-and-nsfilemanager">tutorial</a> would probably be a better place for that. However, you can download the complete <a href='http://ganbarugames.com/wp-content/uploads/2011/06/GameCenterManager.zip'>GameCenterManager class</a> and study them on your own.</p>
+<p>I'm leaving out the overview for the <code>loadState</code> and <code>saveState</code> methods; an <a href="http://developer.apple.com/library/mac/#documentation/Cocoa/Reference/Foundation/Protocols/NSCoding_Protocol/Reference/Reference.html">NSCoding</a> <a href="http://www.raywenderlich.com/1914/how-to-save-your-app-data-with-nscoding-and-nsfilemanager">tutorial</a> would probably be a better place for that. However, you can download the complete <a href='/assets/uploads/2011/06/GameCenterManager.zip'>GameCenterManager class</a> and study them on your own.</p>
 <p>The final thing I'll mention is how to instantiate the Game Center singleton when your app starts, and then serialize its' <code>unsentScores</code> array before the app quits (so data doesn't get lost). In your app delegate file, in the <code>applicationDidFinishLaunching</code> method, add this line anywhere to init the object and load any saved data:</p>
 <pre class="brush:cpp">
 [GameCenterManager loadState];

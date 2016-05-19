@@ -67,11 +67,11 @@ comments:
 
 #import "cocos2d.h"
 
-@interface Asteroid : CCSprite 
+@interface Asteroid : CCSprite
 {
 	// Stores the size of the asteroid - values will be 1, 2, or 3
 	int size;
-	
+
 	// A struct that holds X/Y values that will be used for the asteroid's speed
 	CGPoint velocity;
 }
@@ -112,10 +112,10 @@ comments:
 {
 	// Rotate (based on time interval between each frame)
 	[self setRotation:self.rotation + (float)dt * 15];
-	
+
 	// Move
 	[self setPosition:ccp(self.position.x + velocity.x, self.position.y + velocity.y)];
-	
+
 	// Get window size
 	CGSize windowSize = [CCDirector sharedDirector].winSize;
 
@@ -124,7 +124,7 @@ comments:
 		[self setPosition:ccp(windowSize.width, self.position.y)];
 	else if (self.position.x > windowSize.width)
 		[self setPosition:ccp(0, self.position.y)];
-	
+
 	if (self.position.y < 0)
 		[self setPosition:ccp(self.position.x, windowSize.height)];
 	else if (self.position.y > windowSize.height)
@@ -137,7 +137,7 @@ comments:
 	// Create two rectangles with CGRectMake, using each sprite's x/y position and width/height
 	CGRect ownRect = CGRectMake(self.position.x - (self.contentSize.width / 2), self.position.y - (self.contentSize.height / 2), self.contentSize.width, self.contentSize.height);
 	CGRect otherRect = CGRectMake(obj.position.x - (obj.contentSize.width / 2), obj.position.y - (obj.contentSize.height / 2), obj.contentSize.width, obj.contentSize.height);
-	
+
 	// Feed the results into CGRectIntersectsRect() which tells if the rectangles intersect (obviously)
 	return CGRectIntersectsRect(ownRect, otherRect);
 }
@@ -149,14 +149,14 @@ comments:
 
 #import "cocos2d.h"
 
-@interface Bullet : CCSprite 
+@interface Bullet : CCSprite
 {
 	// Stores how far the bullet has moved!
 	float distanceMoved;
-	
+
 	// How fast the bullet moves
 	CGPoint velocity;
-	
+
 	// Whether or not the bullet has traveled so far that it disappears
 	bool expired;
 }
@@ -189,7 +189,7 @@ comments:
 	{
 		// Schedule update for this object
 		[self scheduleUpdate];
-		
+
 		// Initialize the distance the bullet has moved
 		distanceMoved = 0;
 	}
@@ -200,23 +200,23 @@ comments:
 {
 	// Get window size
 	CGSize windowSize = [CCDirector sharedDirector].winSize;
-	
+
 	// Move
 	[self setPosition:ccp(self.position.x + velocity.x, self.position.y + velocity.y)];
-	
+
 	// Increment the distance moved by the velocity vector
 	distanceMoved += sqrt(pow(velocity.x, 2) + pow(velocity.y, 2));
-	
+
 	// Determine if bullet is expired -- check to see if its gone at least half the width of the screen
 	if (distanceMoved > windowSize.width / 2)
 		expired = TRUE;
-		
+
 	// If object moves off the bounds of the screen, make it appear on the other size
 	if (self.position.x < 0)
 		[self setPosition:ccp(windowSize.width, self.position.y)];
 	else if (self.position.x > windowSize.width)
 		[self setPosition:ccp(0, self.position.y)];
-	
+
 	if (self.position.y < 0)
 		[self setPosition:ccp(self.position.x, windowSize.height)];
 	else if (self.position.y > windowSize.height)
@@ -231,7 +231,7 @@ comments:
 	NSMutableArray *asteroids;
 	NSMutableArray *bullets;
 
-	// Used to determine the number of asteroids that appear 
+	// Used to determine the number of asteroids that appear
 	int currentLevel;
 </pre>
 <p>Then add the following method declarations after the <code>+ (id)scene;</code> declaration. You can see that these method names are very verbose... some people don't like that, but I think it makes reading Objective-C code very easy (as long as you name your methods well). We'll put code in these two methods that create bullets and asteroids. Since asteroids can be created anywhere on the screen and have multiple sizes, the "createAsteroid" method has two arguments, "position" and "size." Bullets can only be shot by the ship, the position of which is pre-determined, so "createBullet" doesn't need any arguments. To end it up, we'll create some additional methods which will be used to reset the game and start new levels.</p>
@@ -247,7 +247,7 @@ comments:
 {
 	// Decide which image file to use for the new asteroid
 	NSString *imageFile;
-	switch (size) 
+	switch (size)
 	{
 		default:
 		case kAsteroidLarge:
@@ -260,20 +260,20 @@ comments:
 			imageFile = @"asteroid-small.png";
 			break;
 	}
-	
+
 	// Create a new asteroid object using the appropriate image file
 	Asteroid *a = [Asteroid spriteWithFile:imageFile];
-	
+
 	// Set the size and position
 	a.size = size;
 	a.position = position;
-	
+
 	// Random numbers - see http://stackoverflow.com/questions/160890/generating-random-numbers-in-objective-c
 	a.velocity = ccp((float)(arc4random() % 100) / 100 - 1, (float)(arc4random() % 100) / 100 - 1);
-	
+
 	// Add asteroid to organizational array
 	[asteroids addObject:a];
-	
+
 	// Add asteroid to layer
 	[self addChild:a];
 }
@@ -282,16 +282,16 @@ comments:
 {
 	// Create a new asteroid object using the appropriate image file
 	Bullet *b = [Bullet spriteWithFile:@"bullet.png"];
-	
+
 	// Set the bullet's position by starting w/ the ship's position, then adding the rotation vector, so the bullet appears to come from the ship's nose
 	b.position = ccp(ship.position.x + cos(CC_DEGREES_TO_RADIANS(ship.rotation)) * ship.contentSize.width, ship.position.y - sin(CC_DEGREES_TO_RADIANS(ship.rotation)) * ship.contentSize.height);
-	
+
 	// Set the bullet's velocity to be in the same direction as the ship is pointing, plus whatever the ship's velocity is
 	b.velocity = ccp(cos(CC_DEGREES_TO_RADIANS(ship.rotation)) * 2 + ship.velocity.x, -sin(CC_DEGREES_TO_RADIANS(ship.rotation)) * 2 + ship.velocity.y);
-	
+
 	// Add bullet to organizational array
 	[bullets addObject:b];
-	
+
 	// Add bullet to layer
 	[self addChild:b];
 }
@@ -303,7 +303,7 @@ comments:
 
 	// Get window size
 	CGSize windowSize = [CCDirector sharedDirector].winSize;
-	
+
 	// Create asteroids based on level number
 	for (int i = 0; i < (currentLevel + 2); i++)
 	{
@@ -320,11 +320,11 @@ comments:
 	CGSize windowSize = [CCDirector sharedDirector].winSize;
 	ship.position = ccp(windowSize.width / 2, windowSize.height / 2);
 	ship.velocity = ccp(0, 0);
-	
+
 	// Remove all existing bullets from layer
 	for (Bullet *b in bullets)
 		[self removeChild:b cleanup:NO];
-	
+
 	// Empty out bullet-storing array
 	[bullets removeAllObjects];
 }
@@ -348,7 +348,7 @@ comments:
 // Initialize arrays that will be used to store other game objects
 asteroids = [[NSMutableArray array] retain];
 bullets = [[NSMutableArray array] retain];
-		
+
 // Call method which positions the ship and creates asteroids
 [self startLevel];
 </pre>
@@ -389,7 +389,7 @@ else
 		currentLevel++;
 		[self startLevel];
 	}
-	
+
 	// Check for collisions vs. asteroids
 	for (Asteroid *a in asteroids)
 	{
@@ -398,17 +398,17 @@ else
 		{
 			// Reset ship position
 			[self resetShip];
-			
+
 			// Remove the asteroid the ship collided with
 			[asteroids removeObject:a];
-			
+
 			// Remove asteroid sprite from layer
 			[self removeChild:a cleanup:NO];
-			
+
 			// This asteroid is gone, so go to the next one - no need to check if a bullet has also hit it
 			continue;
 		}
-		
+
 		// Check if asteroid hits bullet, or if bullet is expired
 		for (Bullet *b in bullets)
 		{
@@ -416,7 +416,7 @@ else
 			{
 				// Remove the bullet from organizational array
 				[bullets removeObject:b];
-				
+
 				// Remove bullet sprite from layer
 				[self removeChild:b cleanup:NO];
 			}
@@ -424,18 +424,18 @@ else
 			{
 				// Remove the asteroid the bullet collided with
 				[asteroids removeObject:a];
-				
+
 				// Remove asteroid sprite from layer
 				[self removeChild:a cleanup:NO];
-				
+
 				// Remove the bullet the asteroid collided with
 				[bullets removeObject:b];
-				
+
 				// Remove bullet sprite from layer
 				[self removeChild:b cleanup:NO];
-				
+
 				// Create two new asteroids in the place of the destroyed one, if the destroyed one wasn't already the smallest
-				if (a.size < kAsteroidSmall) 
+				if (a.size < kAsteroidSmall)
 				{
 					for (int i = 0; i < 2; i++)
 						[self createAsteroidAt:a.position withSize:a.size + 1];
@@ -447,5 +447,5 @@ else
 }
 </pre>
 <p>The first thing "update" does is check to see if the asteroid array is empty; if it is, then the next level starts. If the asteroid array is not empty, it loops through each asteroid, checking to see if the asteroid hits the ship (reset ship and remove asteroid if so), or any of the bullets on screen (remove bullet and asteroid, then create two more asteroids if the asteroid size != small). The only thing we need to do now is tell the layer that we want the "update" method to be scheduled to run every frame. It's pretty simple... in the "init" method of the layer, just add <code>[self scheduleUpdate];</code> and you're good to go. </p>
-<p>Build and run the project again, and all the objects should react to each other in the correct way. If not, perhaps you (or I) have made a mistake somewhere... let me know in the comments, and I'll try to help out. You can also download a <a href='http://ganbarugames.com/wp-content/uploads/2010/12/asteroids-after-part-2.zip'>.zip with all the project files</a> for reference.</p>
+<p>Build and run the project again, and all the objects should react to each other in the correct way. If not, perhaps you (or I) have made a mistake somewhere... let me know in the comments, and I'll try to help out. You can also download a <a href='/assets/uploads/2010/12/asteroids-after-part-2.zip'>.zip with all the project files</a> for reference.</p>
 <p><strong>Edit:</strong> check out <a href="/2011/03/cocos2d-game-tutorial-multitouch-asteroids-part-3/">part three</a> of the tutorial series!</p>

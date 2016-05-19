@@ -248,14 +248,14 @@ comments:
 {
 	// 'scene' is an autorelease object.
 	CCScene *scene = [CCScene node];
-	
+
 	// 'layer' is an autorelease object.
 	// Be sure to specify the "ScoresLayer" class in "ScoresScene.m", etc.
 	ControlsLayer *layer = [ControlsLayer node];
-	
+
 	// add layer as a child to scene
 	[scene addChild:layer];
-	
+
 	// return the scene
 	return scene;
 }
@@ -273,13 +273,13 @@ comments:
 <pre class="brush:cpp">
 // Get window size
 CGSize windowSize = [CCDirector sharedDirector].winSize;
-		
+
 // Create text label for title of game - "@stroids" - don't sue me Atari!
 CCLabelTTF *title = [CCLabelTTF labelWithString:@"@stroids" fontName:@"Courier" fontSize:64.0];
-		
+
 // Position title at center of screen
 [title setPosition:ccp(windowSize.width / 2, windowSize.height / 2)];
-		
+
 // Add to layer
 [self addChild:title z:1];
 </pre>
@@ -287,21 +287,21 @@ CCLabelTTF *title = [CCLabelTTF labelWithString:@"@stroids" fontName:@"Courier" 
 <pre class="brush:cpp">
 // Set the default CCMenuItemFont font
 [CCMenuItemFont setFontName:@"Courier"];
-		
+
 // Create "play," "scores," and "controls" buttons - when tapped, they call methods we define: playButtonAction and scoresButtonAction
 CCMenuItemFont *playButton = [CCMenuItemFont itemFromString:@"play" target:self selector:@selector(playButtonAction)];
 CCMenuItemFont *scoresButton = [CCMenuItemFont itemFromString:@"scores" target:self selector:@selector(scoresButtonAction)];
 CCMenuItemFont *controlsButton = [CCMenuItemFont itemFromString:@"controls" target:self selector:@selector(controlsButtonAction)];
-		
+
 // Create menu that contains our buttons
 CCMenu *menu = [CCMenu menuWithItems:playButton, scoresButton, controlsButton, nil];
-		
+
 // Align buttons horizontally
 [menu alignItemsHorizontallyWithPadding:20.0];
-		
+
 // Set position of menu to be below the title text
 [menu setPosition:ccp(windowSize.width / 2, title.position.y - title.contentSize.height / 1.5)];
-		
+
 // Add menu to layer
 [self addChild:menu z:2];
 </pre>
@@ -332,7 +332,7 @@ CCMenu *menu = [CCMenu menuWithItems:playButton, scoresButton, controlsButton, n
 
 // Get user defaults
 NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-		
+
 // Register default high scores - this could be more easily done by loading a .plist instead of manually creating this nested object
 NSDictionary *defaultDefaults = [NSDictionary dictionaryWithObject:[NSArray arrayWithObjects:[NSNumber numberWithInt:0], [NSNumber numberWithInt:0], [NSNumber numberWithInt:0], [NSNumber numberWithInt:0], [NSNumber numberWithInt:0], nil] forKey:@"scores"];
 
@@ -343,15 +343,15 @@ NSDictionary *defaultDefaults = [NSDictionary dictionaryWithObject:[NSArray arra
 <p>Next, let's delve into the ControlsScene class. Not too much new here... we'll just create a few labels that explain how to play the game, along with a button that takes the player back to the title screen.</p>
 <pre class="brush:cpp">
 // Goes in the init method of ControlsScene.m
-		
+
 // Get window size
 CGSize windowSize = [CCDirector sharedDirector].winSize;
-		
+
 // Create title label
 CCLabelTTF *title = [CCLabelTTF labelWithString:@"how to play" fontName:@"Courier" fontSize:32.0];
 [title setPosition:ccp(windowSize.width / 2, windowSize.height - title.contentSize.height)];
 [self addChild:title];
-		
+
 // Brief description ov how to control the game:
 // Tap = Shoot
 // Pinch = Rotate
@@ -361,16 +361,16 @@ CCLabelTTF *title = [CCLabelTTF labelWithString:@"how to play" fontName:@"Courie
 CCLabelTTF *controlsLabel = [CCLabelTTF labelWithString:@"tap = shoot\npinch = rotate\nswipe = move" dimensions:CGSizeMake(windowSize.width, windowSize.height / 3) alignment:CCTextAlignmentCenter fontName:@"Courier" fontSize:16.0];
 [controlsLabel setPosition:ccp(windowSize.width / 2, windowSize.height / 2)];
 [self addChild:controlsLabel];
-		
+
 // Create button that will take us back to the title screen
 CCMenuItemFont *backButton = [CCMenuItemFont itemFromString:@"back" target:self selector:@selector(backButtonAction)];
-		
+
 // Create menu that contains our buttons
 CCMenu *menu = [CCMenu menuWithItems:backButton, nil];
-		
+
 // Set position of menu to be below the scores
 [menu setPosition:ccp(windowSize.width / 2, controlsLabel.position.y - controlsLabel.contentSize.height)];
-		
+
 // Add menu to layer
 [self addChild:menu z:2];
 </pre>
@@ -388,41 +388,41 @@ CCMenu *menu = [CCMenu menuWithItems:backButton, nil];
 
 // Get window size
 CGSize windowSize = [CCDirector sharedDirector].winSize;
-		
+
 // Get scores array stored in user defaults
 NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-		
+
 // Get high scores array from "defaults" object
 NSArray *highScores = [defaults arrayForKey:@"scores"];
-		
+
 // Create title label
 CCLabelTTF *title = [CCLabelTTF labelWithString:@"high scores" fontName:@"Courier" fontSize:32.0];
 [title setPosition:ccp(windowSize.width / 2, windowSize.height - title.contentSize.height)];
 [self addChild:title];
-		
+
 // Create a mutable string which will be used to store the score list
 NSMutableString *scoresString = [NSMutableString stringWithString:@""];
-		
+
 // Iterate through array and print out high scores
 for (int i = 0; i < [highScores count]; i++)
 {
 	[scoresString appendFormat:@"%i. %i\n", i + 1, [[highScores objectAtIndex:i] intValue]];
 }
-		
+
 // Create label that will display the scores - manually set the dimensions due to multi-line content
 CCLabelTTF *scoresLabel = [CCLabelTTF labelWithString:scoresString dimensions:CGSizeMake(windowSize.width, windowSize.height / 3) alignment:CCTextAlignmentCenter fontName:@"Courier" fontSize:16.0];
 [scoresLabel setPosition:ccp(windowSize.width / 2, windowSize.height / 2)];
 [self addChild:scoresLabel];
-		
+
 // Create button that will take us back to the title screen
 CCMenuItemFont *backButton = [CCMenuItemFont itemFromString:@"back" target:self selector:@selector(backButtonAction)];
-		
+
 // Create menu that contains our buttons
 CCMenu *menu = [CCMenu menuWithItems:backButton, nil];
-		
+
 // Set position of menu to be below the scores
 [menu setPosition:ccp(windowSize.width / 2, scoresLabel.position.y - scoresLabel.contentSize.height)];
-		
+
 // Add menu to layer
 [self addChild:menu z:2];
 </pre>
@@ -440,40 +440,40 @@ CCMenu *menu = [CCMenu menuWithItems:backButton, nil];
 {
 	// Reset the ship's position, which also removes all bullets
 	[self resetShip];
-	
+
 	// Hide ship
 	ship.visible = NO;
-	
+
 	// Get window size
 	CGSize windowSize = [CCDirector sharedDirector].winSize;
-	
+
 	// Show "game over" text
 	CCLabelTTF *title = [CCLabelTTF labelWithString:@"game over" fontName:@"Courier" fontSize:64.0];
-	
+
 	// Position title at center of screen
 	[title setPosition:ccp(windowSize.width / 2, windowSize.height / 2)];
-	
+
 	// Add to layer
 	[self addChild:title z:1];
-	
+
 	// Create button that will take us back to the title screen
 	CCMenuItemFont *backButton = [CCMenuItemFont itemFromString:@"back to title" target:self selector:@selector(backButtonAction)];
-	
+
 	// Create menu that contains our button
 	CCMenu *menu = [CCMenu menuWithItems:backButton, nil];
-	
+
 	// Set position of menu to be below the "game over" text
 	[menu setPosition:ccp(windowSize.width / 2, title.position.y - title.contentSize.height)];
-	
+
 	// Add menu to layer
 	[self addChild:menu z:2];
-	
+
 	// Get scores array stored in user defaults
 	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-	
+
 	// Get high scores array from "defaults" object
 	NSMutableArray *highScores = [NSMutableArray arrayWithArray:[defaults arrayForKey:@"scores"]];
-	
+
 	// Iterate thru high scores; see if current point value is higher than any of the stored values
 	for (int i = 0; i < [highScores count]; i++)
 	{
@@ -481,18 +481,18 @@ CCMenu *menu = [CCMenu menuWithItems:backButton, nil];
 		{
 			// Insert new high score, which pushes all others down
 			[highScores insertObject:[NSNumber numberWithInt:points] atIndex:i];
-			
+
 			// Remove last score, so as to ensure only 5 entries in the high score array
 			[highScores removeLastObject];
-			
+
 			// Re-save scores array to user defaults
 			[defaults setObject:highScores forKey:@"scores"];
-			
+
 			[defaults synchronize];
-			
+
 			NSLog(@"Saved new high score of %i", points);
-			
-			// Bust out of the loop 
+
+			// Bust out of the loop
 			break;
 		}
 	}
@@ -504,7 +504,7 @@ CCMenu *menu = [CCMenu menuWithItems:backButton, nil];
 for (int i = 0; i < [asteroids count]; i++)
 {
 	Asteroid *a = [asteroids objectAtIndex:i];
-        
+
 	// Check if asteroid hits ship
 	if ([a collidesWith:ship])
 	{
@@ -523,4 +523,4 @@ for (int i = 0; i < [asteroids count]; i++)
 	[[CCDirector sharedDirector] runWithScene: [TitleLayer scene]];
 }
 </pre>
-<p>Try building and running the app to see these changes in effect. The game could still be polished further, but it's looking a heck of a lot better than where we left it at the end of the previous tutorial. At this point you could theoretically put it out on the App Store (albeit for free, since it's pretty bare bones). Feel free to experiment with the code that you have... add your own graphics, or maybe an alien ship or powerups. You can <a href='http://ganbarugames.com/wp-content/uploads/2011/03/asteroids-tutorial-part-3.zip'>download the Xcode project</a> for reference. And make sure to tune in to the final part of the tutorial, where we'll add some particle systems and sound effects to make the game even more interesting.</p>
+<p>Try building and running the app to see these changes in effect. The game could still be polished further, but it's looking a heck of a lot better than where we left it at the end of the previous tutorial. At this point you could theoretically put it out on the App Store (albeit for free, since it's pretty bare bones). Feel free to experiment with the code that you have... add your own graphics, or maybe an alien ship or powerups. You can <a href='/assets/uploads/2011/03/asteroids-tutorial-part-3.zip'>download the Xcode project</a> for reference. And make sure to tune in to the final part of the tutorial, where we'll add some particle systems and sound effects to make the game even more interesting.</p>

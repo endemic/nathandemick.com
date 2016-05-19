@@ -176,14 +176,14 @@ CCSprite *mySprite = [CCSprite spriteWithFile:@"Icon.png"];
 
 - (id)init
 {
-	if ((self = [super init])) 
+	if ((self = [super init]))
         {
 		// ask director the the window size
 		CGSize size = [[CCDirector sharedDirector] winSize];
 
 		// Set layer to respond to touch events
 		[self setIsTouchEnabled:TRUE];
-		
+
 		// Create sprite and add to layer
 		mySprite = [CCSprite spriteWithFile:@"Icon.png"];
 		[mySprite setPosition:ccp(size.width / 2, size.height / 2)];
@@ -213,11 +213,11 @@ CCSprite *mySprite = [CCSprite spriteWithFile:@"Icon.png"];
 		// Create "UITouch" objects representing each touch
 		UITouch *fingerOne = [touchArray objectAtIndex:0];
 		UITouch *fingerTwo = [touchArray objectAtIndex:1];
-		
+
 		// Convert each UITouch object to a CGPoint, which has x/y coordinates we can actually use
 		CGPoint pointOne = [fingerOne locationInView:[fingerOne view]];
 		CGPoint pointTwo = [fingerTwo locationInView:[fingerTwo view]];
-		
+
 		// The touch points are always in UIKit coordinates
 		// You will need to convert them to OpenGL coordinates (which have an inverted y-axis)
 		pointOne = [[CCDirector sharedDirector] convertToGL:pointOne];
@@ -225,10 +225,10 @@ CCSprite *mySprite = [CCSprite spriteWithFile:@"Icon.png"];
 
 		// Get the distance between the touch points
 		float distance = sqrt(pow(pointOne.x - pointTwo.x, 2.0) + pow(pointOne.y - pointTwo.y, 2.0));
-		
+
 		// Scale the distance based on the overall width of the screen (multiplied by a constant, just for effect)
 		float scale = distance / [CCDirector sharedDirector].winSize.width * 5;
-		
+
 		// Set the scale factor of the sprite
 		[mySprite setScale:scale];
 	}
@@ -247,4 +247,4 @@ CCSprite *mySprite = [CCSprite spriteWithFile:@"Icon.png"];
 [glView setMultipleTouchEnabled:TRUE];
 </pre>
 <p>Build &amp; run the project in the iOS simulator, and hold down the Option key to make two touch points with your mouse. You can see that the sprite scales up and down based on the distance between the touches. </p>
-<p>Congrats! You have the basics of getting user input in your cocos2d app. Play around with the project and see what other sorts of ways you can manipulate the sprite. One problem with this example is that the sprites' scale factor is reset each time you touch the screen again. An interesting reader exercise might be to retain the scale factor, so that the interaction feels more "natural." I've attached my solution (which is probably needlessly complex) in an <a href='http://ganbarugames.com/wp-content/uploads/2010/12/TouchExample.zip' title="Xcode project file">Xcode project file</a>.</p>
+<p>Congrats! You have the basics of getting user input in your cocos2d app. Play around with the project and see what other sorts of ways you can manipulate the sprite. One problem with this example is that the sprites' scale factor is reset each time you touch the screen again. An interesting reader exercise might be to retain the scale factor, so that the interaction feels more "natural." I've attached my solution (which is probably needlessly complex) in an <a href='/assets/uploads/2010/12/TouchExample.zip' title="Xcode project file">Xcode project file</a>.</p>

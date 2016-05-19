@@ -58,7 +58,7 @@ comments:
 <pre class="brush:js">
 // Store unsent Game Center data
 NSMutableArray *unsentAchievements;
-	
+
 // Store saved Game Center achievement progress
 NSMutableDictionary *achievementsDictionary;
 
@@ -153,7 +153,7 @@ NSMutableDictionary *achievementsDictionary;
 				 {
 					 // Retain the achievement object and try again later
 					 [unsentAchievements addObject:achievement];
-					 
+
 					 NSLog(@"Error sending achievement!");
 				 }
 			 }];
@@ -175,13 +175,13 @@ NSMutableDictionary *achievementsDictionary;
 		if (achievements != nil)
 		{
 			achievements.achievementDelegate = self;
-			
+
 			// Create an additional UIViewController to attach the GKAchievementViewController to
 			myViewController = [[UIViewController alloc] init];
-			
+
 			// Add the temporary UIViewController to the main OpenGL view
 			[[[CCDirector sharedDirector] openGLView] addSubview:myViewController.view];
-			
+
 			[myViewController presentModalViewController:achievements animated:YES];
 		}
 		[achievements release];
@@ -201,4 +201,4 @@ NSMutableDictionary *achievementsDictionary;
 <pre class="brush:js">
 [[GameCenterManager sharedGameCenterManager] reportAchievementIdentifier:@"com.ganbarugames.nonogrammadness.random_easy" incrementPercentComplete:10.0];
 </pre>
-<p>And that's all there is to it! <a href='http://ganbarugames.com/wp-content/uploads/2011/11/GameCenterManager_v2.zip'>Download the example source</a>, and if you have any questions, feel free to leave a comment or get in touch on <a href="http://www.twitter.com/ganbarugames" title="@ganbarugames on Twitter">Twitter</a>.</p>
+<p>And that's all there is to it! <a href='/assets/uploads/2011/11/GameCenterManager_v2.zip'>Download the example source</a>, and if you have any questions, feel free to leave a comment or get in touch on <a href="http://www.twitter.com/ganbarugames" title="@ganbarugames on Twitter">Twitter</a>.</p>
