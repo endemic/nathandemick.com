@@ -1,13 +1,13 @@
 module Jekyll
   module CommentAuthorFilter
     def comment_author(comment)
-      if comment['author_url'] && !comment['author_url'].empty?
-        author = "<a href=\"#{comment['author_url']}\" rel=\"nofollow\">#{author}</a>"
-      else
-        author = comment['author']
+      author = comment['author']
+
+      unless comment['author_url'].nil? || comment['author_url'].empty?
+        author = "<a href=\"#{comment['author_url']}\" rel=\"nofollow\">#{comment['author']}</a>"
       end
 
-      return author
+      author
     end
   end
 end
