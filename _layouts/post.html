@@ -15,7 +15,6 @@
 		{{ content }}
 
 		<p class="meta">
-      <img src="{{ site.url }}/assets/images/comments.png" alt="Comments"> <a href="{{ page.url }}#comments">Comments</a> &middot;
 		  <img src="{{ site.url }}/assets/images/written.png" alt="Posted by"> Posted by {{ page.author.display_name }} at {{ page.date | date: '%H:%m' }} &middot;
 		  <img src="{{ site.url }}/assets/images/tags.png" alt="Tags"> {% for tag in page.tags %} {{ tag }} {% endfor %}
 		</p>
@@ -35,6 +34,9 @@
       {% endfor %}
     {% else %}
       <script src="{{ site.url }}/assets/javascript/comments.js"></script>
+      <script>
+        new CommentHelper().getComments();
+      </script>
       <noscript>Please enable JavaScript to view comments.</noscript>
     {% endif %}
   </div>
