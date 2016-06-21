@@ -107,16 +107,42 @@ comments:
     http://www.flickr.com/photos/w00kie/sets/180637/
     i know it's off topic but you all should check it out
 ---
-<p>Picture update:</p>
-<p><a href="http://www.bitter-gamer.com/images/more_japan/ozaki.jpg">Ozaki</a>, the supermarket I usually go to. It's kind of a trashy place, but the main benefit is that it stays open past 9PM. Since I usually get off work AFTER 9, going shopping is sometimes problematic.</p>
-<p>Here are some pictures from my trip to Chicago last year. Probably never uploaded them.<br />
-<a href="http://www.bitter-gamer.com/images/chicago/ed_kakish.jpg">Ed and Kakish</a> playing Halo or something.<br />
-<a href="http://www.bitter-gamer.com/images/chicago/soulman.jpg">Soulman</a><br />
-<a href="http://www.bitter-gamer.com/images/chicago/soulman_ed.jpg">Soulman and Ed ridin' the El</a><br />
-<a href="http://www.bitter-gamer.com/images/chicago/ed_strikes_a_pose.jpg">Ed poses on the El platform</a></p>
-<p>The next pictures are from the <a href="http://www.bitter-gamer.com/images/chicago/modern_art.jpg">Millennium Park</a> in Chicago. There were some neet-looking sculptures and whatnot there. The coolest piece was probably <a href="http://www.bitter-gamer.com/images/chicago/the_bean.jpg">The Bean</a>. <a href="http://www.bitter-gamer.com/images/chicago/the_bean2.jpg">Another shot of The Bean</a>. Unfortunately, the park hadn't officially opened yet, so there was still a fence keeping us away from the wonder of The Bean. I love capitalizing The Bean.</p>
-<p>IMPORTANT QUESTION, FEEDBACK NEEDED<br />
-So, I have an idea for a multiplayer PHP game (like I've said many, many times). But, I'm not even going to try programming it unless I can get people to actually try it out. I had hoped for people like Matt and Tyler to maybe try playing it, but there's no way I can compete with World of Warcraft :P</p>
-<p><a href="http://www.bitter-gamer.com/docs/game_design.txt">Rough Idea</a></p>
-<p>If you think you might like to muck around with this program, let me know in the comments; I'll continue working on it if there's enough interest.</p>
-<p>EDIT: I was checking out the traffic info for this page (which I do sometimes, out of a desire for useless knowledge), looking at referrals. Most referrals come from from search engine image searches, but a few are different. So, I found <a href="http://www.nanzan-u.ac.jp/~02fb087/">Rie's Homepage</a>! She links me! Woo! You gots to read the Japanese, though :P</p>
+Picture update:
+
+[Ozaki](/images/more_japan/ozaki.jpg), the supermarket
+I usually go to. It's kind of a trashy place, but the main benefit is that it
+stays open past 9PM. Since I usually get off work AFTER 9, going shopping is
+sometimes problematic.
+
+Here are some pictures from my trip to Chicago last year. Probably never uploaded them.
+
+* [Ed and Kakish](/images/chicago/ed_kakish.jpg) playing Halo or something.
+* [Soulman](/images/chicago/soulman.jpg)
+* [Soulman and Ed ridin' the El](/images/chicago/soulman_ed.jpg)
+* [Ed poses on the El platform](/images/chicago/ed_strikes_a_pose.jpg)
+
+The next pictures are from the [Millennium Park](/images/chicago/modern_art.jpg)
+in Chicago. There were some neet-looking sculptures and whatnot there. The
+coolest piece was probably [The Bean](/images/chicago/the_bean.jpg).
+[Another shot of The Bean](/images/chicago/the_bean2.jpg).
+Unfortunately, the park hadn't officially opened yet, so there was still a fence
+keeping us away from the wonder of The Bean. I love capitalizing The Bean.
+
+IMPORTANT QUESTION, FEEDBACK NEEDED
+
+So, I have an idea for a multiplayer PHP game (like I've said many, many times).
+But, I'm not even going to try programming it unless I can get people to actually
+try it out. I had hoped for people like Matt and Tyler to maybe try playing it,
+but there's no way I can compete with World of Warcraft :P
+
+[Rough Idea](/docs/game_design.txt)
+
+If you think you might like to muck around with this program, let me know in the
+comments; I'll continue working on it if there's enough interest.
+
+EDIT: I was checking out the traffic info for this page (which I do sometimes,
+out of a desire for useless knowledge), looking at referrals. Most referrals
+come from from search engine image searches, but a few are different. So, I
+found [Rie's Homepage](http://www.nanzan-u.ac.jp/~02fb087/)! She links me! Woo!
+You gots to read the Japanese, though :P
+

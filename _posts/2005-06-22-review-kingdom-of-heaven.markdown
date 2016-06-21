@@ -35,17 +35,42 @@ comments:
     this movie simply because Christians kill Muslims. I could care less about the
     story, actually, and I was just giving you shit, Nate. <P>\r\n\r\nOh, and Chronicles
     of Narnia is raping everyone's childhood, if you didn't see that already. ;_;"
-- author: Gergana
-  content: Good blog
 ---
 kkkingdommmm of heeavenn!
-<p>
-In an effort to waste as much time as humanly possible, I watched Ridley Scott's new film, The Kingdom of Heaven. Now, I really like Scott's old movies, such as Blade Runner and Alien. However, I guess skill in directing sci-fi doesn't transfer in a 1:1 ratio to directing medieval war flicks. 
-<p>
-Kingdom of Heaven starts out with teen heartthrob Legolas (or <a href=http://www.imdb.com/name/nm0089217/?fr=c2l0ZT1kZnxteD0yMHxsbT01MDB8dHQ9MXxmYj11fHBuPTB8cT1vcmxhbmRvIGJsb29tfGh0bWw9MXxubT0x;fc=1;ft=20>Orlando Bloom</a>, if you prefer) working as a lowly blacksmith, who suddenly discovers that he is the illegitimate child of some powerful nobleman (<a href=http://www.imdb.com/name/nm0000553/?fr=c2l0ZT1kZnxteD0yMHxsbT01MDB8dHQ9MXxmYj11fHBuPTB8cT1MaWFtIG5lZXNvbnxodG1sPTF8bm09MQ__;fc=1;ft=20>Liam Neeson</a>). Said nobleman is off to the crusades, and Legolas joins him, ostensibly to gain some sort of forgiveness of sins by killing infidels. 
-<p>
-In the course of their travels, Legolas' father bites it, and Legolas reaches Jerusalem alone, where he inherits his father's land. In the Christian-controlled Jerusalem, however, things are not well. A schism arises between the good guys (We only want peace!) and the nasty Knights Templar (kill the bastards!). In a lame twist, the head Templar becomes king of Jerusalem, and promptly leads all his knights out to be slaughtered by the Muslim leader, Saladin. Saladin continues on to siege Jerusalem, where the final conflict is resolved. In the end, Legolas goes back to his regular old blacksmith life, of course with the hot chick he picked up in Israel. 
-<p>
-Even though I am probably the most UNcritical person when it comes to movies, I actually disliked this film. Orlando Bloom hams it up like you wouldn't believe, and the only interesting character (Liam Neeson) dies early on. Aside from all this, the entire premise of the movie seems unrealistic. It is never explained how Bloom learned his amazing combat and tactical skills, which are basically the crux of the movie (he knows enough to expertly defend a city from siege). Bloom's character also holds views about religion that seem very politically correct from a modern standpoint, but I'm pretty sure never existed 900 years ago. In addition, the resolution at the end of the movie is weak sauce, leaving no positive feeling. 
-<p>
-Other reviews I've read herald this movie for the neat battle scenes, and I can honestly say that they are probably the only good points of an otherwise forgettable action film. My advice is to skip this one.
+
+In an effort to waste as much time as humanly possible, I watched Ridley Scott's
+new film, The Kingdom of Heaven. Now, I really like Scott's old movies, such as
+Blade Runner and Alien. However, I guess skill in directing sci-fi doesn't
+transfer in a 1:1 ratio to directing medieval war flicks.
+
+Kingdom of Heaven starts out with teen heartthrob Legolas (or
+[Orlando Bloom](http://www.imdb.com/name/nm0089217/), if you prefer) working as
+a lowly blacksmith, who suddenly discovers that he is the illegitimate child of
+some powerful nobleman ([Liam Neeson](http://www.imdb.com/name/nm0000553/).
+Said nobleman is off to the crusades, and Legolas joins him, ostensibly to gain
+some sort of forgiveness of sins by killing infidels.
+
+In the course of their travels, Legolas' father bites it, and Legolas reaches
+Jerusalem alone, where he inherits his father's land. In the Christian-
+controlled Jerusalem, however, things are not well. A schism arises between the
+good guys (we only want peace!) and the nasty Knights Templar (kill the
+bastards!). In a lame twist, the head Templar becomes king of Jerusalem, and
+promptly leads all his knights out to be slaughtered by the Muslim leader,
+Saladin. Saladin continues on to siege Jerusalem, where the final conflict is
+resolved. In the end, Legolas goes back to his regular old blacksmith life, of
+course with the hot chick he picked up in Israel.
+
+Even though I am probably the most UNcritical person when it comes to movies, I
+actually disliked this film. Orlando Bloom hams it up like you wouldn't believe,
+and the only interesting character (Liam Neeson) dies early on. Aside from all
+this, the entire premise of the movie seems unrealistic. It is never explained
+how Bloom learned his amazing combat and tactical skills, which are basically
+the crux of the movie (he knows enough to expertly defend a city from siege).
+Bloom's character also holds views about religion that seem very politically
+correct from a modern standpoint, but I'm pretty sure never existed 900 years
+ago. In addition, the resolution at the end of the movie is weak sauce, leaving
+no positive feeling.
+
+Other reviews I've read herald this movie for the neat battle scenes, and I can
+honestly say that they are probably the only good points of an otherwise
+forgettable action film. My advice is to skip this one.
