@@ -2,7 +2,7 @@
 layout: post
 status: publish
 published: true
-title: Review: Sony Xperia Z3 Compact
+title: 'Review: Sony Xperia Z3 Compact'
 author:
   display_name: Nathan
   email: ndemick@gmail.com
