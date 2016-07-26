@@ -26,7 +26,7 @@ up connecting with the owner of a private school that was located in
 Definitely something of a backwater locale, even though it's only 60 miles
 away from Tokyo. Most of my teaching was in the main office that was close to
 the center of the city, but I also had to regularly commute to a satellite
-office that was in nearby [Tochigi](://www.google.com/maps/dir/Utsunomiya,+Tochigi+Prefecture,+Japan/Tochigi,+Tochigi+Prefecture,+Japan/@36.465256,139.7262905,12z/am=t/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x601f666c9356803b:0xc9357749798654c2!2m2!1d139.8828072!2d36.5551124!1m5!1m1!1s0x601f3f8106b1aa97:0x226136dc12e5b1dc!2m2!1d139.734081!2d36.3823804)
+office that was in nearby [Tochigi](https://www.google.com/maps/dir/Utsunomiya,+Tochigi+Prefecture,+Japan/Tochigi,+Tochigi+Prefecture,+Japan/@36.465256,139.7262905,12z/am=t/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x601f666c9356803b:0xc9357749798654c2!2m2!1d139.8828072!2d36.5551124!1m5!1m1!1s0x601f3f8106b1aa97:0x226136dc12e5b1dc!2m2!1d139.734081!2d36.3823804)
 (bizarrely, on a rail line operated by a department store). The school I worked
 for, being a small family-run business, had all ages of students: I sometimes
 "taught" preschool kids, and my oldest student was a guy in his 80s (whenever
