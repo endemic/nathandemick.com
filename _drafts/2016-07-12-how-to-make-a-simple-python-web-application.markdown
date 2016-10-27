@@ -58,7 +58,7 @@ comments: []
   * Run the app! `python server.py` and go to http://localhost:8080/ to see the
     (simple) app being served from your computer.
 
-4. Development environment setup complete! What's next?
+4. Development environment setup complete! What's next? Probably figuring out what exactly to program.
   * I want an app that will randomly show a banner or badge for an affiliate program
   * I want the app to be hosted on my own domain, so that ad-blockers won't be bothered by it
   * I want to create banner/badge images myself (or at least choose which ones I show),
@@ -88,9 +88,14 @@ comments: []
     ```
 
 6. Routes CREATE!
-  * GET /
-    Get a JSON representation of a "random" banner unit, so it can be embedded/displayed in a page
-  * GET /:id
-    Get a JSON representation of a _specific_ banner unit (for testing or whatever)
-  * GET /:id/forward
+  * `GET /`  
+    Traditional "list/index" of all database entries
+  * `GET /rando`  
+    Get a "random" banner unit, so it can be embedded/displayed in a page
+  * `GET /:id`  
+    Get a _specific_ banner unit (for testing or whatever)
+  * `GET /:id/forward`  
     Forward user to end `url`, of a unit, after incrementing the `clicks` column
+
+7. Make some tests
+  * CherryPy makes it relatively easy to add some functional tests to your app
