@@ -33,8 +33,6 @@ comments:
   content: 'Yes.  David Duchovny''s most self-indulgent piece of crud ever.  Here''s
     a hint:  WHEN YOU''RE OUT OF IDEAS, DON''T LET THE ACTORS WRITE THEIR OWN EPISODES
     AND INVITE THEIR WIVES AND FRIENDS TO GUEST STAR.'
-- author: Phany
-  content: You are the best. Thank you http://www.bignews.com
 ---
 My dream was lame last night.
 
