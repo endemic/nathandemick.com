@@ -2,14 +2,7 @@
 layout: post
 status: publish
 published: true
-title: 'I remembered this site (and went searching for it) while reading Bruce Schnier&#8217;s
-  monthly <a href="http://www.counterpane.com/crypto-gram.html" title="Cryptogram
-  newsletter">Cryptogram newsletter</a>. He was using <a href="http://tinyurl.com/"
-  title="tinyurl.com">tinyurl.com</a>, and although his practice was better than most
-  (using the shortened URL after the long one, in case the long one got broken by
-  the email client), it still reminded me of the ambiguity of shortened URLs. If you
-  have the choice, use an URL shortener that gives others a better idea of what they&#8217;re
-  clicking.   '
+title: DecentURL
 author:
   display_name: Nathan
   login: admin
@@ -26,4 +19,12 @@ categories:
 tags: []
 comments: []
 ---
-<p><a href='http://decenturl.com/'>DecentURL</a></p>
+[DecentURL](http://decenturl.com/) (**EDIT** now defuct)
+
+I remembered this site (and went searching for it) while reading Bruce Schnier's
+monthly [Crypto-Gram newsletter](https://www.schneier.com/crypto-gram/). He
+was using [tinyurl.com](http://tinyurl.com/), and although his practice was
+better than most (using the shortened URL after the long one, in case the long
+one got broken by the email client), it still reminded me of the ambiguity of
+shortened URLs. If you have the choice, use an URL shortener that gives others
+a better idea of what they're clicking.
