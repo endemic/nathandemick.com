@@ -64,7 +64,7 @@ ol, ul { margin: 0 0 0 5%; font-size: 1rem; line-height: 1.5rem; }
 
 #comment_form p { margin: 3px auto; }
 #comment_form label { text-align: right; width: 60px; padding: 5px 5px 0 0; font-weight: bold; display: inline-block; vertical-align: top; }
-#comment_form .g-recaptcha { margin-left: 65px; }
+#comment_form .h-captcha { margin-left: 65px; }
 #comment_form button { margin: 10px 0 0 65px; border: 2px solid black; padding: 5px 10px; font-size: 16px; cursor: pointer; }
 #comment_form input,
 #comment_form textarea { width: 625px; border: 1px solid #ccc; padding: 4px; }
