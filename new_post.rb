@@ -1,11 +1,13 @@
 #!/usr/bin/env ruby
 
-require 'active_support/core_ext/string'
-
 puts "What's the title of your post?"
 title = gets.strip
 
-filename = "_posts/#{Time.now.to_s[0 ... 10]}-#{title.parameterize}.markdown"
+def slugify(string)
+  string.downcase.tr(' ', '-').gsub(/(?!-)\W/, '')
+end
+
+filename = "_posts/#{Time.now.to_s[0...10]}-#{slugify(title)}.markdown"
 
 fail 'That post already exists!' if File.exists?(filename)
 
