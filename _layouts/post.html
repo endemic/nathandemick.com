@@ -1,22 +1,14 @@
 {% include header.html %}
 
-<div id="posts">
-	<div class="post">
-		<div class="post-date">
-		  <p>
-		    {{ page.date | date: '%b' }}
-		    <strong>{{ page.date | date: '%d' }}</strong>
-		    {{ page.date | date: '%Y' }}
-		  </p>
-		</div>
+	<article>
 
-		{{ page | custom_header }}
+		<h2>{{ page.title }}</h2>
 
 		{{ content }}
 
 		<p class="meta">
-		  <img src="{{ site.url }}/assets/images/written.png" alt="Posted by"> Posted by {{ page.author.display_name }} at {{ page.date | date: '%H:%m' }} &middot;
-		  <img src="{{ site.url }}/assets/images/tags.png" alt="Tags"> {% for tag in page.tags %} {{ tag }} {% endfor %}
+		  <!-- Posted on {{ page.date | date: '%b %d, %Y' }} -->
+      Posted at {{ page.date | epoch_timestamp }}
 		</p>
 	</div>	<!-- /post -->
 
@@ -37,9 +29,9 @@
       <script>
         new CommentHelper().getComments();
       </script>
-      <noscript>Please enable JavaScript to view comments.</noscript>
+      <noscript>Please enable JavaScript to view comments (sorry).</noscript>
     {% endif %}
-  </div>
-</div>
+  </article>
+</section> <!-- /#posts -->
 
 {% include footer.html %}
