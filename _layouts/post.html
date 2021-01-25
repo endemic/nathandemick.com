@@ -1,37 +1,42 @@
 {% include header.html %}
 
-	<article>
+  <article>
 
-		<h2>{{ page.title }}</h2>
+    <h2>{{ page.title }}</h2>
 
-		{{ content }}
+    {{ content }}
 
-		<p class="meta">
-		  <!-- Posted on {{ page.date | date: '%b %d, %Y' }} -->
-      Posted at {{ page.date | epoch_timestamp }}
-		</p>
-	</div>	<!-- /post -->
+    <p class="meta">
+      <time title="Posted at {{ page.date }}">{{ page.date | epoch_timestamp }}</time>
+      &middot;
+      {{ page.comments.size }} comments
+    </p>
 
-  <hr>
+    <section class="comments">
+      <a name="comments"></a>
 
-  <a name="comments"></a>
-  <div id="comments">
-    <h3>Comments</h3>
-    {% if page.comments.size > 0 %}
-      {% for comment in page.comments %}
-      <section class="comment">
-        <p><span class="name">{{ comment | comment_author }}</span> wrote on <span class="timestamp">{{ comment.date | date: '%B %d, %Y' }}</span>:</p>
-        <p class="body">{{ comment.content }}</p>
-      </section>
-      {% endfor %}
-    {% else %}
-      <script src="{{ site.url }}/assets/javascript/comments.js"></script>
-      <script>
-        new CommentHelper().getComments();
-      </script>
-      <noscript>Please enable JavaScript to view comments (sorry).</noscript>
-    {% endif %}
+      <hr>
+
+      <h3>Comments</h3>
+
+      {% if page.comments.size > 0 %}
+        {% for comment in page.comments %}
+        <section class="comment">
+          <p><span class="name">{{ comment | comment_author }}</span> wrote on <time>{{ comment.date | date: '%B %d, %Y' }}</time>:</p>
+          <p class="body">{{ comment.content }}</p>
+        </section>
+        {% endfor %}
+      {% else %}
+        <script src="{{ site.url }}/assets/javascript/comments.js"></script>
+        <script>
+          new CommentHelper().getComments();
+        </script>
+        <noscript>Please enable JavaScript to view comments (sorry).</noscript>
+      {% endif %}
+    </section> <!-- /.comments -->
+
+    <hr>
+
   </article>
-</section> <!-- /#posts -->
 
 {% include footer.html %}
