@@ -5,39 +5,28 @@ author:
 ---
 {% include header.html %}
 
-<div id="posts">
+{% for post in paginator.posts %}
+<article>
+  <h2>
+    <a href="{{ post.url }}" title="{{ post.title }}" aria-label="{{ post.title }}" rel="bookmark">
+      {{ post.title }}
+    </a>
+  </h2>
 
-  {% for post in paginator.posts %}
-  <div class="post">
-    <div class="post-date">
-      <p>
-        {{ post.date | date: '%b' }}
-        <strong>{{ post.date | date: '%d' }}</strong>
-        {{ post.date | date: '%Y' }}
-      </p>
-    </div>
+  {{ post.content }}
 
-    {{ post | custom_header }}
+  <p class="meta">
+    <time title="Posted at {{ post.date }}">{{ post.date | epoch_timestamp }}</time>
+    &middot;
+    <a class="comments"
+       data-comment-count="{{ post.comments.size }}"
+       href="{{ post.url }}#comments">{{ post.comments.size }} comments</a>
+  </p>
+</article>  <!-- /post -->
 
-    {{ post.content }}
+{% endfor %}
 
-    <p class="meta">
-      <img src="{{ site.url }}/assets/images/comments.png" alt="Comments">
-      <a data-comment-count="{{ post.comments.size }}" class="comments" href="{{ post.url }}#comments">{{ post.comments.size }} comments</a> &middot;
-
-      <img src="{{ site.url }}/assets/images/written.png" alt="Posted by">
-      Posted by {{ post.author.display_name }} at {{ post.date | date: '%H:%m' }} &middot;
-
-      <img src="{{ site.url }}/assets/images/tags.png" alt="Tags"> {% for tag in post.tags %} {{ tag }} {% endfor %}
-    </p>
-  </div>  <!-- /post -->
-
-  <hr>
-  {% endfor %}
-
-  {% include pagination.html %}
-
-</div>  <!-- /posts -->
+{% include pagination.html %}
 
 <!-- comment count -->
 <script src="{{ site.url }}/assets/javascript/comments.js"></script>
