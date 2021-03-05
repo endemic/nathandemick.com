@@ -74,7 +74,12 @@ article {
   .image {
     text-align: center;
 
-    img { border: 2px solid #333; }
+    img {
+      border: 2px solid #333;
+      box-sizing: border-box;
+      width: 95%;
+    }
+
     small { display: inline-block; }
   }
 }
@@ -192,6 +197,9 @@ footer {
   article {
     h2 { padding: 1rem; }
     p { margin: 1rem; }
+    .image {
+      img { width: auto; }
+    }
   }
 
   footer {
