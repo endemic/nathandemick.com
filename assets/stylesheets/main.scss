@@ -71,6 +71,8 @@ article {
     text-align: justify;
   }
 
+  code { background: #eee; }
+
   .image {
     text-align: center;
 
@@ -80,7 +82,7 @@ article {
       width: 95%;
     }
 
-    small { display: inline-block; }
+    small { display: block; }
   }
 }
 
