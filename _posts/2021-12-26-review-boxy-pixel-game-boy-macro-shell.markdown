@@ -2,7 +2,7 @@
 layout: post
 status: publish
 published: true
-title: Review: Boxy Pixel Game Boy Macro Shell
+title: "Review: Boxy Pixel Game Boy Macro Shell"
 author:
   display_name: Nathan
   email: ndemick@gmail.com
