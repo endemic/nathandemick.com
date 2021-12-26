@@ -1,0 +1,3 @@
+#!/usr/bin/bash
+
+docker run --rm --name jekyll_container --volume $(pwd):/app --publish 4000:4000 jekyll
