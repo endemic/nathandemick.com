@@ -73,7 +73,7 @@ article {
 
   code { background: #eee; }
 
-  .image {
+  figure {
     text-align: center;
 
     img {
@@ -82,7 +82,7 @@ article {
       width: 95%;
     }
 
-    small { display: block; }
+    figcaption { display: block; font-size: 0.8rem; }
   }
 }
 
@@ -198,9 +198,17 @@ footer {
 
   article {
     h2 { padding: 1rem; }
+
     p { margin: 1rem; }
-    .image {
-      img { width: auto; }
+
+    .figure-group {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: baseline;
+
+      figure {
+        img { width: 100% }
+      }
     }
   }
 

@@ -27,19 +27,24 @@ a replacement faceplate that looks very professional. It takes some design cues 
 Game Boy Advance SP, and has a modern design sensibility since it's made of aluminum (truly, the metal
 of our time).
 
-<section class="image">
-    <img src="/assets/uploads/2021/12/aluminum_shell.jpg" alt="Aluminum Game Boy Macro top shell">
-    <small>What you get from Boxy Pixel &mdash; the empty top shell. </small>
-</section>
+<section class="figure-group">
+    <figure>
+        <img src="/assets/uploads/2021/12/aluminum_shell.jpg"
+            alt="Aluminum Game Boy Macro top shell">
+        <figcaption>What you get from Boxy Pixel &mdash; the empty top shell. </figcaption>
+    </figure>
 
-<section class="image">
-    <img src="/assets/uploads/2021/12/finished_macro.jpg" alt="The completed Game Boy Macro">
-    <small>The completed product. Note that the GBA cart sticks out a bit from the bottom.</small>
-</section>
+    <figure>
+        <img src="/assets/uploads/2021/12/finished_macro.jpg"
+            alt="The completed Game Boy Macro">
+        <figcaption>The completed product. Note that the GBA cart sticks out a bit from the bottom.</figcaption>
+    </figure>
 
-<section class="image">
-    <img src="/assets/uploads/2021/12/finished_macro_on.jpg" alt="Game Boy Macro with screen turned on">
-    <small>With power. The screen looks great!</small>
+    <figure>
+        <img src="/assets/uploads/2021/12/finished_macro_on.jpg"
+            alt="Game Boy Macro with screen turned on">
+        <figcaption>With power. The screen looks great!</figcaption>
+    </figure>
 </section>
 
 Now, there's no reason that I needed to make a Macro. I have an original GBA that I modded with a Game Boy SP
@@ -64,14 +69,16 @@ original GBA, but quite a bit thinner and lighter, making it easier to play. It 
 uses the built-in rechargable DS Lite battery, which is kinda nice &mdash; you don't have to
 swap AA batteries. The screen is also incredbily bright and vibrant.
 
-<section class="image">
-    <img src="/assets/uploads/2021/12/macro_comparison_1.jpg" alt="Side-by-side comparison of original GBA and the Macro">
-    <small>Side-by-side comparison between the Macro and an original GBA.</small>
-</section>
+<section class="figure-group">
+    <figure>
+        <img src="/assets/uploads/2021/12/macro_comparison_1.jpg" alt="Side-by-side comparison of original GBA and the Macro">
+        <figcaption>Side-by-side comparison between the Macro and an original GBA.</figcaption>
+    </figure>
 
-<section class="image">
-    <img src="/assets/uploads/2021/12/macro_comparison_2.jpg" alt="Side-by-side comparison of original GBA and the Macro">
-    <small>The Macro is quite a bit thinner and lighter.</small>
+    <figure>
+        <img src="/assets/uploads/2021/12/macro_comparison_2.jpg" alt="Side-by-side comparison of original GBA and the Macro">
+        <figcaption>The Macro is quite a bit thinner and lighter.</figcaption>
+    </figure>
 </section>
 
 Any downsides? Well, one thing I had forgotten about was that the DS Lite didn't have
