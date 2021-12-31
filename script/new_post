@@ -7,7 +7,7 @@ def slugify(string)
   string.downcase.tr(' ', '-').gsub(/(?!-)\W/, '')
 end
 
-filename = "_posts/#{Time.now.to_s[0...10]}-#{slugify(title)}.markdown"
+filename = "_drafts/#{Time.now.to_s[0...10]}-#{slugify(title)}.markdown"
 
 fail 'That post already exists!' if File.exists?(filename)
 
@@ -22,14 +22,12 @@ author:
   email: ndemick@gmail.com
 date: #{Time.now}
 categories:
-- ur
-- categoriez
+- add_post_categories_here
 tags:
-- ur
-- tagz
+- add_post_tags_here
 comments: []
 ---
-ur content here!
+<BODY />
 EOF
 
 File.write(filename, post_skeleton)
