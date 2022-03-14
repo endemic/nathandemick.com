@@ -31,6 +31,11 @@ own water bottle. I made a point of slowing down to drink at each station, and a
 the strategy wasn't foolproof (I ran 0:30 slower than my target pace for the last 3 miles of the race), I was able to finish without walking, and got a
 new PR (3:18).
 
+<figure>
+    <img src="/assets/uploads/2021/12/2021_marathon_route.webp" alt="2021 Columbus Marathon route">
+    <figcaption>An elevation map of the 2021 Columbus Marathon.</figcaption>
+</figure>
+
 After the race, I wanted to write down my thoughts of how it went; hopefully in order to do better next time. Here, in no particular order, are some
 random observations about this year's race:
 
