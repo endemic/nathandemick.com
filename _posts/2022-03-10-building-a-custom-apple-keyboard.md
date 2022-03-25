@@ -60,16 +60,57 @@ soldering. The PCB came with resistors that needed to be soldered, in addition t
 was a small tool that helps bend the leads on the resistors so that they fit perfectly in the board. Connecting all the resistors and switches was 
 more tedious than difficult, as there was no delicate soldering required. Screwing the PCB into the bottom case completed the build.
 
+<section class="figure-group">
+    <figure>
+        <img src="/assets/uploads/2022/03/01_resistor_lead_bender.webp"
+            alt="tool to help bend resistor lead wires">
+        <figcaption>This included tool was super handy. I love it!</figcaption>
+    </figure>
+
+    <figure>
+        <img src="/assets/uploads/2022/03/02_solder_resistors.webp"
+            alt="resistors getting soldered to alps64 PCB">
+        <figcaption>Soldering all the resistors is still a bit tedious, though.</figcaption>
+    </figure>
+</section>
+
 The only slightly tricky thing I had trouble with was seating the keycaps that required stabilizers. Since I didn't remove the caps from an existing
 keyboard, I wasn't able to observe how they were originally placed. The space bar was especially annoying, I tried placing the stabilizer in 
 various orientations before I found a photo of the correct one. Also, the keycaps required more force than I expected in order to firmly seat them
 on each switch stem. I had each keycap in place, then realized that I needed to push harder on each one in order to get them really on there.
+
+<section class="figure-group">
+    <figure>
+        <img src="/assets/uploads/2022/03/03_add_keycaps.webp"
+            alt="in the process of installing keycaps">
+        <figcaption>Easy caps are in place.</figcaption>
+    </figure>
+
+    <figure>
+        <img src="/assets/uploads/2022/03/04_spacebar_stabilizers.webp"
+            alt="example of AEKII spacebar stabilizers">
+        <figcaption>The stabilizers for the space bar should look like this.</figcaption>
+    </figure>
+
+    <figure>
+        <img src="/assets/uploads/2022/03/05_keycaps_complete.webp"
+            alt="keycaps installed">
+        <figcaption>Finally got all the caps put on correctly.</figcaption>
+    </figure>
+</section>
 
 Since the Alps64 board is only 60%, it's missing lots of keys that a full-sized keyboard would have &mdash; most notably the <code>escape</code> key. Fortunately
 there is an [incredibly user friendly firmware editor](http://www.tmk-kbd.com/tmk_keyboard/editor/unimap/?alps64) which allows you to create multiple
 "layers" on your keyboard. For example, in my default layer, all keys are taken at face value, but if I hold the right <code>control</code> key,
 a second layer is activated, which maps <code>backtick</code> to <code>escape</code>, WASD to arrow keys, 1-9 to function keys, etc. So you can basically
 customize the layout completely.
+
+
+<figure>
+    <img src="/assets/uploads/2022/03/06_complete.webp"
+        alt="the completed keyboard">
+    <figcaption>The completed keyboard.</figcaption>
+</figure>
 
 I really like this keyboard so far. The Matias quiet click switches are very satisfying, and the weight of the aluminum case gives some heft which
 is missing from my Quefrency and HHKB. The classic Apple font on the keycaps is also delightfully nostalgic. It also is totally fine driving
