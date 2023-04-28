@@ -1,0 +1,14 @@
+#!/usr/bin/bash
+
+# start the container
+docker run --detach --rm --name jekyll_container --volume $(pwd):/app jekyll
+
+# ensure the site is built
+docker exec jekyll_container jekyll build
+
+# stop the container
+docker stop jekyll_container
+
+# copy filez to remote
+# archive, verbose, use ssh remote shell
+rsync -av --exclude 'script' -e ssh _site/* nathandemick.com:/var/www/nathandemick.com/html

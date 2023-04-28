@@ -1,4 +1,11 @@
-plugins: [jekyll-paginate]
+title: nathandemick.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Personal website of Nathan Demick
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://nathandemick.com" # the base hostname & protocol for your site, e.g. http://example.com
+
+plugins:
+  - jekyll-paginate
 highlighter: rouge
 paginate: 5
 paginate_path: "/page:num/"
