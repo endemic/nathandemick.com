@@ -27,31 +27,45 @@ signpost) felt "off" &mdash; confirmed broken on my return home. I guess the for
 was that it happened far enough ahead of my schedule races that I felt confident of recovery, and was able
 to (mostly) continue with my training taper.
 
+<section class="figure-group">
+  <figure>
+    <img src="/assets/uploads/2023/10/post.webp"
+      alt="Sign post stub I tripped over">
+    <figcaption>Tripped over this bastard</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/assets/uploads/2023/10/foot.webp"
+      alt="Broken toe">
+    <figcaption>The end results</figcaption>
+  </figure>
+</section>
+
 ### Chicago
 
 First race up was Chicago. I took a day off work and drove up with the family &mdash; we hoofed around downtown
-for two days. The kids had never been, and it had almost been 20 years(!) since I had last visited. We got a 
+for two days. The kids had never been, and it had almost been 20 years(!) since I had last visited. We got a
 cheap-o hotel near Midway, but train access was pretty convenient, so it worked out. Race morning promised
-great weather. There were _so_ many people in town for the marathon, it was just on a different scale than 
-what I had experienced before. Getting to the starting point and gear check was straightforward. I had so 
+great weather. There were _so_ many people in town for the marathon, it was just on a different scale than
+what I had experienced before. Getting to the starting point and gear check was straightforward. I had so
 much time to kill that I sipped on some Gatorade while waiting. This turned out to be a problem later, as
 I felt like I needed to hit a porta-potty once I got into the starting corrals, but it was too late by that
 point.
 
-Since I'd never run Chicago before, I figured I'd hang out with a pace group for a while and just 
+Since I'd never run Chicago before, I figured I'd hang out with a pace group for a while and just
 try to enjoy the course. The first mile was dead on 7:15, but the next three were under 7:00; not sure what
 the pacer was thinking. I was worried about going too fast, so tried to relax and slow down, but ended
 up keeping ~7:05/mile pace for most of the race. The 3:10 group never caught back up to me, which was kind of
-unfortunate; I felt like I wasn't really able to enjoy the crowds/scenery as much because I was so focused 
-on keeping my own pace. I was very pleased with my nutrition strategy, which involved bringing along 
-4 Maurtens (2 regular, 2 w/ caffeine) and 2 Honey Stinger Golds. They were easy to get down, and had enough 
+unfortunate; I felt like I wasn't really able to enjoy the crowds/scenery as much because I was so focused
+on keeping my own pace. I was very pleased with my nutrition strategy, which involved bringing along
+4 Maurtens (2 regular, 2 w/ caffeine) and 2 Honey Stinger Golds. They were easy to get down, and had enough
 variation that I could look forward to eating the next one. The only hiccup in the race was that I eventually
 had to stop for a bathroom break at mile 23 &mdash; it was just too uncomfortable at that point. The rest of
-the race was really just hanging on; lots of folks were having to drop out and start walking. At the finish 
-line I had barely enough time to breathe a sigh of relief before having to avoid a dude getting helped into 
-a wheelchair, while simultaneously stepping over piles of puke. It was pretty savage. My finish time was 
-3:08:43, about a 4 minute improvement to my PR. Although that is fast enough to _apply_ to Boston, it 
-[probably isn't enough to actually get accepted](https://www.baa.org/races/boston-marathon/qualify) 
+the race was really just hanging on; lots of folks were having to drop out and start walking. At the finish
+line I had barely enough time to breathe a sigh of relief before having to avoid a dude getting helped into
+a wheelchair, while simultaneously stepping over piles of puke. It was pretty savage. My finish time was
+3:08:43, about a 4 minute improvement to my PR. Although that is fast enough to _apply_ to Boston, it
+[probably isn't enough to actually get accepted](https://www.baa.org/races/boston-marathon/qualify)
 (scroll to the "Qualifying History" section).
 
 ### Columbus
@@ -62,7 +76,7 @@ still coughing up snot. I took some daytime cold medicine that included deconges
 frequently during the race. Since I wasn't in 100% condition, I told myself not to push too hard, and just enjoy
 the course. My average heart rate was noticably higher (around 5bpm) than the previous week, which I attributed
 to still recovering from sickness. The first mile was slow, due to congestion at the starting line. Since the
-Columbus race is so much smaller than Chicago (3,000 + 6,000 &frac12; marathon vs. 47,000!), runners in the first 
+Columbus race is so much smaller than Chicago (3,000 + 6,000 &frac12; marathon vs. 47,000!), runners in the first
 corral vary wildly in
 terms of speed, and I didn't do enough to move to the front of the group. After the first mile, I was able to
 settle back in to the ~7:05/mile pace that seems to be comfortable for my current fitness level. The unfortunate
@@ -74,13 +88,27 @@ around the same time as Chicago (or maybe faster) if I kept a 7:00/mile pace. I 
 dug deep enough to get that speed and finish 36 seconds faster. I have to say, Columbus' post-race snacks were
 a lot better &mdash; Cheryl's cookies and _real_ chocolate milk instead of waxy donuts and Muscle Milk (bleh).
 
+<section class="figure-group">
+  <figure>
+    <img src="/assets/uploads/2023/10/2023_chicago_results.webp"
+      alt="2023 Chicago Marathon results">
+    <figcaption>Chicago</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/assets/uploads/2023/10/2023_columbus_results.webp"
+      alt="2023 Columbus Marathon results">
+    <figcaption>Columbus</figcaption>
+  </figure>
+</section>
+
 ### Looking ahead
 
 After back-to-back races, I'm going to take a bit of a (well-deserved) break. Looking forward, however,
 I think there are a few goals I can work towards:
 
-1. I'm going to put in the work to make my diet less trashy and try to drop 10 lbs; haven't really had the 
+1. I'm going to put in the work to make my diet less trashy and try to drop 10 lbs; haven't really had the
 motivation to lose weight, but it's another factor under my control
 2. I might do some speed training and see if I can do sub-1:30 at [the Cap City Half Marathon](https://capitalcityhalfmarathon.com)
-3. Since Boston registration is the opposite of Columbus, the earliest I would be able to run is 2025; 
+3. Since Boston registration is the opposite of Columbus, the earliest I would be able to run is 2025;
 I might try to enter a race earlier in 2024, to get more of a buffer on my best time (Cincinnati?)
