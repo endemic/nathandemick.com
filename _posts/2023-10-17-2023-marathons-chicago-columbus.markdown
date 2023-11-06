@@ -29,15 +29,15 @@ to (mostly) continue with my training taper.
 
 <section class="figure-group">
   <figure>
-    <img src="/assets/uploads/2023/10/post.webp"
+    <img src="/assets/uploads/2023/10/post.jpg"
       alt="Sign post stub I tripped over">
     <figcaption>Tripped over this bastard</figcaption>
   </figure>
 
   <figure>
-    <img src="/assets/uploads/2023/10/foot.webp"
+    <img src="/assets/uploads/2023/10/foot.jpg"
       alt="Broken toe">
-    <figcaption>The end results</figcaption>
+    <figcaption>The end result</figcaption>
   </figure>
 </section>
 
@@ -77,8 +77,7 @@ frequently during the race. Since I wasn't in 100% condition, I told myself not 
 the course. My average heart rate was noticably higher (around 5bpm) than the previous week, which I attributed
 to still recovering from sickness. The first mile was slow, due to congestion at the starting line. Since the
 Columbus race is so much smaller than Chicago (3,000 + 6,000 &frac12; marathon vs. 47,000!), runners in the first
-corral vary wildly in
-terms of speed, and I didn't do enough to move to the front of the group. After the first mile, I was able to
+corral vary wildly in terms of speed, and I didn't do enough to move to the front of the group. After the first mile, I was able to
 settle back in to the ~7:05/mile pace that seems to be comfortable for my current fitness level. The unfortunate
 thing was that I could feel my legs fatiguing much faster than the previous race. A brisk wind blowing from the
 north also made the traversal up High Street (around the halfway point) pretty uncomfortable. There were times
@@ -87,6 +86,13 @@ the other. Miles 24 & 25 were the worst, but after passing the #25 marker, I rea
 around the same time as Chicago (or maybe faster) if I kept a 7:00/mile pace. I felt pretty bad, but somehow
 dug deep enough to get that speed and finish 36 seconds faster. I have to say, Columbus' post-race snacks were
 a lot better &mdash; Cheryl's cookies and _real_ chocolate milk instead of waxy donuts and Muscle Milk (bleh).
+
+<figure>
+  <video controls width="620">
+    <source src="/assets/uploads/2023/10/2023_columbus_marathon_finish.mp4" type="video/mp4">
+  </video>
+  <figcaption>Finishing the Columbus Marathon</figcaption>
+</figure>
 
 <section class="figure-group">
   <figure>
