@@ -1,8 +1,4 @@
-FROM ruby:3-alpine
-
-RUN apk update
-RUN apk add --no-cache \
-    build-base
+FROM ruby:latest
 
 WORKDIR /app
 
