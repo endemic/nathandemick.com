@@ -1,0 +1,22 @@
+---
+layout: post
+title: Game Review&#58; Diablo 3
+author:
+  display_name: Nathan
+  email: n@demick.org
+date: 2025-06-17 16:52:13 -0400
+categories:
+- video games
+comments: []
+---
+I started playing Diablo III when my twins were infants. In classic fashion, my daughter would wake up in the wee hours and refuse to sleep. I determined that I would try to do two things at once: hold the kid and try to get her to go back to sleep, and play video games while doing it. "Double dip," if you will. Unfortunately, I had constraints: when holding a child with one arm, it's difficult (perhaps impossible) to use a standard two-handed game controller. Fortunately, I was familiar with the _Diablo_ series, as I had sunk many an hour into the first and second iterations of the game. As a point 'n click dungeon crawler, Diablo seemed perfect. It was 2015, and Diablo III had been released in the wild for a few years, but I hadn't had the time to play... until the previously-mentioned forced insomnia.
+
+Waiting a few years to play meant that I skipped the launch of the game, which I understand was fairly well botched. There was this "real money auction house" thing that Blizzard tried to do, where you could attempt to sell in-game items for real-world money. The goal was laudable: to reduce scams related to trading/selling items, and keep the activity within the game. This was a real thing &mdash; I had actually sold in-game assets for Diablo 2 on eBay before. However, when the entire point of the game is the grind for more loot, getting the best stuff without the corresponding effort basically destroys it. This is more or less what happened to my Diablo 1 experience: without knowing any better, I got on Battle.net and started playing in public games. Some other "nice" player who knew how to dupe items gave me maxed out gear, and then suddenly the game is no fun anymore: enemies basically can't kill you, and there's no incentive to try to find better items. 
+
+The removal of the auction house also coincided with a revamped "Loot 2.0" drop system, which gave players a better chance of finding items tailored to the specific character class they were playing. This doesn't necessarily remove the grind, but it definitely helps to lessen some of the tedium of great items dropping that your character can't use. I think that I prefer the item system used in Diablo 1, in which all character classes can use all items (dependent on stats, of course), but if you're gonna have class-specific items, then the "Loot 2.0" system seems like a decent way to go about it.
+
+Anyway, I played the game through while holding an infant in my arm. It's basically what you would expect from a continuation of the Diablo series: more skills, more items, more monsters &mdash; more of everything. When playing through the first time, it's somewhat enjoyable to follow the plot (such as it is), which adheres to a predictable "angels vs. demons" trope. Following the lead of the previous games in the series, no character is so beloved that they won't eventually be killed off or their body used as a demonic vessel. The game's single expansion, _Reaper of Souls_, ups the ante even more by having your player character kill "Death" itself. If you like point 'n click action games with a fantasy setting, it's a sufficient way to waste some time.
+
+After beating the game and forgetting about it, I got back into it a few years later with some friends. We participated in "game seasons" on Battle.net; the premise of which is that you start a brand new character and try to complete various in-game challenges. The reward for completing each season challenge is some sort of cosmetic upgrade to your Diablo III account. Pretty useless, but the fun part was playing with friends and trying out each class in the game. I have fond memories of nights we all spent running The Vault, a hidden area in the game filled with treasure.
+
+Even something as addicting as Diablo, however, eventually gets stale. My group of friends dropped the game after we completed a season in "hardcore" mode, which means that if your character dies, it's permanently dead. I was playing in Linux via Wine, and at least twice had my game client hang, causing my character to die. Fortunately my friends helped power-level my new character(s) again. After that season, a few folks went on to Diablo 4, but the idea of slaying even more demonic hordes didn't really appeal to me. Perhaps I'll give it a try in a few years, when the kinks have been worked out.
