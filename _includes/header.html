@@ -9,8 +9,13 @@
   <title>{% if page.title %}{{ page.title }} | {% endif %}nathandemick.com</title>
 
   <!-- CSS -->
-  <link rel="stylesheet" href="{{ site.url }}/assets/stylesheets/main.css">
-  <link rel="stylesheet" href="{{ site.url }}/assets/stylesheets/prism.css">
+  <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="{{ site.url }}/assets/stylesheets/main.css">
+  <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="{{ site.url }}/assets/stylesheets/prism.css">
+
+  <noscript>
+    <link rel="stylesheet" href="{{ site.url }}/assets/stylesheets/main.css">
+    <!-- prism stylesheet fallback not necessary, as it requires JavaScript -->
+  </noscript>
 
   <link rel="shortcut icon" href="{{ site.url }}/assets/images/favicon.png" type="image/png">
 </head>
